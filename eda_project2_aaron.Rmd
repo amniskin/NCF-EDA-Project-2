@@ -1,0 +1,181 @@
+---
+title: "Project"
+author: "Aaron Niskin, Chris Leonard, Lance Price, Nicole Navarro"
+date: "November 26, 2016"
+output:
+  pdf_document:
+    highlight: tango
+    toc: true
+    toc_depth: 1
+    number_sections: true
+  documentclass: article
+  classoption: titlepage
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results='asis')
+```
+
+#Abstract
+
+So far it seems like the best variables to use might be the ones from the `spending` table, `readmissionReduction`, `timelyCare`, `readmission`, `complications`, and `ambulatorySurgical`.
+
+#Methods
+
+#Results
+
+
+```{r, results='hold', message=FALSE}
+library(tidyverse)
+library(xtable)
+setwd("~/Documents/courses/newCollege/current/eda/projects/project2/")
+printNamedDf <- function(df, title="") {
+  tmp <- xtable(df, caption=title)
+  return(print.xtable(tmp, comment=FALSE))
+}
+printDf <- function(df, title="") {
+  tmp <- xtable(df, caption=title)
+  return(print.xtable(tmp, comment=FALSE, include.rownames = FALSE))
+}
+complete_cases <- function(df) {
+  tmp <- as.data.frame(names(df))
+  tmp <- cbind(tmp, as.data.frame(sapply(df, function(col) {
+    sum(complete.cases(col))
+  })))
+  tmp <- cbind(tmp, as.data.frame(sapply(df, function(col){
+    100 * sum(complete.cases(col)) / length(col)
+  })))
+  names(tmp) <- c("FieldName", "CompleteCases", "PercentComplete")
+  return(tmp)
+}
+```
+
+
+```{r, eval=FALSE, results='hold'}
+complications <- read.csv("ignore/Complications\ -\ Hospital.csv", na.strings = c("Not\ Available"))
+ambulatorySurgical <- read.csv("ignore/Ambulatory\ Surgical\ Measures-Facility.csv", na.strings = c("Not\ Available"))
+HCAHPS <- read.csv("ignore/HCAHPS\ -\ Hospital.csv", na.strings = c("Not\ Available"))
+hvbp <- read.csv("ignore/hvbp_Efficiency_08_26_2016.csv", na.strings = c("Not\ Available"))
+hvbp_ami <- read.csv("ignore/hvbp_ami_08_26_2016.csv", na.strings = c("Not\ Available"))
+readmission <- read.csv("ignore/Readmissions\ and\ Deaths\ -\ Hospital.csv", na.strings = c("Not\ Available"))
+timelyCare <- read.csv("ignore/Timely\ and\ Effective\ Care\ -\ Hospital.csv", na.strings = c("Not\ Available"))
+readmissionReduction <- read.csv("ignore/READMISSION\ REDUCTION.csv", na.strings = c("Not\ Available"))
+infections <- read.csv("ignore/Healthcare\ Associated\ Infections\ -\ Hospital.csv", na.strings = c("Not\ Available"))
+spending <- read.csv("ignore/Medicare\ Hospital\ Spending\ by\ Claim.csv", na.strings = c("Not\ Available"))
+```
+
+```{r, results='hold', eval=FALSE}
+timelyCare <- read.csv("ignore/Timely\ and\ Effective\ Care\ -\ Hospital.csv", na.strings = c("Not\ Available"))
+```
+
+```{r, results='hold', eval=FALSE}
+smoking <- read.csv("ignore/12963_2013_235_MOESM4_ESM.csv", skip = 3)
+for(i in 1:length(smoking[,1])) {
+  smoking[i, "County"] = smoking[(floor((i - 1) / 3) * 3 + 1), "County"]
+}
+rm(i)
+smokingBoth = smoking[smoking$Sex == "Both", c("County", "X2012")]
+smokingBoth$percent_smoking = as.numeric(as.character(gsub("\\(.*\\)", "", smokingBoth$X2012)))
+smokingBoth$State = as.character(gsub("[^,]*, ([A-Z]*)", "\\1", smokingBoth$County))
+smokingBoth$County = as.character(gsub("([^,]*), [A-Z]*", "\\1", smokingBoth$County))
+smokingBoth$County = as.character(gsub(" County", "", smokingBoth$County))
+smokingBoth = smokingBoth[,c("State", "County", "percent_smoking")]
+smokingBoth$County = gsub("\\ Census Area", "", smokingBoth$County)
+smokingBoth$County = gsub("\\ Borough", "", smokingBoth$County)
+write.csv(smokingBoth, "ignore/smokingBothSexes.csv", row.names = FALSE)
+rm(list=c("smokingBoth", "smoking"))
+```
+
+```{r, results='hold', eval=TRUE}
+smokingBoth <- read.csv("ignore/smokingBothSexes.csv", stringsAsFactors = FALSE)
+```
+
+
+```{r, results='hold', eval=FALSE}
+aggricultureData <- read.csv("ignore/DataDownload_data.csv", stringsAsFactors = FALSE)
+aggricultureNames <- read.csv("ignore/DataDownload_names.csv", stringsAsFactors = FALSE)
+tmp <- names(aggricultureData)
+newNames <- sapply(tmp, function(name){
+  return(gsub("\\ ", "_", gsub(",", ".", aggricultureNames[aggricultureNames$Field == name, "LongName"][[1]])))
+})
+tmpDf <- aggricultureData
+names(tmpDf) <- newNames
+tmpDf <- tmpDf[, c(2, 3, grep(".*65.*", names(tmpDf)))] 
+aggriData <- tmpDf %>% group_by(State, County) %>% summarise_all(mean)
+tmp <- aggriData[,grep("share", names(aggriData))]
+aggriData[,grep("share", names(aggriData))] <- tmp*100
+rm(list= c("tmpDf", "newNames", "tmp", "aggricultureData", "aggricultureNames"))
+write.csv(aggriData, "ignore/aggriculture_aggregated.csv", row.names = FALSE)
+```
+
+```{r, results='hold', eval=TRUE}
+aggriData <- read.csv("ignore/aggriculture_aggregated.csv", stringsAsFactors = FALSE)
+names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
+```
+
+```{r, results='hold', eval=TRUE}
+dats <- inner_join(smokingBoth, aggriData, by=c("County", "State"))
+dats_10 <- dats[,c(1, 2, 3, 9)]
+names(dats_10) <- c("State", "County", "Percent_Smoking", "Low_Access_10_Miles_Share")
+dats_combine <- dats_10 %>% mutate(Score = Percent_Smoking + 2*Low_Access_10_Miles_Share) %>% select(State, County, Score) %>% arrange(Score)
+```
+
+```{r}
+printDf(complete_cases(aggriData), title="Complete Cases of County Senior Food Availability")
+printDf(complete_cases(smokingBoth), title="Complete Cases of County Smoking Data")
+```
+
+```{r, results='show', message=TRUE}
+qplot(dats_10$Percent_Smoking, bins=50)
+```
+
+```{r, eval=TRUE, results='show'}
+ggplot(data=dats_10, aes(Percent_Smoking)) + geom_density()
+```
+
+```{r, eval=TRUE, results='show'}
+ggplot(data=dats_10, aes(Low_Access_10_Miles_Share)) + geom_density()
+```
+
+```{r, eval=TRUE, results='show'}
+ggplot(data=dats_10, aes(Low_Access_10_Miles_Share)) + geom_density(fill="red") + geom_density(aes(Percent_Smoking), fill="blue")
+```
+
+```{r, eval=TRUE, results='show'}
+ggplot(data=dats_10, aes(x=Low_Access_10_Miles_Share, y=Percent_Smoking)) + geom_point(alpha=0.8, size=0.2) + geom_smooth()
+```
+
+```{r, results='show', message=TRUE}
+ggplot(data=dats_combine, aes(x=Score)) + geom_density()
+```
+
+```{r}
+printDf(head(dats_combine), title="Best Counties (according to this score)")
+printDf(tail(dats_combine), title="Worst Counties (according to this score)")
+```
+
+```{r, eval=FALSE}
+timelyTemp <- timelyCare[grep("Heart", timelyCare$Condition),]
+printDf(complete_cases(timelyTemp), title="Complete cases of Timely and Effective Care (pertaining to the heart)")
+printDf(complete_cases(timelyTemp[timelyTemp$Measure.ID == "OP_4",]), title="Complete cases of Timely and Effective Care (Aspirin on Arrival)")
+printDf(complete_cases(timelyTemp[timelyTemp$Measure.ID == "OP_5",]), title="Complete cases of Timely and Effective Care (Median time to EKG)")
+```
+
+#References
+
+[see @aggriculture]
+
+```{r, eval=FALSE}
+timelyTemp <- timelyCare[grep("Heart", timelyCare$Condition),]
+printDf(complete_cases(timelyTemp), title="Complete cases of Timely and Effective Care (pertaining to the heart)")
+printDf(complete_cases(timelyTemp[timelyTemp$Measure.ID == "OP_4",]), title="Complete cases of Timely and Effective Care (Aspirin on Arrival)")
+printDf(complete_cases(timelyTemp[timelyTemp$Measure.ID == "OP_5",]), title="Complete cases of Timely and Effective Care (Median time to EKG)")
+printDf(complete_cases(infections), title="Complete cases of Infections")
+printDf(complete_cases(readmission), title="Complete cases of Readmission")
+printDf(complete_cases(complications), title="Complete cases of Complications")
+printDf(complete_cases(ambulatorySurgical), title="Complete cases of Ambulatory/Surgical")
+printDf(complete_cases(spending), title="Complete cases of Spending")
+printDf(complete_cases(hvbp_ami), title="Complete cases of hvbp\\_ami")
+printDf(complete_cases(hvbp), title="Complete cases of hvbp")
+```
