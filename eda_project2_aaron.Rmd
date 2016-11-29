@@ -89,7 +89,7 @@ smokingBoth$County = as.character(gsub(" County", "", smokingBoth$County))
 smokingBoth = smokingBoth[,c("State", "County", "percent_smoking")]
 smokingBoth$County = gsub("\\ Census Area", "", smokingBoth$County)
 smokingBoth$County = gsub("\\ Borough", "", smokingBoth$County)
-write.csv(smokingBoth, "smoking.csv", row.names = FALSE)
+write.csv(smokingBoth, "csv_files/smoking.csv", row.names = FALSE)
 rm(list=c("smokingBoth", "smoking"))
 ```
 
@@ -106,18 +106,18 @@ tmpDf <- tmpDf[, c(2, 3, grep(".*65.*", names(tmpDf)))]
 aggriData <- tmpDf %>% group_by(State, County) %>% summarise_all(mean)
 tmp <- aggriData[,grep("share", names(aggriData))]
 aggriData[,grep("share", names(aggriData))] <- tmp*100
-write.csv(aggriData, "aggriculture_aggregated.csv", row.names = FALSE)
+write.csv(aggriData, "csv_files/aggriculture_aggregated.csv", row.names = FALSE)
 rm(list= c("tmpDf", "newNames", "tmp", "aggricultureData", "aggricultureNames", "aggriData"))
 ```
 -->
 
 
 ```{r, results='hold', eval=TRUE}
-smoking <- read.csv("smoking.csv", stringsAsFactors = FALSE)
+smoking <- read.csv("csv_files/smoking.csv", stringsAsFactors = FALSE)
 ```
 
 ```{r, results='hold', eval=TRUE}
-aggriData <- read.csv("aggriculture_aggregated.csv", stringsAsFactors = FALSE)
+aggriData <- read.csv("csv_files/aggriculture_aggregated.csv", stringsAsFactors = FALSE)
 names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
 ```
 
