@@ -23,6 +23,10 @@ So far it seems like the best variables to use might be the ones from the `spend
 
 #Methods
 
+[see @aggriculture]
+
+[see @smokers]
+
 #Results
 
 
@@ -52,6 +56,8 @@ complete_cases <- function(df) {
 ```
 
 
+<!--
+This is to generate the CSVs.
 ```{r, eval=FALSE, results='hold'}
 complications <- read.csv("ignore/Complications\ -\ Hospital.csv", na.strings = c("Not\ Available"))
 ambulatorySurgical <- read.csv("ignore/Ambulatory\ Surgical\ Measures-Facility.csv", na.strings = c("Not\ Available"))
@@ -83,14 +89,9 @@ smokingBoth$County = as.character(gsub(" County", "", smokingBoth$County))
 smokingBoth = smokingBoth[,c("State", "County", "percent_smoking")]
 smokingBoth$County = gsub("\\ Census Area", "", smokingBoth$County)
 smokingBoth$County = gsub("\\ Borough", "", smokingBoth$County)
-write.csv(smokingBoth, "ignore/smokingBothSexes.csv", row.names = FALSE)
+write.csv(smokingBoth, "smoking.csv", row.names = FALSE)
 rm(list=c("smokingBoth", "smoking"))
 ```
-
-```{r, results='hold', eval=TRUE}
-smokingBoth <- read.csv("ignore/smokingBothSexes.csv", stringsAsFactors = FALSE)
-```
-
 
 ```{r, results='hold', eval=FALSE}
 aggricultureData <- read.csv("ignore/DataDownload_data.csv", stringsAsFactors = FALSE)
@@ -105,17 +106,23 @@ tmpDf <- tmpDf[, c(2, 3, grep(".*65.*", names(tmpDf)))]
 aggriData <- tmpDf %>% group_by(State, County) %>% summarise_all(mean)
 tmp <- aggriData[,grep("share", names(aggriData))]
 aggriData[,grep("share", names(aggriData))] <- tmp*100
-rm(list= c("tmpDf", "newNames", "tmp", "aggricultureData", "aggricultureNames"))
-write.csv(aggriData, "ignore/aggriculture_aggregated.csv", row.names = FALSE)
+write.csv(aggriData, "aggriculture_aggregated.csv", row.names = FALSE)
+rm(list= c("tmpDf", "newNames", "tmp", "aggricultureData", "aggricultureNames", "aggriData"))
+```
+-->
+
+
+```{r, results='hold', eval=TRUE}
+smoking <- read.csv("smoking.csv", stringsAsFactors = FALSE)
 ```
 
 ```{r, results='hold', eval=TRUE}
-aggriData <- read.csv("ignore/aggriculture_aggregated.csv", stringsAsFactors = FALSE)
+aggriData <- read.csv("aggriculture_aggregated.csv", stringsAsFactors = FALSE)
 names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
 ```
 
 ```{r, results='hold', eval=TRUE}
-dats <- inner_join(smokingBoth, aggriData, by=c("County", "State"))
+dats <- inner_join(smoking, aggriData, by=c("County", "State"))
 dats_10 <- dats[,c(1, 2, 3, 9)]
 names(dats_10) <- c("State", "County", "Percent_Smoking", "Low_Access_10_Miles_Share")
 dats_combine <- dats_10 %>% mutate(Score = Percent_Smoking + 2*Low_Access_10_Miles_Share) %>% select(State, County, Score) %>% arrange(Score)
@@ -123,7 +130,7 @@ dats_combine <- dats_10 %>% mutate(Score = Percent_Smoking + 2*Low_Access_10_Mil
 
 ```{r}
 printDf(complete_cases(aggriData), title="Complete Cases of County Senior Food Availability")
-printDf(complete_cases(smokingBoth), title="Complete Cases of County Smoking Data")
+printDf(complete_cases(smoking), title="Complete Cases of County Smoking Data")
 ```
 
 ```{r, results='show', message=TRUE}
@@ -163,8 +170,6 @@ printDf(complete_cases(timelyTemp[timelyTemp$Measure.ID == "OP_5",]), title="Com
 ```
 
 #References
-
-[see @aggriculture]
 
 ```{r, eval=FALSE}
 timelyTemp <- timelyCare[grep("Heart", timelyCare$Condition),]
