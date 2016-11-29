@@ -1,0 +1,76 @@
+---
+title: "EDA Project 2"
+author: "Lance Price"
+date: "November 28, 2016"
+output: pdf_document
+---
+
+```{r}
+csv_file1 <- "C:/Users/lance/Desktop/munge hw/Hospital_Revised_FlatFiles/Readmissions and Deaths - Hospital.csv"
+
+csv_file2 <- "C:/Users/lance/Desktop/munge hw/Hospital_Revised_FlatFiles/Payment and Value of Care - Hospital.csv"
+
+csv_file3 <- "C:/Users/lance/Desktop/munge hw/Hospital_Revised_FlatFiles/READMISSION REDUCTION.csv"
+
+H_data1 <- read.csv(csv_file1)
+
+H_data2 <- read.csv(csv_file2)
+
+H_data3 <- read.csv(csv_file3)
+
+H_data1_sub <- H_data1[,c(1,2,4:7,10,11,13:15)]
+
+H_data2_sub <- H_data2[,c(1,2,4:7,10,11,13:15,18,19)]
+
+H_data1_ami <- H_data1_sub[which(H_data1_sub$Measure.ID == "MORT_30_AMI" | H_data1_sub$Measure.ID == "READM_30_AMI"),]
+
+H_data2_ami <- H_data2_sub[which(H_data2_sub$Payment.measure.ID == "PAYM_30_AMI"),]
+
+H_data1_ami_best_mort <- H_data1_ami[which(H_data1_ami$Measure.ID == "MORT_30_AMI" & H_data1_ami$Compared.to.National == "Better than the National Rate"),]
+
+H_data1_ami_worst_mort <- H_data1_ami[which(H_data1_ami$Measure.ID == "MORT_30_AMI" & H_data1_ami$Compared.to.National == "Worse than the National Rate"),]
+
+
+H_data1_ami_best_readm <- H_data1_ami[which(H_data1_ami$Measure.ID == "READM_30_AMI" & H_data1_ami$Compared.to.National == "Better than the National Rate"),]
+
+H_data1_ami_worst_readm <- H_data1_ami[which(H_data1_ami$Measure.ID == "READM_30_AMI" & H_data1_ami$Compared.to.National == "Worse than the National Rate"),]
+
+```
+
+
+```{r}
+H_data2_ami_best_paym <- H_data2_ami[which(H_data2_ami$Payment.category == "Less than the National Average Payment" | H_data2_ami$Payment.category == "No Different than the National Average Payment"),]
+
+H_data2_ami_worst_paym <- H_data2_ami[which(H_data2_ami$Payment.category == "Greater than the National Average Payment" | H_data2_ami$Payment.category == "No Different than the National Average Payment"),]
+```
+
+```{r}
+library(sqldf)
+
+colnames(H_data1_ami_best_mort) <- c("ID", "Hospital", "City", "State", "Zip", "County", "Measure_ID", "Comp_to_National", "Score", "Lower", "Higher")
+colnames(H_data2_ami_best_paym) <- c("ID", "Hospital", "City", "State", "Zip", "County", "Payment_Measure_ID", "Payment_Cat", "Payment", "Lower", "Higher" )
+
+
+write.csv(H_data1_ami_best_mort, "C:/Users/lance/Desktop/munge hw/ami_best_mort.csv", row.names=FALSE)
+
+join_string_best <- "select a.Hospital
+                    from H_data1_ami_best_mort a
+                    inner join H_data2_ami_best_paym b
+                    on a.ID = b.ID"
+
+innerjoin <- sqldf(join_string_best, stringsAsFactors = FALSE)
+
+
+colnames(H_data1_ami_worst_mort) <- c("ID", "Hospital", "City", "State", "Zip", "County", "Measure_ID", "Comp_to_National", "Score", "Lower", "Higher")
+
+colnames(H_data2_ami_worst_paym) <- c("ID", "Hospital", "City", "State", "Zip", "County", "Payment_Measure_ID", "Payment_Cat", "Payment", "Lower", "Higher" )
+
+
+join_string_worst <- "select a.Hospital
+                    from H_data1_ami_worst_mort a
+                    inner join H_data2_ami_worst_paym b
+                    on a.ID = b.ID"
+
+innerjoin2 <- sqldf(join_string_worst, stringsAsFactors = FALSE)
+```
+
