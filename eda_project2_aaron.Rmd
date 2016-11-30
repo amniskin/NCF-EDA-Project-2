@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE, results='asis')
 
 #Abstract
 
-So far it seems like the best variables to use might be the ones from the `spending` table, `readmissionReduction`, `timelyCare`, `readmission`, `complications`, and `ambulatorySurgical`.
+
 
 #Methods
 
@@ -86,6 +86,9 @@ smokingBoth$percent_smoking = as.numeric(as.character(gsub("\\(.*\\)", "", smoki
 smokingBoth$State = as.character(gsub("[^,]*, ([A-Z]*)", "\\1", smokingBoth$County))
 smokingBoth$County = as.character(gsub("([^,]*), [A-Z]*", "\\1", smokingBoth$County))
 smokingBoth$County = as.character(gsub(" County", "", smokingBoth$County))
+smokingBoth$County = as.character(gsub(" Municipality", "", smokingBoth$County))
+smokingBoth$County = as.character(gsub(" City", "", smokingBoth$County))
+smokingBoth$County = as.character(gsub(" Parish", "", smokingBoth$County))
 smokingBoth = smokingBoth[,c("State", "County", "percent_smoking")]
 smokingBoth$County = gsub("\\ Census Area", "", smokingBoth$County)
 smokingBoth$County = gsub("\\ Borough", "", smokingBoth$County)
@@ -121,7 +124,10 @@ aggriData <- read.csv("csv_files/aggriculture_aggregated.csv", stringsAsFactors 
 names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
 ```
 
-```{r, results='hold', eval=TRUE}
+```{r, eval=TRUE}
+tmpDats <- full_join(smoking, aggriData, by=c("State", "County"))
+printDf(tmpDats[is.na(tmpDats[,4]),c("State", "County")], title="Null Values in Aggriculture Data")
+printDf(tmpDats[is.na(tmpDats[,3]),c("State", "County")], title="Null Values in Smoking Data")
 dats <- inner_join(smoking, aggriData, by=c("County", "State"))
 dats_10 <- dats[,c(1, 2, 3, 9)]
 names(dats_10) <- c("State", "County", "Percent_Smoking", "Low_Access_10_Miles_Share")
@@ -131,6 +137,7 @@ dats_combine <- dats_10 %>% mutate(Score = Percent_Smoking + 2*Low_Access_10_Mil
 ```{r}
 printDf(complete_cases(aggriData), title="Complete Cases of County Senior Food Availability")
 printDf(complete_cases(smoking), title="Complete Cases of County Smoking Data")
+printDf(complete_cases(dats), title="Complete Cases of The Join Table")
 ```
 
 ```{r, results='show', message=TRUE}

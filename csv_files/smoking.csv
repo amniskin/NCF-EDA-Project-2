@@ -1,24 +1,24 @@
 "State","County","percent_smoking"
 "AK","Aleutians East",15.6
 "AK","Aleutians West",17.7
-"AK","Anchorage Municipality",13.1
+"AK","Anchorage",13.1
 "AK","Bethel",22.1
 "AK","Bristol Bay",19.6
 "AK","Denali/Yukon-Koyukuk",21.6
 "AK","Dillingham",21
 "AK","Fairbanks North Star",14.8
 "AK","Haines",11.6
-"AK","Hoonah-Angoon/Skagway Municipality/Yakutat City and",13.9
-"AK","Juneau City and",12.3
+"AK","Hoonah-Angoon/Skagway/Yakutat and",13.9
+"AK","Juneau and",12.3
 "AK","Kenai Peninsula",16.6
-"AK","Ketchikan Gateway/Petersburg/Prince of Wales-Hyder/Wrangell City and",15.3
+"AK","Ketchikan Gateway/Petersburg/Prince of Wales-Hyder/Wrangell and",15.3
 "AK","Kodiak Island",15.2
 "AK","Lake and Peninsula",19.5
 "AK","Matanuska-Susitna",17.1
 "AK","Nome",25.5
 "AK","North Slope",25.5
 "AK","Northwest Arctic",29.8
-"AK","Sitka City and",12.8
+"AK","Sitka and",12.8
 "AK","Southeast Fairbanks",16.4
 "AK","Valdez-Cordova",15.5
 "AK","Wade Hampton",25.1
@@ -1101,70 +1101,70 @@
 "KY","Whitley",26.2
 "KY","Wolfe",26.2
 "KY","Woodford",17.8
-"LA","Acadia Parish",23.9
-"LA","Allen Parish",23.9
-"LA","Ascension Parish",16.4
-"LA","Assumption Parish",21.9
-"LA","Avoyelles Parish",23.1
-"LA","Beauregard Parish",20.5
-"LA","Bienville Parish",19.6
-"LA","Bossier Parish",17.6
-"LA","Caddo Parish",18.8
-"LA","Calcasieu Parish",20
-"LA","Caldwell Parish",22.3
-"LA","Cameron Parish",20.9
-"LA","Catahoula Parish",21.8
-"LA","Claiborne Parish",20.8
-"LA","Concordia Parish",21.9
-"LA","De Soto Parish",21
-"LA","East Baton Rouge Parish",13.4
-"LA","East Carroll Parish",21.5
-"LA","East Feliciana Parish",18.3
-"LA","Evangeline Parish",23.2
-"LA","Franklin Parish",21
-"LA","Grant Parish",21.4
-"LA","Iberia Parish",21.2
-"LA","Iberville Parish",20.4
-"LA","Jackson Parish",19.9
-"LA","Jefferson Davis Parish",22.7
-"LA","Jefferson Parish",16.9
-"LA","La Salle Parish",20.5
-"LA","Lafayette Parish",18.9
-"LA","Lafourche Parish",21
-"LA","Lincoln Parish",13.8
-"LA","Livingston Parish",20.7
-"LA","Madison Parish",21.4
-"LA","Morehouse Parish",21.4
-"LA","Natchitoches Parish",18.1
-"LA","Orleans Parish",15.1
-"LA","Ouachita Parish",18.5
-"LA","Plaquemines Parish",20.3
-"LA","Pointe Coupee Parish",20.7
-"LA","Rapides Parish",19.9
-"LA","Red River Parish",21.3
-"LA","Richland Parish",21.1
-"LA","Sabine Parish",21
-"LA","St. Bernard Parish",23.6
-"LA","St. Charles Parish",18
-"LA","St. Helena Parish",18.5
-"LA","St. James Parish",18.2
-"LA","St. John the Baptist Parish",18.1
-"LA","St. Landry Parish",22.6
-"LA","St. Martin Parish",22.6
-"LA","St. Mary Parish",22.2
-"LA","St. Tammany Parish",16.7
-"LA","Tangipahoa Parish",19
-"LA","Tensas Parish",19.6
-"LA","Terrebonne Parish",22.4
-"LA","Union Parish",19.8
-"LA","Vermilion Parish",22.3
-"LA","Vernon Parish",19
-"LA","Washington Parish",22.3
-"LA","Webster Parish",20.8
-"LA","West Baton Rouge Parish",18.8
-"LA","West Carroll Parish",23.2
-"LA","West Feliciana Parish",18
-"LA","Winn Parish",22.3
+"LA","Acadia",23.9
+"LA","Allen",23.9
+"LA","Ascension",16.4
+"LA","Assumption",21.9
+"LA","Avoyelles",23.1
+"LA","Beauregard",20.5
+"LA","Bienville",19.6
+"LA","Bossier",17.6
+"LA","Caddo",18.8
+"LA","Calcasieu",20
+"LA","Caldwell",22.3
+"LA","Cameron",20.9
+"LA","Catahoula",21.8
+"LA","Claiborne",20.8
+"LA","Concordia",21.9
+"LA","De Soto",21
+"LA","East Baton Rouge",13.4
+"LA","East Carroll",21.5
+"LA","East Feliciana",18.3
+"LA","Evangeline",23.2
+"LA","Franklin",21
+"LA","Grant",21.4
+"LA","Iberia",21.2
+"LA","Iberville",20.4
+"LA","Jackson",19.9
+"LA","Jefferson Davis",22.7
+"LA","Jefferson",16.9
+"LA","La Salle",20.5
+"LA","Lafayette",18.9
+"LA","Lafourche",21
+"LA","Lincoln",13.8
+"LA","Livingston",20.7
+"LA","Madison",21.4
+"LA","Morehouse",21.4
+"LA","Natchitoches",18.1
+"LA","Orleans",15.1
+"LA","Ouachita",18.5
+"LA","Plaquemines",20.3
+"LA","Pointe Coupee",20.7
+"LA","Rapides",19.9
+"LA","Red River",21.3
+"LA","Richland",21.1
+"LA","Sabine",21
+"LA","St. Bernard",23.6
+"LA","St. Charles",18
+"LA","St. Helena",18.5
+"LA","St. James",18.2
+"LA","St. John the Baptist",18.1
+"LA","St. Landry",22.6
+"LA","St. Martin",22.6
+"LA","St. Mary",22.2
+"LA","St. Tammany",16.7
+"LA","Tangipahoa",19
+"LA","Tensas",19.6
+"LA","Terrebonne",22.4
+"LA","Union",19.8
+"LA","Vermilion",22.3
+"LA","Vernon",19
+"LA","Washington",22.3
+"LA","Webster",20.8
+"LA","West Baton Rouge",18.8
+"LA","West Carroll",23.2
+"LA","West Feliciana",18
+"LA","Winn",22.3
 "MA","Barnstable",14.2
 "MA","Berkshire",15.6
 "MA","Bristol",18.5
@@ -1181,7 +1181,7 @@
 "MA","Worcester",14.2
 "MD","Allegany",17.8
 "MD","Anne Arundel",14.1
-"MD","Baltimore City",18.9
+"MD","Baltimore",18.9
 "MD","Baltimore",13.5
 "MD","Calvert",15.3
 "MD","Caroline",17.8
@@ -1489,7 +1489,7 @@
 "MO","St. Charles",15
 "MO","St. Clair",22.3
 "MO","St. Francois",23.6
-"MO","St. Louis City",20.5
+"MO","St. Louis",20.5
 "MO","St. Louis",15.1
 "MO","Ste. Genevieve",22.3
 "MO","Stoddard",23.8
@@ -1952,7 +1952,7 @@
 "NM","Torrance",18.2
 "NM","Union",14.6
 "NM","Valencia",14.9
-"NV","Carson City",18.4
+"NV","Carson",18.4
 "NV","Churchill",18.1
 "NV","Clark",16.7
 "NV","Douglas",14.9
@@ -2796,50 +2796,50 @@
 "UT","Weber",11.7
 "VA","Accomack",16.6
 "VA","Albemarle",9.3
-"VA","Alexandria City",8.2
+"VA","Alexandria",8.2
 "VA","Alleghany",19.4
 "VA","Amelia",18.4
 "VA","Amherst",19.6
 "VA","Appomattox",18.4
 "VA","Arlington",6.4
-"VA","Augusta/Waynesboro City",18.9
+"VA","Augusta/Waynesboro",18.9
 "VA","Bath",19.4
-"VA","Bedford/Bedford City",18.1
+"VA","Bedford/Bedford",18.1
 "VA","Bland",20.6
 "VA","Botetourt",16.8
-"VA","Bristol City",23.3
+"VA","Bristol",23.3
 "VA","Brunswick",19.5
 "VA","Buchanan",23.2
 "VA","Buckingham",18.8
-"VA","Buena Vista City",25.5
+"VA","Buena Vista",25.5
 "VA","Campbell",19.8
 "VA","Caroline",17.4
 "VA","Carroll",20.5
-"VA","Charles City",18.2
+"VA","Charles",18.2
 "VA","Charlotte",18.6
-"VA","Charlottesville City",12.7
-"VA","Chesapeake City",14.3
+"VA","Charlottesville",12.7
+"VA","Chesapeake",14.3
 "VA","Chesterfield",13.3
 "VA","Clarke",13.4
-"VA","Colonial Heights City",21
-"VA","Covington City",24.5
+"VA","Colonial Heights",21
+"VA","Covington",24.5
 "VA","Craig",19.2
 "VA","Culpeper",16.1
 "VA","Cumberland",17.5
-"VA","Danville City",19.4
+"VA","Danville",19.4
 "VA","Dickenson",22.8
 "VA","Dinwiddie",19.4
-"VA","Emporia City",19.6
+"VA","Emporia",19.6
 "VA","Essex",17.7
-"VA","Fairfax/Fairfax City",7.6
-"VA","Falls Church City",5.4
+"VA","Fairfax/Fairfax",7.6
+"VA","Falls Church",5.4
 "VA","Fauquier",13.9
 "VA","Floyd",17.7
 "VA","Fluvanna",15.3
 "VA","Franklin",17.7
 "VA","Frederick",16.4
-"VA","Fredericksburg City",13.3
-"VA","Galax City",20.8
+"VA","Fredericksburg",13.3
+"VA","Galax",20.8
 "VA","Giles",20.4
 "VA","Gloucester",17
 "VA","Goochland",12.7
@@ -2847,79 +2847,79 @@
 "VA","Greene",17.5
 "VA","Greensville",19.9
 "VA","Halifax",19
-"VA","Hampton City",15
+"VA","Hampton",15
 "VA","Hanover",13.9
-"VA","Harrisonburg City",13.1
+"VA","Harrisonburg",13.1
 "VA","Henrico",12.4
 "VA","Henry",20
 "VA","Highland",17.2
-"VA","Hopewell City",23
+"VA","Hopewell",23
 "VA","Isle of Wight",14.9
-"VA","James City",11.5
+"VA","James",11.5
 "VA","King and Queen",18.3
 "VA","King George",13
 "VA","King William",17.4
 "VA","Lancaster",15.2
 "VA","Lee",21.3
-"VA","Lexington City",12.4
+"VA","Lexington",12.4
 "VA","Loudoun",7.4
 "VA","Louisa",17.7
 "VA","Lunenburg",20.2
-"VA","Lynchburg City",16.3
+"VA","Lynchburg",16.3
 "VA","Madison",18.1
-"VA","Manassas City",14.6
-"VA","Martinsville City",16.3
+"VA","Manassas",14.6
+"VA","Martinsville",16.3
 "VA","Mathews",15.5
 "VA","Mecklenburg",19.8
 "VA","Middlesex",14.4
 "VA","Montgomery",12.5
 "VA","Nelson",16.6
 "VA","New Kent",16.5
-"VA","Newport News City",16.1
-"VA","Norfolk City",15.1
+"VA","Newport News",16.1
+"VA","Norfolk",15.1
 "VA","Northampton",15.7
 "VA","Northumberland",16.2
-"VA","Norton City",23.4
+"VA","Norton",23.4
 "VA","Nottoway",21.1
 "VA","Orange",16.9
 "VA","Page",22.2
 "VA","Patrick",21.3
-"VA","Petersburg City",19.8
+"VA","Petersburg",19.8
 "VA","Pittsylvania",19.1
-"VA","Poquoson City",13.7
-"VA","Portsmouth City",17.7
+"VA","Poquoson",13.7
+"VA","Portsmouth",17.7
 "VA","Powhatan",15.6
 "VA","Prince Edward",16.4
 "VA","Prince George",16.7
-"VA","Prince William/Manassas Park City",12.4
+"VA","Prince William/Manassas Park",12.4
 "VA","Pulaski",20.6
-"VA","Radford City",16
+"VA","Radford",16
 "VA","Rappahannock",14.6
-"VA","Richmond City",14.9
+"VA","Richmond",14.9
 "VA","Richmond",20.1
-"VA","Roanoke City",20.2
+"VA","Roanoke",20.2
 "VA","Roanoke",15.4
 "VA","Rockbridge",17.6
 "VA","Rockingham",16.7
 "VA","Russell",21.5
-"VA","Salem City",18.3
+"VA","Salem",18.3
 "VA","Scott",21.4
 "VA","Shenandoah",19.1
 "VA","Smyth",20.7
-"VA","Southampton/Franklin City",18.6
+"VA","Southampton/Franklin",18.6
 "VA","Spotsylvania",13.6
 "VA","Stafford",12.1
-"VA","Staunton City",15.7
-"VA","Suffolk City",15.7
+"VA","Staunton",15.7
+"VA","Suffolk",15.7
 "VA","Surry",16.3
 "VA","Sussex",19.4
 "VA","Tazewell",20.8
-"VA","Virginia Beach City",13.5
+"VA","Virginia Beach",13.5
 "VA","Warren",18.9
 "VA","Washington",17.5
 "VA","Westmoreland",18.7
-"VA","Williamsburg City",10.6
-"VA","Winchester City",18.2
+"VA","Williamsburg",10.6
+"VA","Winchester",18.2
 "VA","Wise",22.8
 "VA","Wythe",20.4
 "VA","York",11.3
