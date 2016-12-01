@@ -29,6 +29,99 @@ complications <- complications[,2:dim(complications)[[2]]]
 names(complications)[1] <- "County"
 ```
 
+
+## Complications Post Surgery
+
+## Complications Post Surgery
+- Servere Blood Clots
+
+
+## Complications Post Surgery
+- Servere Blood Clots
+- Blood Stream Infection
+
+
+## Complications Post Surgery
+- Servere Blood Clots
+- Blood Stream Infection
+- Infection of Catheter
+
+
+## Complications Post Surgery
+- Servere Blood Clots
+- Blood Stream Infection
+- Infection of Catheter
+- Other Serious Complications
+
+
+```{r, echo=FALSE} 
+##For top 20!
+clot_desc <- filter(complications, Score.Clot > 12.10)
+sepsis_desc <- filter(complications, Score.Sepsis>17.44)
+cath_desc <- filter(complications, Score.Cath.Infection >.49)
+complications_desc <- filter(complications, Score.Serious.Complication > 1.52)
+
+
+
+clot_asc <- filter(complications, Score.Clot < 2.48)
+sepsis_asc <- filter(complications, Score.Sepsis < 7.16)
+cath_asc <- filter(complications, Score.Cath.Infection <.10)
+complications_asc <- filter(complications, Score.Serious.Complication < .64)
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(clot_asc, aes(x=reorder(County,Score.Clot),y=Score.Clot, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Blood Clot Probability") + xlab("Top Counties") + ylab("Patient Probability of Clot")
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(clot_desc, aes(x=reorder(County,Score.Clot),y=Score.Clot, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Blood Clot Probability") + xlab("Top Counties") + ylab("Patient Probability of Clot")
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(sepsis_asc, aes(x=reorder(County,Score.Sepsis),y=Score.Sepsis, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Sepsis Probability") + xlab("Top Counties") + ylab("Patient Probability of Bacterial Sepsis")
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(sepsis_desc, aes(x=reorder(County,Score.Sepsis),y=Score.Sepsis, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Sepsis Probability") + xlab("Top Counties") + ylab("Patient Probability of Bacterial Sepsis")
+```
+
+##
+
+```{r, echo=FALSE}
+ggplot(cath_asc, aes(x=reorder(County,Score.Cath.Infection),y=Score.Cath.Infection, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Catheder Infection Probability") + xlab("Top Counties") + ylab("Patient Probability of Infection By Catheder")
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(cath_desc, aes(x=reorder(County,Score.Cath.Infection),y=Score.Cath.Infection, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Catheder Infection Probability") + xlab("Top Counties") + ylab("Patient Probability of Infection By Catheder")
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(complications_asc, aes(x=reorder(County,Score.Serious.Complication),y=Score.Serious.Complication, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Severe Complications in Surgery") + xlab("Top Counties") + ylab("Patient Probability of Complications in Surgery")
+```
+
+##
+
+```{r,echo=FALSE}
+ggplot(complications_desc, aes(x=reorder(County,Score.Serious.Complication),y=Score.Serious.Complication, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Severe Complications in Surgery") + xlab("Top Counties") + ylab("Patient Probability of Complications in Surgery")
+```
+
+## Next Step
+- What if we have other data on health?
+
+  * Expanding beyond top 20
+
 ```{r, eval=FALSE}
 clot_quants <- quantile(complications$Score.Clot, na.rm = TRUE)
 best_clots <- complications[!is.na(complications$Score.Clot) & complications$Score.Clot <= clot_quants[[2]], ]
@@ -172,12 +265,15 @@ ggplot(data=dats_10, aes(Low_Access_10_Miles_Share)) + geom_density(fill='tomato
 ggplot(data=dats_10, aes(Percent_Smoking)) + geom_density(fill='turquoise3') + labs(x="Percentage of Smokers in Population") + geom_vline(aes(xintercept = merged_worst$percent_smoking)) + geom_vline(data = merged_best, aes(xintercept = percent_smoking, color=County))
 ```
 
+
+<!--
 ##Relationship Between Nutrition And Smoking
 
 
 ```{r, results='show'}
 ggplot(data=dats_10, aes(x=Low_Access_10_Miles_Share, y=Percent_Smoking)) + geom_point(alpha=0.8, size=0.2) + geom_smooth() + labs(x="Poor Access to Supermarkets", y="Percentage of Smokers in Population", title="Smoking Percentage vs Access to Nutrition")
 ```
+-->
 
 <!-- ##Obesity -->
 
