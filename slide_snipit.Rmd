@@ -1,0 +1,99 @@
+---
+title: "Untitled"
+author: "Chris Leonard"
+date: "December 1, 2016"
+output: html_document
+---
+
+## Complications Post Surgery
+
+## Complications Post Surgery
+- Servere Blood Clots
+
+
+## Complications Post Surgery
+- Servere Blood Clots
+- Blood Stream Infection
+
+
+## Complications Post Surgery
+- Servere Blood Clots
+- Blood Stream Infection
+- Infection of Catheter
+
+
+## Complications Post Surgery
+- Servere Blood Clots
+- Blood Stream Infection
+- Infection of Catheter
+- Other Serious Complications
+
+
+```{r, echo=FALSE} 
+##For top 20!
+clot_desc <- dplyr::filter(main_data, Score.Clot > 12.10)
+sepsis_desc <- dplyr::filter(main_data, Score.Sepsis>17.44)
+cath_desc <- dplyr::filter(main_data, Score.Cath.Infection >.49)
+complications_desc <- dplyr::filter(main_data, Score.Serious.Complication > 1.52)
+
+
+
+clot_asc <- dplyr::filter(main_data, Score.Clot < 2.48)
+sepsis_asc <- dplyr::filter(main_data, Score.Sepsis < 7.16)
+cath_asc <- dplyr::filter(main_data, Score.Cath.Infection <.10)
+complications_asc <- dplyr::filter(main_data, Score.Serious.Complication < .64)
+```
+
+##1
+
+```{r,echo=FALSE}
+library(ggplot2)
+
+ggplot(clot_asc, aes(x=reorder(County,Score.Clot),y=Score.Clot, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Blood Clot Probability") + xlab("Top Counties") + ylab("Patient Probability of Clot")
+```
+
+##2
+
+```{r,echo=FALSE}
+ggplot(clot_desc, aes(x=reorder(County,Score.Clot),y=Score.Clot, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Blood Clot Probability") + xlab("Top Counties") + ylab("Patient Probability of Clot")
+```
+
+##3
+
+```{r,echo=FALSE}
+ggplot(sepsis_asc, aes(x=reorder(County,Score.Sepsis),y=Score.Sepsis, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Sepsis Probability") + xlab("Top Counties") + ylab("Patient Probability of Bacterial Sepsis")
+```
+
+##4
+
+```{r,echo=FALSE}
+ggplot(sepsis_desc, aes(x=reorder(County,Score.Sepsis),y=Score.Sepsis, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Sepsis Probability") + xlab("Top Counties") + ylab("Patient Probability of Bacterial Sepsis")
+```
+
+##5
+
+```{r, echo=FALSE}
+ggplot(cath_asc, aes(x=reorder(County,Score.Cath.Infection),y=Score.Cath.Infection, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Catheder Infection Probability") + xlab("Top Counties") + ylab("Patient Probability of Infection By Catheder")
+```
+
+##6
+
+```{r,echo=FALSE}
+ggplot(cath_desc, aes(x=reorder(County,Score.Cath.Infection),y=Score.Cath.Infection, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Catheder Infection Probability") + xlab("Top Counties") + ylab("Patient Probability of Infection By Catheder")
+```
+
+##7
+
+```{r,echo=FALSE}
+ggplot(complications_asc, aes(x=reorder(County,Score.Serious.Complication),y=Score.Serious.Complication, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Lowest Severe Complications in Surgery") + xlab("Top Counties") + ylab("Patient Probability of Complications in Surgery")
+```
+
+##8
+
+```{r,echo=FALSE}
+ggplot(complications_desc, aes(x=reorder(County,Score.Serious.Complication),y=Score.Serious.Complication, color=factor(State)))+geom_point() + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Counties With Highest Severe Complications in Surgery") + xlab("Top Counties") + ylab("Patient Probability of Complications in Surgery")
+```
+
+## Next Step
+- What if we have other data on health?
+  *Expanding beyond top 20
