@@ -1,0 +1,176 @@
+---
+title: "Untitled"
+author: "Chris Leonard"
+date: "November 28, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+compl1 <- read.csv('C:\\Users\\Chris\\Desktop\\GSW\\DSMung\\project2\\Complicationshospital.csv')
+
+complete.cases(compl1)
+compl1a <- compl1
+compl1a[compl1a =="Not Available"] <- NA
+compl1a[compl1a ==""] <- NA
+
+
+unique(compl1a$Measure.ID)
+head(compl1a)
+working <-select(compl1a, County.Name,State,Hospital.Name, Measure.Name, Measure.ID, Compared.to.National,Denominator,Score,Lower.Estimate,Higher.Estimate)
+##Removed extranious information
+
+working2 <- as.data.frame(working)
+working2$Measure.ID <- as.character(working2$Measure.ID)
+##working2[which ( ! working2$Measure.ID %in% "COMP_HIP_KNEE"),]
+table(working2$Compared.to.National)
+head(working2)
+table(working2$Measure.Name)
+
+```
+
+
+```{r}
+library(dplyr)
+surgcomp <-dplyr::filter(working2 , Measure.ID == "PSI_4_SURG_COMP")
+#Deaths of patients with treatable complications post surgery (1)
+
+surgcomp2 <-select(surgcomp, County.Name, State, Hospital.Name, Score)
+
+surgcomp2$Score<- as.numeric(as.character(surgcomp2$Score))
+
+colnames(surgcomp2)[which(names(surgcomp2) == "Score")] <- "Score.Death.Complications"
+
+#best_deathrate <-dplyr::filter(surgcomp , Compared.to.National == "Better than the National Rate")
+#worst_deathrate <-dplyr::filter(surgcomp , Compared.to.National == "Worse than the National Rate")
+#__________________________________________________________________________________________________
+seriouscomp <-dplyr::filter(working2 , Measure.ID == "PSI_90_SAFETY")
+##serious complications post surgery (What does this mean??) (4 catch all)
+seriouscomp2 <-select(seriouscomp, County.Name, State, Hospital.Name, Score)
+
+seriouscomp2$Score <-as.numeric(as.character(seriouscomp2$Score))
+colnames(seriouscomp2)[which(names(seriouscomp2) == "Score")] <- "Score.Serious.Complication"
+
+
+#best_postop_complication <-dplyr::filter(seriouscomp , Compared.to.National == "Better than the National Rate")
+#worst_postop_complication <-dplyr::filter(seriouscomp , Compared.to.National == "Worse than the National Rate")
+#__________________________________________________________________________________________________
+
+bloodclot_Postsurg <-dplyr::filter(working2 , Measure.ID == "PSI_12_POSTOP_PULMEMB_DVT")
+##Clotting failure after surgery (2)
+clot_postsurg2 <-select(bloodclot_Postsurg, County.Name, State, Hospital.Name, Score)
+
+clot_postsurg2$Score <-as.numeric(as.character(clot_postsurg2$Score))
+
+colnames(clot_postsurg2)[which(names(clot_postsurg2) == "Score")] <- "Score.Clot"
+
+
+
+#best_bloodclot<-dplyr::filter(bloodclot_Postsurg , Compared.to.National == "Better than the National Rate")
+#worst_bloodclot<-dplyr::filter(bloodclot_Postsurg , Compared.to.National == "Worse than the National Rate")
+#__________________________________________________________________________________________________
+sepsis_postop <-dplyr::filter(working2 , Measure.ID == "PSI_13_POST_SEPSIS")
+##Post op bacterial infection(3)
+sepsis_postop2 <-select(sepsis_postop, County.Name, State, Hospital.Name, Score)
+
+sepsis_postop2$Score <- as.numeric(as.character(sepsis_postop2$Score))
+
+colnames(sepsis_postop2)[which(names(sepsis_postop2) == "Score")] <- "Score.Sepsis"
+#best_sepsis<-dplyr::filter(sepsis_postop , Compared.to.National == "Better than the National Rate")
+#worst_sepsis<-dplyr::filter(sepsis_postop , Compared.to.National == "Worse than the National Rate")
+#__________________________________________________________________________________________________
+
+cath_infec <-dplyr::filter(working2, Measure.ID == "PSI_7_CVCBI")
+##Cath Infection
+cath_infec2 <-select(cath_infec, County.Name, State, Hospital.Name, Score)
+
+cath_infec2$Score <-as.numeric(as.character(cath_infec2$Score))
+
+colnames(cath_infec2)[which(names(cath_infec2) == "Score")] <- "Score.Cath.Infection"
+
+#__________________________________________________________________________________________________
+##THE JOINS
+#Must omit NAs for group to work
+clot_postsurg2 <-na.omit(clot_postsurg2)
+sepsis_postop2 <-na.omit(sepsis_postop2)
+cath_infec2<-na.omit(cath_infec2)
+seriouscomp2<-na.omit(seriouscomp2)
+surgcomp2<-na.omit(surgcomp2)
+c
+
+#Core of joins
+
+core <- dplyr::select(working2, County.Name, State,Score)
+core$Score <-as.numeric(as.character(core$Score))
+core <- core %>%group_by(County.Name,State) %>% summarize(Score = max(Score))
+core <-select(core,County.Name,State)
+
+clot_postsurg3 <- clot_postsurg2 %>% group_by(County.Name,State) %>% summarise(Score.Clot = max(Score.Clot))
+
+sepsis_postop3 <- sepsis_postop2 %>% group_by(County.Name,State) %>% summarise(Score.Sepsis = max(Score.Sepsis))
+
+cath_infec3 <- cath_infec2 %>% group_by(County.Name,State) %>% summarise(Score.Cath.Infection = max(Score.Cath.Infection))
+
+seriouscomp3 <-seriouscomp2 %>% group_by(County.Name,State) %>% summarise(Score.Serious.Complication = max(Score.Serious.Complication))
+
+surgcomp3 <-surgcomp2 %>% group_by(County.Name,State) %>% summarise(Score.Death.Complications = max(Score.Death.Complications))
+##LEFT JOIN SELECTED
+
+main_data <-left_join(core,clot_postsurg3, by = c("County.Name" = "County.Name", "State" = "State"))
+
+main_data <-left_join(main_data,sepsis_postop3,by = c("County.Name" = "County.Name", "State" = "State"))
+
+main_data<- left_join(main_data,cath_infec3,by = c("County.Name" = "County.Name", "State" = "State"))
+
+main_data <-left_join(main_data,seriouscomp3,by = c("County.Name" = "County.Name", "State" = "State"))
+
+main_data <-left_join(main_data,surgcomp3,by = c("County.Name" = "County.Name", "State" = "State"))
+
+```
+
+
+```{r, echo=FALSE}
+##Statistical Dive
+library(ggplot2)
+#write.csv(main_data, file = 'C:\\Users\\Chris\\Desktop\\GSW\\DSMung\\project2\\main_complications.csv')
+hist(main_data$Score.Clot)
+hist(main_data$Score.Sepsis)
+hist(main_data$Score.Cath.Infection)
+hist(main_data$Score.Serious.Complication)
+hist((main_data$Score.Death.Complications))
+
+
+boxplot(main_data$Score.Clot)
+boxplot(main_data$Score.Sepsis)
+boxplot(main_data$Score.Cath.Infection)
+boxplot(main_data$Score.Serious.Complication)
+boxplot(main_data$Score.Death.Complications)
+
+
+```
+## Complications Post Surgery
+* Servere Blood Clots
+* Blood Stream Infection
+* Infection of Catheter
+* Other Serious Complications
+
+```{r}
+clot_desc <- dplyr::filter(main_data, Score.Clot > 12.10)
+sepsis_desc <- dplyr::filter(main_data, Score.Sepsis>17.44)
+cath_desc <- dplyr::filter(main_data, Score.Cath.Infection >.49)
+complications_desc <- dplyr::filter(main_data, Score.Serious.Complication > 1.52)
+
+
+clot_asc <- dplyr::filter(main_data, Score.Clot < 2.48)
+sepsis_asc <- dplyr::filter(main_data, Score.Sepsis < 7.16)
+cath_asc <- dplyr::filter(main_data, Score.Cath.Infection <.10)
+complications_asc <- dplyr::filter(main_data, Score.Serious.Complication < .64)
+
+
+
+
+```
+
+
+
