@@ -203,7 +203,7 @@ ggplot(H_data1_ami_mort, aes(Death_Score)) + geom_density(na.rm=TRUE)
 
 ##Readmission Rate
 
-```{r echo = FALSE echo = FALSE}
+```{r echo = FALSE}
 ggplot(H_data1_ami_readm, aes(Readmission_Score)) + geom_density(na.rm=TRUE)
 
 ```
