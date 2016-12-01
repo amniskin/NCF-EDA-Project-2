@@ -38,4 +38,8 @@ ggplot(counties_best_mort_avg_filt, aes(percent_good, Count_Total_Hospitals)) + 
 counties_worst_mort_avg_filt <- read.csv("C:/Users/lance/Desktop/munge hw/csv_files/counties_worst_mort_avg_filt.csv")
 
 ggplot(counties_worst_mort_avg_filt, aes(percent_bad, Count_Total_Hospitals)) + geom_point(aes(color=as.factor(County)))
+
+best_mort <- read.csv("C:/Users/lance/Desktop/munge hw/csv_files/counties_best_mort_avg.csv")
+
+worst_mort <- read.csv("C:/Users/lance/Desktop/munge hw/csv_files/counties_worst_mort_avg.csv")
 ```
