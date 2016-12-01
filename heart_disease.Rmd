@@ -1,8 +1,9 @@
 ---
-title: "Best Places for Heart Disease?"
+title: "Risky Counties"
 author: "Aaron Niskin, Chris Leonard, Lance Price, Nicole Navarro"
 date: "November 30, 2016"
 output: ioslides_presentation
+# bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -19,12 +20,20 @@ merged_best <- read.csv("csv_files/merged_best.csv")
 merged_worst <- read.csv("csv_files/merged_worst.csv")
 ```
 
-##Introduction slide?
+##Counties
 
-Question to answer:
 
->- Where are the best and worst places in the US to have a heart attack?
+Low Risk:
 
+>- Fairbanks, AK
+>- Finney, KS
+>- La Plata, CO
+>- Madison, AL
+>- Yuma, AZ
+
+High Risk:
+
+>- Rapides, LA
 
 ##There is Another Side to The Problem
 
@@ -78,22 +87,22 @@ names(complications)[1] <- "County"
 ## Complications Post Surgery
 
 ## Complications Post Surgery
-- Servere Blood Clots
+- Severe Blood Clots
 
 
 ## Complications Post Surgery
-- Servere Blood Clots
+- Severe Blood Clots
 - Blood Stream Infection
 
 
 ## Complications Post Surgery
-- Servere Blood Clots
+- Severe Blood Clots
 - Blood Stream Infection
 - Infection of Catheter
 
 
 ## Complications Post Surgery
-- Servere Blood Clots
+- Severe Blood Clots
 - Blood Stream Infection
 - Infection of Catheter
 - Other Serious Complications
@@ -303,12 +312,14 @@ merged_best = inner_join(merged_best, aggriData)
 merged_worst = inner_join(merged_worst, aggriData)
 ggplot(data=dats_10, aes(Low_Access_10_Miles_Share)) + geom_density(fill='tomato2') + labs(title="Density Plot for Low Access to Food", x="Percentage with Low Access") + geom_vline(data= merged_worst, aes(xintercept = `Low access, seniors age 65, at 10 miles, share`)) + geom_vline(data = merged_best, aes(xintercept = `Low access, seniors age 65, at 10 miles, share`, color=County))
 ```
+<!-- [see @aggriculture] -->
 
 ##Smoking
 
 ```{r, results='show', warning=FALSE}
 ggplot(data=dats_10, aes(Percent_Smoking)) + geom_density(fill='turquoise3') + labs(x="Percentage of Smokers in Population") + geom_vline(aes(xintercept = merged_worst$percent_smoking)) + geom_vline(data = merged_best, aes(xintercept = percent_smoking, color=County))
 ```
+<!-- [see @smokers] -->
 
 
 <!--
@@ -329,6 +340,7 @@ merged_best <- inner_join(merged_best, countyHealth)
 merged_worst <- inner_join(merged_worst, countyHealth)
 # ggplot(data=countyHealth, aes(x=Obesity)) + geom_density(fill='darkolivegreen2') + labs(title="Percentage of Obesity in Population") + geom_vline(aes(xintercept = merged_worst$Obesity)) + geom_vline(data = merged_best, aes(xintercept = Obesity, color=County))
 ```
+<!-- [see @countyHealth] -->
 
 
 ##Physical Inactivity VS Obesity
@@ -339,4 +351,4 @@ ggplot(data=countyHealth, aes(x= Obesity, y=Physically_Inactive)) + geom_point(f
 # ggplot(data=countyHealth, aes(x= Chlamydia, y=Physically_Inactive)) + geom_point(fill='darkolivegreen2', color='lightblue') 
 ```
 
-##References
+<!-- ##References -->
