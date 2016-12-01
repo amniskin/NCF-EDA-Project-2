@@ -190,9 +190,9 @@ rm(sepsis_quants)
 
 <!-- Lance's part -->
 
-##Slide 1
+##Mortality Rate
 
-```{r}
+```{r echo = FALSE}
 H_data1_ami_mort <- read.csv("csv_files/H_data1_ami_mort.csv")
 
 H_data1_ami_readm <- read.csv("csv_files/H_data1_ami_readm.csv")
@@ -201,28 +201,28 @@ H_data1_ami_readm <- read.csv("csv_files/H_data1_ami_readm.csv")
 ggplot(H_data1_ami_mort, aes(Death_Score)) + geom_density(na.rm=TRUE)
 ```
 
-##Slide 1
+##Readmission Rate
 
-```{r}
+```{r echo = FALSE echo = FALSE}
 ggplot(H_data1_ami_readm, aes(Readmission_Score)) + geom_density(na.rm=TRUE)
 
 ```
 
-##Slide 1
+##Mortality Rate
 
-```{r}
+```{r echo = FALSE}
 boxplot(H_data1_ami_mort$Death_Score, main = "Mortality Rate")
 ```
 
-##Slide 1
+##Readmission Rate
 
-```{r}
+```{r echo = FALSE}
 boxplot(H_data1_ami_readm$Readmission_Score, main = "Readmission Rate")
 ```
 
-##Slide 1
+##Mortality VS Readmission (Average Hospital per County)
 
-```{r}
+```{r echo = FALSE}
 counties_avg_scores <- read.csv("csv_files/counties_avg_scores.csv")
 
 hospitals_scores <- read.csv("csv_files/hospitals_scores.csv")
@@ -230,23 +230,23 @@ hospitals_scores <- read.csv("csv_files/hospitals_scores.csv")
 ggplot(counties_avg_scores, aes(Average_Mort_Score, Average_Readm_Score)) + geom_point(aes(color=as.factor(Death_Readm_Cat)), na.rm=TRUE) + geom_smooth(method = lm, na.rm = TRUE) 
 ```
 
-##Slide 1
+##Mortality VS Readmission per Hospital
 
-```{r}
+```{r echo = FALSE}
 ggplot(hospitals_scores, aes(Death_Score, Readmission_Score)) + geom_point(aes(color=as.factor(Death_Readm_Cat)), na.rm=TRUE) + geom_smooth(method = lm, na.rm = TRUE)
 ```
 
-##Slide 1
+##Percent of Good Hospitals Vs Total Hospitals Per County
 
-```{r}
+```{r echo = FALSE}
 counties_best_mort_avg_filt <- read.csv("csv_files/counties_best_mort_avg_filt.csv")
 
 ggplot(counties_best_mort_avg_filt, aes(percent_good, Count_Total_Hospitals)) + geom_point(aes(color=as.factor(County)))
 ```
 
-##Slide 1
+##Percent of Bad Hospitals Vs. Total Hospitals Per County
 
-```{r, warning=FALSE}
+```{r,  echo = FALSE, warning=FALSE}
 counties_worst_mort_avg_filt <- read.csv("csv_files/counties_worst_mort_avg_filt.csv")
 
 ggplot(counties_worst_mort_avg_filt, aes(percent_bad, Count_Total_Hospitals)) + geom_point(aes(color=as.factor(County)))
