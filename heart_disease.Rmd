@@ -15,178 +15,12 @@ knitr::opts_chunk$set(echo = FALSE, results='asis')
 library(tidyverse)
 library(xtable)
 setwd("~/Documents/courses/newCollege/current/eda/projects/project2/")
-printNamedDf <- function(df, title="") {
-  tmp <- xtable(df, caption=title)
-  return(print.xtable(tmp, comment=FALSE))
-}
-printDf <- function(df, title="") {
-  tmp <- xtable(df, caption=title)
-  return(print.xtable(tmp, comment=FALSE, include.rownames = FALSE))
-}
-complete_cases <- function(df) {
-  tmp <- as.data.frame(names(df))
-  tmp <- cbind(tmp, as.data.frame(sapply(df, function(col) {
-    sum(complete.cases(col))
-  })))
-  tmp <- cbind(tmp, as.data.frame(sapply(df, function(col){
-    100 * sum(complete.cases(col)) / length(col)
-  })))
-  names(tmp) <- c("FieldName", "CompleteCases", "PercentComplete")
-  return(tmp)
-}
 source("http://peterhaschke.com/Code/multiplot.R")
 ```
 
 
 
 <!-- Lance's part -->
-
-```{r, echo=FALSE, results='hide'}
-H_data1 <- read.csv("csv_files/Readmissions\ and\ Deaths\ -\ Hospital.csv")
-H_data1_sub <- H_data1[,c(1,2,4:7,10,11,13:15)]
-colnames(H_data1_sub) <- c("ID", "Hospital", "City", "State", "Zip", "County", "Measure_ID", "Compared_to_National", "Score", "Lower", "Higher")
-
-#change Not Available to NA
-H_data1_sub$Compared_to_National[which(H_data1_sub$Compared_to_National == "Not Available")] <- NA
-H_data1_sub$Compared_to_National[which(H_data1_sub$Compared_to_National == "Number of Cases Too Small")] <- NA
-H_data1_sub$Score[which(H_data1_sub$Score == "Not Available")] <- NA
-
-sum(complete.cases(H_data1_sub))/nrow(H_data1_sub)*100
-H_data1_ami_mort <- H_data1_sub[which(H_data1_sub$Measure_ID == "MORT_30_AMI"),]
-sum(complete.cases(H_data1_ami_mort))/nrow(H_data1_ami_mort)*100
-H_data1_ami_readm <- H_data1_sub[which(H_data1_sub$Measure_ID == "READM_30_AMI"),]
-
-sum(complete.cases(H_data1_ami_readm))/nrow(H_data1_ami_mort)*100
-
-H_data1_ami_mort$Score <- as.numeric(as.character(H_data1_ami_mort$Score))
-
-H_data1_ami_readm$Score <- as.numeric(as.character(H_data1_ami_readm$Score))
-
-H_data1_ami_best_mort <- H_data1_ami_mort[which(H_data1_ami_mort$Compared_to_National == "Better than the National Rate"),]
-
-H_data1_ami_worst_mort <- H_data1_ami_mort[which(H_data1_ami_mort$Compared_to_National == "Worse than the National Rate"),]
-
-H_data1_ami_best_readm <- H_data1_ami_readm[which(H_data1_ami_readm$Compared_to_National == "Better than the National Rate"),]
-
-H_data1_ami_worst_readm <- H_data1_ami_readm[which(H_data1_ami_readm$Compared_to_National == "Worse than the National Rate"),]
-```
-
-##Slide 1
-
-```{r echo=FALSE, message = FALSE, warning = FALSE}
-counties_best_mort <- H_data1_ami_best_mort %>% group_by(County, State) %>% summarise(Count_Hospitals = n_distinct(Hospital)) %>% arrange(desc(Count_Hospitals))
-
-counties_avg_mort_score <- H_data1_ami_mort %>% group_by(County, State) %>% summarise(Average_Mort_Score = mean(Score, na.rm = TRUE)) %>% arrange(desc(County, State))
-
-counties_avg_readm_score <- H_data1_ami_readm %>% group_by(County, State) %>% summarise(Average_Readm_Score = mean(Score, na.rm = TRUE)) %>% arrange(desc(County, State))
-
-counties_avg_scores <- inner_join(counties_avg_mort_score, counties_avg_readm_score, by = c("County", "State"))
-
-colnames(H_data1_ami_mort)[9] <- "Death_Score"
-
-colnames(H_data1_ami_readm)[9] <- "Readmission_Score"
-
-H_data1_ami_readm_Score <- as.data.frame(H_data1_ami_readm$Readmission_Score)
-
-colnames(H_data1_ami_readm_Score) <- "Readmission_Score"
-
-hospitals_scores <- bind_cols(H_data1_ami_mort, H_data1_ami_readm_Score)
-
-density_death <- ggplot(H_data1_ami_mort, aes(Death_Score)) + geom_density(na.rm=TRUE)
-density_read <- ggplot(H_data1_ami_readm, aes(Readmission_Score)) + geom_density(na.rm=TRUE)
-boxes <- ggplot(data=gather(H_data1))
-multiplot(density_death, density_read, ncol=2)
-
-# box_death <- boxplot(H_data1_ami_mort$Death_Score, main = "Mortality Rate")
-# box_read  <- boxplot(H_data1_ami_readm$Readmission_Score, main = "Readmission Rate")
-# multiplot(density_death, density_read, box_death, box_read, ncol=2)
-
-# # grid.arrange(rectGrob(), rectGrob())
-# # marrangeGrob(density_death, density_read, box_death, box_read, ncol=2, nrow=2)
-# grid.arrange(density_death, density_read, box_death, box_read, ncol=2)
-
-
-quant_count_mort <- quantile(counties_avg_mort_score$Average_Mort_Score, na.rm=TRUE)
-quant_count_readm <- quantile(counties_avg_readm_score$Average_Readm_Score, na.rm=TRUE)
-quant_mort <- quantile(H_data1_ami_mort$Death_Score, na.rm=TRUE)
-quant_readm <- quantile(H_data1_ami_readm$Readmission_Score, na.rm=TRUE)
-
-counties_avg_scores[,5] <- NA
-counties_avg_scores[,6] <- NA
-counties_avg_scores[,7] <- NA
-colnames(counties_avg_scores)[5] <- "Death_Cat"
-colnames(counties_avg_scores)[6] <- "Readm_Cat"
-colnames(counties_avg_scores)[7] <- "Death_Readm_Cat"
-
-hospitals_scores[,13] <- NA
-hospitals_scores[,14] <- NA
-hospitals_scores[,15] <- NA
-colnames(hospitals_scores)[13] <- "Death_Cat"
-colnames(hospitals_scores)[14] <- "Readm_Cat"
-colnames(hospitals_scores)[15] <- "Death_Readm_Cat"
-
-counties_avg_scores[which(counties_avg_scores$Average_Mort_Score<=quant_count_mort[2]),5] <- "Better Than National"
-counties_avg_scores[which(counties_avg_scores$Average_Mort_Score>=quant_count_mort[4]),5] <- "Worse Than National"
-counties_avg_scores[which(counties_avg_scores$Average_Readm_Score<=quant_count_readm[2]),6] <- "Better Than National"
-counties_avg_scores[which(counties_avg_scores$Average_Readm_Score>=quant_count_readm[4]),6] <- "Worse Than National"
-counties_avg_scores[which(counties_avg_scores$Death_Cat == "Better Than National" & counties_avg_scores$Readm_Cat == "Better Than National"),7] <- "Better Than National"
-counties_avg_scores[which(counties_avg_scores$Death_Cat == "Worse Than National" & counties_avg_scores$Readm_Cat == "Worse Than National"),7] <- "Worse Than National"
-
-hospitals_scores[which(hospitals_scores$Death_Score<=quant_mort[2]),13] <- "Better Than National"
-hospitals_scores[which(hospitals_scores$Death_Score>=quant_mort[4]),13] <- "Worse Than National"
-hospitals_scores[which(hospitals_scores$Readmission_Score<=quant_readm[2]),14] <- "Better Than National"
-hospitals_scores[which(hospitals_scores$Readmission_Score>=quant_readm[4]),14] <- "Worse Than National"
-hospitals_scores[which(hospitals_scores$Death_Cat == "Better Than National" & hospitals_scores$Readm_Cat == "Better Than National"),15] <- "Better Than National"
-hospitals_scores[which(hospitals_scores$Death_Cat == "Worse Than National" & hospitals_scores$Readm_Cat == "Worse Than National"),15] <- "Worse Than National"
-
-
-```
-
-##Slide 5
-
-```{r}
-ggplot(counties_avg_scores, aes(Average_Mort_Score, Average_Readm_Score)) + geom_point(aes(color=as.factor(Death_Readm_Cat)), na.rm=TRUE) + geom_smooth(method = lm, na.rm = TRUE) 
-
-```
-
-##Slide 6
-
-```{r}
-ggplot(hospitals_scores, aes(Death_Score, Readmission_Score)) + geom_point(aes(color=as.factor(Death_Readm_Cat)), na.rm=TRUE) + geom_smooth(method = lm, na.rm = TRUE)
-
-counties_best_mort_readm <- hospitals_scores %>% filter(Death_Readm_Cat == "Better Than National") %>% group_by(County, State) %>% summarise(Count_Hospitals = n_distinct(Hospital)) %>% arrange(desc(Count_Hospitals))
-
-counties_worst_mort_readm <- hospitals_scores %>% filter(Death_Readm_Cat == "Worse Than National") %>% group_by(County, State) %>% summarise(Count_Hospitals = n_distinct(Hospital)) %>% arrange(desc(Count_Hospitals))
-
-count_total_hosp <- hospitals_scores %>% group_by(County, State) %>% summarise(Count_Total_Hospitals = n_distinct(Hospital)) %>% arrange(desc(Count_Total_Hospitals))
-
-counties_best_mort_readm_avg <- inner_join(counties_best_mort_readm, count_total_hosp, by = c("County", "State"))
-
-counties_best_mort_readm_avg$avg <- counties_best_mort_readm_avg$Count_Hospitals/counties_best_mort_readm_avg$Count_Total_Hospitals
-
-counties_worst_mort_readm_avg <- inner_join(counties_worst_mort_readm, count_total_hosp, by = c("County", "State"))
-
-counties_worst_mort_readm_avg$avg <- counties_worst_mort_readm_avg$Count_Hospitals/counties_worst_mort_readm_avg$Count_Total_Hospitals
-
-counties_best_mort_readm2 <- counties_avg_scores %>% filter(Death_Readm_Cat == "Better Than National")
-counties_worst_mort_readm2 <- counties_avg_scores %>% filter(Death_Readm_Cat == "Worse Than National")
-
-counties_best_mort_readm2[,8] <- rowMeans(counties_best_mort_readm2[3:4])
-counties_worst_mort_readm2[,8] <- rowMeans(counties_worst_mort_readm2[3:4])
-colnames(counties_best_mort_readm2)[8] <- "index"
-colnames(counties_worst_mort_readm2)[8] <- "index"
-
-county_state_best_1 <- counties_best_mort_readm[,1:2]
-county_state_worst_1 <- counties_worst_mort_readm[,1:2]
-county_state_best_2 <- counties_best_mort_readm2[,1:2]
-county_state_worst_2 <- counties_worst_mort_readm2[,1:2]
-
-county_state_best <- intersect(county_state_best_1,county_state_best_2)
-county_state_best <- inner_join(counties_best_mort_readm_avg, county_state_best, by = c("County", "State")) %>% arrange(desc(avg))
-
-county_state_worst <- intersect(county_state_worst_1,county_state_worst_2)
-county_state_worst <- inner_join(counties_worst_mort_readm_avg, county_state_worst, by = c("County", "State")) %>% arrange(desc(avg))
-```
 
 
 <!-- Aaron's part -->
@@ -208,7 +42,15 @@ names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
 dats <- inner_join(smoking, aggriData, by=c("County", "State"))
 dats_10 <- dats[,c(1, 2, 3, 9)]
 names(dats_10) <- c("State", "County", "Percent_Smoking", "Low_Access_10_Miles_Share")
-dats_combine <- dats_10 %>% mutate(Score = Percent_Smoking + 2*Low_Access_10_Miles_Share) %>% select(State, County, Score) %>% arrange(Score)
+smoking_quants <- quantile(dats_10$Percent_Smoking)
+worst_smoking <- smoking[smoking$percent_smoking >= smoking_quants[[4]], ]
+best_smoking <- smoking[smoking$percent_smoking <= smoking_quants[[2]], ]
+
+food_quants <- quantile(aggriData$`Low access, seniors age 65, at 10 miles, share`)
+worst_food <- aggriData[aggriData$`Low access, seniors age 65, at 10 miles, share` >= food_quants[[3]],]
+best_food <- aggriData[aggriData$`Low access, seniors age 65, at 10 miles, share` <= food_quants[[2]],]
+best_counties_food_and_smoking <- inner_join(best_food, best_smoking, by=c("State", "County")) %>% mutate(County = toupper(County))
+worst_counties_food_and_smoking <- inner_join(worst_food, worst_smoking, by=c("State", "County")) %>% mutate(County = toupper(County))
 ```
 
 ```{r, results='show'}
