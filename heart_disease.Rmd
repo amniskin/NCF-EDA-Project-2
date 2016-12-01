@@ -6,10 +6,8 @@ output: ioslides_presentation
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, results='asis')
+knitr::opts_chunk$set(echo = FALSE)
 ```
-
-##Abstract
 
 ```{r, message=FALSE}
 library(tidyverse)
@@ -18,7 +16,19 @@ setwd("~/Documents/courses/newCollege/current/eda/projects/project2/")
 source("http://peterhaschke.com/Code/multiplot.R")
 ```
 
+##Abstract
 
+<!-- Chris's part -->
+
+```{r}
+complications <- read.csv("csv_files/main_complications.csv")
+clot_quants <- quantile(complications$Score.Clot, na.rm = TRUE)
+best_clots <- complications[!is.na(complications$Score.Clot) & complications$Score.Clot <= clot_quants[[2]], c("County.Name", "State")]
+names(best_clots) <- c("County", "State")
+worst_clots <- complications[!is.na(complications$Score.Clot) & complications$Score.Clot >= clot_quants[[4]], c("County.Name", "State")]
+names(worst_clots) <- c("County", "State")
+rm(clot_quants)
+```
 
 <!-- Lance's part -->
 
@@ -36,6 +46,19 @@ source("http://peterhaschke.com/Code/multiplot.R")
 smoking <- read.csv("csv_files/smoking.csv", stringsAsFactors = FALSE)
 aggriData <- read.csv("csv_files/aggriculture_aggregated.csv", stringsAsFactors = FALSE)
 names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
+smoking <- smoking %>% mutate(County = toupper(County))
+```
+
+```{r}
+smoking_quants <- quantile(smoking$percent_smoking, na.rm = TRUE)
+best_smoking <- smoking[smoking$percent_smoking <= smoking_quants[[2]], c("County", "State")]
+worst_smoking <- smoking[smoking$percent_smoking >= smoking_quants[[4]], c("County", "State")]
+rm(smoking_quants)
+```
+
+```{r}
+merged_best <- inner_join(best_clots, best_smoking, by=c("County", "State"))
+merged_worst <- inner_join(worst_clots, worst_smoking, by=c("County", "State"))
 ```
 
 ```{r}
