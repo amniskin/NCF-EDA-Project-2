@@ -1,0 +1,2512 @@
+"County","State","Average_Mort_Score","Average_Readm_Score","Death_Cat","Readm_Cat","Death_Readm_Cat"
+"YUMA","AZ",13.1,17.2,"Better Than National",NA,NA
+"YUMA","CO",NA,NA,NA,NA,NA
+"YUBA","CA",13.9,18.9,NA,"Worse Than National",NA
+"YOUNG","TX",NA,NA,NA,NA,NA
+"YORK","ME",12.9,16.3,"Better Than National","Better Than National","Better Than National"
+"YORK","NE",NA,NA,NA,NA,NA
+"YORK","PA",13.0333333333333,16.9666666666667,"Better Than National",NA,NA
+"YORK","SC",16.1,16.4,"Worse Than National",NA,NA
+"YOLO","CA",15.9,NA,"Worse Than National",NA,NA
+"YOAKUM","TX",NA,NA,NA,NA,NA
+"YELLOWSTONE","MT",13.7,15.25,NA,"Better Than National",NA
+"YELLOW MEDICINE","MN",NA,NA,NA,NA,NA
+"YELL","AR",15.8,NA,"Worse Than National",NA,NA
+"YAZOO","MS",NA,NA,NA,NA,NA
+"YAVAPAI","AZ",14.2666666666667,16.6666666666667,NA,NA,NA
+"YAUCO","PR",NA,NA,NA,NA,NA
+"YATES","NY",NA,NA,NA,NA,NA
+"YANKTON","SD",13.7,16.5,NA,NA,NA
+"YAMHILL","OR",13.2,15.9,"Better Than National","Better Than National","Better Than National"
+"YALOBUSHA","MS",NA,NA,NA,NA,NA
+"YAKIMA","WA",13.75,16.2,NA,"Better Than National",NA
+"WYTHE","VA",14.4,16,NA,"Better Than National",NA
+"WYOMING","NY",NA,NA,NA,NA,NA
+"WYOMING","PA",NA,NA,NA,NA,NA
+"WYANDOTTE","KS",14.15,18.2,NA,"Worse Than National",NA
+"WYANDOT","OH",NA,NA,NA,NA,NA
+"WRIGHT","IA",NA,NA,NA,NA,NA
+"WRIGHT","MN",NA,NA,NA,NA,NA
+"WORTH","GA",NA,NA,NA,NA,NA
+"WORCESTER","MA",13.4833333333333,17.1166666666667,"Better Than National",NA,NA
+"WORCESTER","MD",NA,NA,NA,NA,NA
+"WOODWARD","OK",NA,NA,NA,NA,NA
+"WOODS","OK",NA,NA,NA,NA,NA
+"WOODFORD","IL",NA,NA,NA,NA,NA
+"WOODFORD","KY",NA,NA,NA,NA,NA
+"WOODBURY","IA",14.4,17.25,NA,NA,NA
+"WOOD","OH",NA,NA,NA,NA,NA
+"WOOD","TX",NA,NA,NA,NA,NA
+"WOOD","WI",14.1,18.3,NA,"Worse Than National",NA
+"WOOD","WV",12.9,16.8,"Better Than National",NA,NA
+"WISE","TX",16.3,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"WISE","VA",13,18,"Better Than National","Worse Than National",NA
+"WINSTON","AL",NA,NA,NA,NA,NA
+"WINSTON","MS",NA,NA,NA,NA,NA
+"WINONA","MN",13.5,16.7,"Better Than National",NA,NA
+"WINNESHIEK","IA",13.3,15.7,"Better Than National","Better Than National","Better Than National"
+"WINNEBAGO","IL",13.3666666666667,17.2333333333333,"Better Than National",NA,NA
+"WINNEBAGO","WI",13.5,16.4666666666667,"Better Than National",NA,NA
+"WINN","LA",NA,NA,NA,NA,NA
+"WINKLER","TX",NA,NA,NA,NA,NA
+"WINDSOR","VT",14,16.4,NA,NA,NA
+"WINDHAM","CT",14.9,17.05,"Worse Than National",NA,NA
+"WINDHAM","VT",14.7,NA,NA,NA,NA
+"WINCHESTER CITY","VA",14,17.6,NA,"Worse Than National",NA
+"WILSON","KS",NA,NA,NA,NA,NA
+"WILSON","NC",12.9,18.2,"Better Than National","Worse Than National",NA
+"WILSON","TN",13.5,17.5,"Better Than National","Worse Than National",NA
+"WILSON","TX",NA,NA,NA,NA,NA
+"WILLIAMSON","IL",13.95,17.2,NA,NA,NA
+"WILLIAMSON","TN",14.8,17.7,NA,"Worse Than National",NA
+"WILLIAMSON","TX",14.45,15.775,NA,"Better Than National",NA
+"WILLIAMSBURG","SC",NA,NA,NA,NA,NA
+"WILLIAMS","ND",NA,NA,NA,NA,NA
+"WILLIAMS","OH",17.1,16.4,"Worse Than National",NA,NA
+"WILL","IL",13.0333333333333,18.1,"Better Than National","Worse Than National",NA
+"WILKINSON","MS",NA,NA,NA,NA,NA
+"WILKIN","MN",NA,NA,NA,NA,NA
+"WILKES","GA",NA,NA,NA,NA,NA
+"WILKES","NC",NA,NA,NA,NA,NA
+"WILCOX","AL",NA,NA,NA,NA,NA
+"WILBARGER","TX",NA,NA,NA,NA,NA
+"WICOMICO","MD",NA,NA,NA,NA,NA
+"WICHITA","KS",NA,NA,NA,NA,NA
+"WICHITA","TX",16.2,16.4,"Worse Than National",NA,NA
+"WHITMAN","WA",NA,NA,NA,NA,NA
+"WHITLEY","IN",NA,NA,NA,NA,NA
+"WHITFIELD","GA",13.7,15.1,NA,"Better Than National",NA
+"WHITESIDE","IL",13.9,16.4,NA,NA,NA
+"WHITE PINE","NV",NA,NA,NA,NA,NA
+"WHITE","AR",14.6,17.3,NA,"Worse Than National",NA
+"WHITE","IN",NA,NA,NA,NA,NA
+"WHITE","TN",14.2,16.9,NA,NA,NA
+"WHEELER","TX",NA,NA,NA,NA,NA
+"WHEATLAND","MT",NA,NA,NA,NA,NA
+"WHATCOM","WA",14.7,16.5,NA,NA,NA
+"WHARTON","TX",NA,NA,NA,NA,NA
+"WEXFORD","MI",12.9,16.5,"Better Than National",NA,NA
+"WETZEL","WV",NA,NA,NA,NA,NA
+"WESTON","WY",NA,NA,NA,NA,NA
+"WESTMORELAND","PA",13.9,17.1,NA,NA,NA
+"WESTCHESTER","NY",13.55,17.1333333333333,NA,NA,NA
+"WEST FELICIANA","LA",NA,NA,NA,NA,NA
+"WEST CARROLL","LA",NA,NA,NA,NA,NA
+"WELLS","IN",NA,NA,NA,NA,NA
+"WELLS","ND",NA,NA,NA,NA,NA
+"WELD","CO",12.2,16.7,"Better Than National",NA,NA
+"WEBSTER","IA",14.7,16.8,NA,NA,NA
+"WEBSTER","LA",15.1,16.7,"Worse Than National",NA,NA
+"WEBSTER","MS",NA,NA,NA,NA,NA
+"WEBSTER","NE",NA,NA,NA,NA,NA
+"WEBSTER","WV",NA,NA,NA,NA,NA
+"WEBER","UT",14.05,15.75,NA,"Better Than National",NA
+"WEBB","TX",15.5,16.85,"Worse Than National",NA,NA
+"WEAKLEY","TN",15.8,16.6,"Worse Than National",NA,NA
+"WAYNE","GA",13.4,NA,"Better Than National",NA,NA
+"WAYNE","IA",NA,NA,NA,NA,NA
+"WAYNE","IL",14.4,16.5,NA,NA,NA
+"WAYNE","IN",12.2,15.9,"Better Than National","Better Than National","Better Than National"
+"WAYNE","KY",NA,NA,NA,NA,NA
+"WAYNE","MI",13.2769230769231,17.4461538461538,"Better Than National","Worse Than National",NA
+"WAYNE","MS",NA,NA,NA,NA,NA
+"WAYNE","NC",15.5,16.9,"Worse Than National",NA,NA
+"WAYNE","NE",NA,NA,NA,NA,NA
+"WAYNE","NY",12.7,16.9,"Better Than National",NA,NA
+"WAYNE","OH",13,16.7,"Better Than National",NA,NA
+"WAYNE","PA",17.3,16.9,"Worse Than National",NA,NA
+"WAYNE","TN",NA,NA,NA,NA,NA
+"WAUSHARA","WI",NA,NA,NA,NA,NA
+"WAUPACA","WI",NA,NA,NA,NA,NA
+"WAUKESHA","WI",14.25,17.125,NA,NA,NA
+"WATONWAN","MN",NA,NA,NA,NA,NA
+"WATAUGA","NC",13.7,16.9,NA,NA,NA
+"WASHTENAW","MI",12.2,16.35,"Better Than National",NA,NA
+"WASHOE","NV",14.5666666666667,16.2666666666667,NA,"Better Than National",NA
+"WASHITA","OK",NA,NA,NA,NA,NA
+"WASHINGTON","AL",NA,NA,NA,NA,NA
+"WASHINGTON","AR",14.3,18.25,NA,"Worse Than National",NA
+"WASHINGTON","FL",NA,NA,NA,NA,NA
+"WASHINGTON","GA",NA,NA,NA,NA,NA
+"WASHINGTON","IA",NA,NA,NA,NA,NA
+"WASHINGTON","ID",NA,NA,NA,NA,NA
+"WASHINGTON","IL",NA,NA,NA,NA,NA
+"WASHINGTON","IN",NA,NA,NA,NA,NA
+"WASHINGTON","KS",NA,NA,NA,NA,NA
+"WASHINGTON","LA",NA,NA,NA,NA,NA
+"WASHINGTON","MD",NA,NA,NA,NA,NA
+"WASHINGTON","ME",14.35,17.05,NA,NA,NA
+"WASHINGTON","MN",13.9,NA,NA,NA,NA
+"WASHINGTON","MO",NA,NA,NA,NA,NA
+"WASHINGTON","MS",13.4,17.1,"Better Than National",NA,NA
+"WASHINGTON","NC",NA,NA,NA,NA,NA
+"WASHINGTON","NE",NA,NA,NA,NA,NA
+"WASHINGTON","OH",12.9,15.8,"Better Than National","Better Than National","Better Than National"
+"WASHINGTON","OK",14.3,16.6,NA,NA,NA
+"WASHINGTON","OR",13.4666666666667,16.1,"Better Than National","Better Than National","Better Than National"
+"WASHINGTON","PA",14.55,16.9,NA,NA,NA
+"WASHINGTON","RI",13.95,16.85,NA,NA,NA
+"WASHINGTON","TN",14.4,19.4,NA,"Worse Than National",NA
+"WASHINGTON","TX",15.4,15.9,"Worse Than National","Better Than National",NA
+"WASHINGTON","UT",14.3,14.9,NA,"Better Than National",NA
+"WASHINGTON","VA",13.8,16.9,NA,NA,NA
+"WASHINGTON","VT",14.4,15.7,NA,"Better Than National",NA
+"WASHINGTON","WI",14.5,NA,NA,NA,NA
+"WASHBURN","WI",NA,NA,NA,NA,NA
+"WASHAKIE","WY",NA,NA,NA,NA,NA
+"WASECA","MN",NA,NA,NA,NA,NA
+"WASCO","OR",15.4,16.8,"Worse Than National",NA,NA
+"WASATCH","UT",NA,NA,NA,NA,NA
+"WARRICK","IN",12.8,17.4,"Better Than National","Worse Than National",NA
+"WARREN","IL",NA,NA,NA,NA,NA
+"WARREN","IN",NA,NA,NA,NA,NA
+"WARREN","KY",13.5,18.95,"Better Than National","Worse Than National",NA
+"WARREN","MS",15.5,18.3,"Worse Than National","Worse Than National","Worse Than National"
+"WARREN","NJ",14,18,NA,"Worse Than National",NA
+"WARREN","NY",14.5,15.4,NA,"Better Than National",NA
+"WARREN","OH",15.8,15.9,"Worse Than National","Better Than National",NA
+"WARREN","PA",15.1,16.3,"Worse Than National","Better Than National",NA
+"WARREN","TN",13.1,NA,"Better Than National",NA,NA
+"WARREN","VA",NA,NA,NA,NA,NA
+"WARE","GA",13.8,17.5,NA,"Worse Than National",NA
+"WARD","ND",13.5,16.7,"Better Than National",NA,NA
+"WARD","TX",NA,NA,NA,NA,NA
+"WAPELLO","IA",14.2,16.2,NA,"Better Than National",NA
+"WALWORTH","SD",NA,NA,NA,NA,NA
+"WALWORTH","WI",14.5,15.9,NA,"Better Than National",NA
+"WALTON","FL",14.7,16.2,NA,"Better Than National",NA
+"WALTON","GA",14.4,16.7,NA,NA,NA
+"WALTHALL","MS",NA,NA,NA,NA,NA
+"WALSH","ND",NA,NA,NA,NA,NA
+"WALLOWA","OR",NA,NA,NA,NA,NA
+"WALLA WALLA","WA",13.5,16.05,"Better Than National","Better Than National","Better Than National"
+"WALKER","AL",12.7,17.8,"Better Than National","Worse Than National",NA
+"WALKER","TX",15.6,16.2,"Worse Than National","Better Than National",NA
+"WALDO","ME",13.6,17.5,NA,"Worse Than National",NA
+"WAKE","NC",14.025,16.475,NA,NA,NA
+"WAGONER","OK",NA,NA,NA,NA,NA
+"WADENA","MN",NA,NA,NA,NA,NA
+"WABASHA","MN",NA,NA,NA,NA,NA
+"WABASH","IL",NA,NA,NA,NA,NA
+"WABASH","IN",NA,NA,NA,NA,NA
+"VOLUSIA","FL",14.44,17.06,NA,NA,NA
+"VIRGINIA BEACH CITY","VA",12.8,16.95,"Better Than National",NA,NA
+"VILAS","WI",NA,NA,NA,NA,NA
+"VIGO","IN",12.65,17.5,"Better Than National","Worse Than National",NA
+"VICTORIA","TX",13.8,15.9,NA,"Better Than National",NA
+"VERNON","LA",NA,NA,NA,NA,NA
+"VERNON","MO",NA,NA,NA,NA,NA
+"VERNON","WI",NA,NA,NA,NA,NA
+"VERMILLION","IN",14.4,NA,NA,NA,NA
+"VERMILION","IL",14.2,16.6,NA,NA,NA
+"VERMILION","LA",NA,NA,NA,NA,NA
+"VENTURA","CA",13.4833333333333,16.58,"Better Than National",NA,NA
+"VENANGO","PA",14.2,16.5,NA,NA,NA
+"VEGA BAJA","PR",NA,NA,NA,NA,NA
+"VANDERBURGH","IN",14.65,18.4,NA,"Worse Than National",NA
+"VANCE","NC",15.5,16.4,"Worse Than National",NA,NA
+"VAN WERT","OH",13.7,NA,NA,NA,NA
+"VAN BUREN","AR",NA,NA,NA,NA,NA
+"VAN BUREN","IA",NA,NA,NA,NA,NA
+"VAN BUREN","MI",NA,NA,NA,NA,NA
+"VALLEY","ID",NA,NA,NA,NA,NA
+"VALLEY","MT",NA,NA,NA,NA,NA
+"VALLEY","NE",NA,NA,NA,NA,NA
+"VAL VERDE","TX",14.6,16.5,NA,NA,NA
+"UVALDE","TX",14.6,NA,NA,NA,NA
+"UTUADO","PR",NA,NA,NA,NA,NA
+"UTAH","UT",12.9,16.5,"Better Than National",NA,NA
+"UPTON","TX",NA,NA,NA,NA,NA
+"UPSON","GA",16,NA,"Worse Than National",NA,NA
+"UPSHUR","WV",NA,NA,NA,NA,NA
+"UNION","AR",13.8,16.7,NA,NA,NA
+"UNION","FL",NA,NA,NA,NA,NA
+"UNION","GA",14.4,NA,NA,NA,NA
+"UNION","IA",NA,NA,NA,NA,NA
+"UNION","IL",NA,NA,NA,NA,NA
+"UNION","KY",NA,NA,NA,NA,NA
+"UNION","LA",NA,NA,NA,NA,NA
+"UNION","MS",16.6,16.2,"Worse Than National","Better Than National",NA
+"UNION","NC",13.8,17.7,NA,"Worse Than National",NA
+"UNION","NJ",14.6333333333333,16.5666666666667,NA,NA,NA
+"UNION","NM",NA,NA,NA,NA,NA
+"UNION","OH",NA,NA,NA,NA,NA
+"UNION","OR",NA,NA,NA,NA,NA
+"UNION","PA",13.9,16.9,NA,NA,NA
+"UNION","SC",NA,NA,NA,NA,NA
+"UNION","SD",NA,NA,NA,NA,NA
+"UNICOI","TN",NA,NA,NA,NA,NA
+"UMATILLA","OR",NA,NA,NA,NA,NA
+"ULSTER","NY",13,18.2,"Better Than National","Worse Than National",NA
+"UINTAH","UT",NA,NA,NA,NA,NA
+"UINTA","WY",NA,NA,NA,NA,NA
+"TYLER","TX",NA,NA,NA,NA,NA
+"TYLER","WV",NA,NA,NA,NA,NA
+"TWIN FALLS","ID",15,16.6,"Worse Than National",NA,NA
+"TUSCOLA","MI",NA,NA,NA,NA,NA
+"TUSCARAWAS","OH",14.5,17,NA,NA,NA
+"TUSCALOOSA","AL",16.2,18.7,"Worse Than National","Worse Than National","Worse Than National"
+"TURNER","SD",NA,NA,NA,NA,NA
+"TUOLUMNE","CA",14.9,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"TULSA","OK",13.74,16.88,NA,NA,NA
+"TULARE","CA",14.2333333333333,16.9666666666667,NA,NA,NA
+"TRUMBULL","OH",14.35,17.05,NA,NA,NA
+"TROUSDALE","TN",NA,NA,NA,NA,NA
+"TROUP","GA",14.2,17.7,NA,"Worse Than National",NA
+"TRIPP","SD",NA,NA,NA,NA,NA
+"TRINITY","CA",NA,NA,NA,NA,NA
+"TRINITY","TX",NA,NA,NA,NA,NA
+"TRIGG","KY",NA,NA,NA,NA,NA
+"TREMPEALEAU","WI",NA,NA,NA,NA,NA
+"TREGO","KS",NA,NA,NA,NA,NA
+"TRAVIS","TX",14.36,16.86,NA,NA,NA
+"TRAVERSE","MN",NA,NA,NA,NA,NA
+"TRANSYLVANIA","NC",NA,NA,NA,NA,NA
+"TRAILL","ND",NA,NA,NA,NA,NA
+"TOWNS","GA",NA,NA,NA,NA,NA
+"TOWNER","ND",NA,NA,NA,NA,NA
+"TOOMBS","GA",13.6,17.7,NA,"Worse Than National",NA
+"TOOLE","MT",NA,NA,NA,NA,NA
+"TOOELE","UT",NA,NA,NA,NA,NA
+"TOMPKINS","NY",15,16.4,"Worse Than National",NA,NA
+"TOM GREEN","TX",14.15,15.75,NA,"Better Than National",NA
+"TOLLAND","CT",13.5,NA,"Better Than National",NA,NA
+"TODD","MN",NA,NA,NA,NA,NA
+"TODD","SD",NA,NA,NA,NA,NA
+"TITUS","TX",NA,NA,NA,NA,NA
+"TISHOMINGO","MS",NA,NA,NA,NA,NA
+"TIPTON","IN",NA,NA,NA,NA,NA
+"TIPTON","TN",NA,NA,NA,NA,NA
+"TIPPECANOE","IN",14.3,15.2,NA,"Better Than National",NA
+"TIPPAH","MS",NA,NA,NA,NA,NA
+"TIOGA","PA",13.4,17.2,"Better Than National",NA,NA
+"TILLMAN","OK",NA,NA,NA,NA,NA
+"TILLAMOOK","OR",NA,NA,NA,NA,NA
+"TIFT","GA",15.2,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"THURSTON","NE",NA,NA,NA,NA,NA
+"THURSTON","WA",13.9,16,NA,"Better Than National",NA
+"THROCKMORTON","TX",NA,NA,NA,NA,NA
+"THOMAS","GA",12.8,17.3,"Better Than National","Worse Than National",NA
+"THOMAS","KS",NA,NA,NA,NA,NA
+"THAYER","NE",NA,NA,NA,NA,NA
+"TEXAS","MO",NA,NA,NA,NA,NA
+"TEXAS","OK",NA,NA,NA,NA,NA
+"TETON","ID",NA,NA,NA,NA,NA
+"TETON","MT",NA,NA,NA,NA,NA
+"TETON","WY",NA,NA,NA,NA,NA
+"TERRY","TX",NA,NA,NA,NA,NA
+"TERREBONNE","LA",14.05,16.2,NA,"Better Than National",NA
+"TELLER","CO",NA,NA,NA,NA,NA
+"TEHAMA","CA",NA,NA,NA,NA,NA
+"TAZEWELL","IL",14.6,18.3,NA,"Worse Than National",NA
+"TAZEWELL","VA",13.7,16.6,NA,NA,NA
+"TAYLOR","FL",NA,NA,NA,NA,NA
+"TAYLOR","KY",14.1,17.2,NA,NA,NA
+"TAYLOR","TX",15,16.05,"Worse Than National","Better Than National",NA
+"TAYLOR","WI",NA,NA,NA,NA,NA
+"TAYLOR","WV",NA,NA,NA,NA,NA
+"TATTNALL","GA",NA,NA,NA,NA,NA
+"TATE","MS",NA,NA,NA,NA,NA
+"TARRANT","TX",14.475,16.4666666666667,NA,NA,NA
+"TAOS","NM",NA,NA,NA,NA,NA
+"TANGIPAHOA","LA",13.4,17.3,"Better Than National","Worse Than National",NA
+"TANEY","MO",12.9,16,"Better Than National","Better Than National","Better Than National"
+"TALLAPOOSA","AL",14.7,16,NA,"Better Than National",NA
+"TALLAHATCHIE","MS",NA,NA,NA,NA,NA
+"TALLADEGA","AL",14.2,16.3,NA,"Better Than National",NA
+"TALBOT","MD",NA,NA,NA,NA,NA
+"SWISHER","TX",NA,NA,NA,NA,NA
+"SWIFT","MN",NA,NA,NA,NA,NA
+"SWEETWATER","WY",14.6,NA,NA,NA,NA
+"SWEET GRASS","MT",NA,NA,NA,NA,NA
+"SWAIN","NC",NA,NA,NA,NA,NA
+"SUWANNEE","FL",14.2,16.2,NA,"Better Than National",NA
+"SUTTON","TX",NA,NA,NA,NA,NA
+"SUTTER","CA",NA,NA,NA,NA,NA
+"SUSSEX","DE",13.2666666666667,16.7,"Better Than National",NA,NA
+"SUSSEX","NJ",16.7,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"SUSQUEHANNA","PA",NA,NA,NA,NA,NA
+"SURRY","NC",13.6,16.8,NA,NA,NA
+"SUNFLOWER","MS",NA,NA,NA,NA,NA
+"SUMTER","AL",NA,NA,NA,NA,NA
+"SUMTER","FL",12.8,16.6,"Better Than National",NA,NA
+"SUMTER","GA",16.2,NA,"Worse Than National",NA,NA
+"SUMTER","SC",14.5,18.1,NA,"Worse Than National",NA
+"SUMNER","KS",NA,NA,NA,NA,NA
+"SUMNER","TN",14.85,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"SUMMIT","CO",NA,NA,NA,NA,NA
+"SUMMIT","OH",14.35,17.3,NA,NA,NA
+"SUMMIT","UT",NA,NA,NA,NA,NA
+"SUMMERS","WV",NA,NA,NA,NA,NA
+"SULLIVAN","IN",15.3,NA,"Worse Than National",NA,NA
+"SULLIVAN","MO",NA,NA,NA,NA,NA
+"SULLIVAN","NH",NA,NA,NA,NA,NA
+"SULLIVAN","NY",13.3,18.9,"Better Than National","Worse Than National",NA
+"SULLIVAN","TN",13.3666666666667,16.6,"Better Than National",NA,NA
+"SUFFOLK CITY","VA",14.7,16.7,NA,NA,NA
+"SUFFOLK","MA",13.3571428571429,18.0428571428571,"Better Than National","Worse Than National",NA
+"SUFFOLK","NY",12.5909090909091,17.0888888888889,"Better Than National",NA,NA
+"STUTSMAN","ND",NA,NA,NA,NA,NA
+"STRAFFORD","NH",14.95,16.1,"Worse Than National","Better Than National",NA
+"STORY","IA",14.2,15.8,NA,"Better Than National",NA
+"STONEWALL","TX",NA,NA,NA,NA,NA
+"STONE","AR",NA,NA,NA,NA,NA
+"STONE","MS",NA,NA,NA,NA,NA
+"STOKES","NC",NA,NA,NA,NA,NA
+"STODDARD","MO",NA,NA,NA,NA,NA
+"STILLWATER","MT",NA,NA,NA,NA,NA
+"STEVENS","KS",NA,NA,NA,NA,NA
+"STEVENS","MN",NA,NA,NA,NA,NA
+"STEVENS","WA",14,NA,NA,NA,NA
+"STEUBEN","IN",NA,NA,NA,NA,NA
+"STEUBEN","NY",13.55,16.6,NA,NA,NA
+"STEPHENSON","IL",15.9,16.5,"Worse Than National",NA,NA
+"STEPHENS","GA",13.4,16.7,"Better Than National",NA,NA
+"STEPHENS","OK",16.1,NA,"Worse Than National",NA,NA
+"STEPHENS","TX",NA,NA,NA,NA,NA
+"STEELE","MN",14.1,17.1,NA,NA,NA
+"STEARNS","MN",12.7,19.4,"Better Than National","Worse Than National",NA
+"STARR","TX",14.7,17.5,NA,"Worse Than National",NA
+"STARKE","IN",NA,NA,NA,NA,NA
+"STARK","ND",14.8,16.5,NA,NA,NA
+"STARK","OH",13.3,16.3666666666667,"Better Than National",NA,NA
+"STANTON","KS",NA,NA,NA,NA,NA
+"STANLY","NC",14.5,18.8,NA,"Worse Than National",NA
+"STANISLAUS","CA",13.5666666666667,17,NA,NA,NA
+"STAFFORD","KS",NA,NA,NA,NA,NA
+"STAFFORD","VA",12.8,16.6,"Better Than National",NA,NA
+"ST JOSEPH","IN",16.45,16.4,"Worse Than National",NA,NA
+"SPOTSYLVANIA","VA",15,17.7,"Worse Than National","Worse Than National","Worse Than National"
+"SPOKANE","WA",13.95,15.8666666666667,NA,"Better Than National",NA
+"SPINK","SD",NA,NA,NA,NA,NA
+"SPARTANBURG","SC",15.05,16.55,"Worse Than National",NA,NA
+"SPALDING","GA",16.9,16.4,"Worse Than National",NA,NA
+"SONOMA","CA",13.6,15.7,NA,"Better Than National",NA
+"SOMERVELL","TX",NA,NA,NA,NA,NA
+"SOMERSET","MD",NA,NA,NA,NA,NA
+"SOMERSET","ME",15,16.8,"Worse Than National",NA,NA
+"SOMERSET","NJ",16.1,19.2,"Worse Than National","Worse Than National","Worse Than National"
+"SOMERSET","PA",14.3,16.8,NA,NA,NA
+"SOLANO","CA",14.1,17.15,NA,NA,NA
+"SOCORRO","NM",NA,NA,NA,NA,NA
+"SNOHOMISH","WA",14.75,16.75,NA,NA,NA
+"SMYTH","VA",14.8,16.9,NA,NA,NA
+"SMITH","KS",NA,NA,NA,NA,NA
+"SMITH","MS",NA,NA,NA,NA,NA
+"SMITH","TN",NA,NA,NA,NA,NA
+"SMITH","TX",14.6,16.9666666666667,NA,NA,NA
+"SKAGIT","WA",13.6,16.25,NA,"Better Than National",NA
+"SITKA","AK",NA,NA,NA,NA,NA
+"SISKIYOU","CA",NA,NA,NA,NA,NA
+"SIOUX","IA",NA,NA,NA,NA,NA
+"SIOUX","ND",NA,NA,NA,NA,NA
+"SIMPSON","KY",NA,NA,NA,NA,NA
+"SIMPSON","MS",NA,NA,NA,NA,NA
+"SILVER BOW","MT",12.6,16.7,"Better Than National",NA,NA
+"SIERRA","NM",NA,NA,NA,NA,NA
+"SIBLEY","MN",NA,NA,NA,NA,NA
+"SHOSHONE","ID",NA,NA,NA,NA,NA
+"SHIAWASSEE","MI",15.7,NA,"Worse Than National",NA,NA
+"SHERMAN","KS",NA,NA,NA,NA,NA
+"SHERIDAN","KS",NA,NA,NA,NA,NA
+"SHERIDAN","MT",NA,NA,NA,NA,NA
+"SHERIDAN","NE",NA,NA,NA,NA,NA
+"SHERIDAN","WY",15,16,"Worse Than National","Better Than National",NA
+"SHERBURNE","MN",NA,NA,NA,NA,NA
+"SHENANDOAH","VA",NA,NA,NA,NA,NA
+"SHELBY","AL",14.7,17.7,NA,"Worse Than National",NA
+"SHELBY","IA",NA,NA,NA,NA,NA
+"SHELBY","IL",NA,NA,NA,NA,NA
+"SHELBY","IN",14,NA,NA,NA,NA
+"SHELBY","KY",15.6,NA,"Worse Than National",NA,NA
+"SHELBY","OH",14.5,NA,NA,NA,NA
+"SHELBY","TN",14.825,16.7,"Worse Than National",NA,NA
+"SHEBOYGAN","WI",14.95,16,"Worse Than National","Better Than National",NA
+"SHAWNEE","KS",14.1,16.75,NA,NA,NA
+"SHAWANO","WI",NA,NA,NA,NA,NA
+"SHASTA","CA",15.45,16.6,"Worse Than National",NA,NA
+"SHARKEY","MS",NA,NA,NA,NA,NA
+"SEWARD","KS",NA,NA,NA,NA,NA
+"SEWARD","NE",NA,NA,NA,NA,NA
+"SEVIER","AR",NA,NA,NA,NA,NA
+"SEVIER","UT",NA,NA,NA,NA,NA
+"SEQUOYAH","OK",NA,NA,NA,NA,NA
+"SENECA","OH",NA,NA,NA,NA,NA
+"SEMINOLE","FL",11.9,18.1,"Better Than National","Worse Than National",NA
+"SEMINOLE","GA",NA,NA,NA,NA,NA
+"SEMINOLE","OK",NA,NA,NA,NA,NA
+"SEDGWICK","CO",NA,NA,NA,NA,NA
+"SEDGWICK","KS",13.4666666666667,15.4666666666667,"Better Than National","Better Than National","Better Than National"
+"SEBASTIAN","AR",14.55,18.35,NA,"Worse Than National",NA
+"SCURRY","TX",NA,NA,NA,NA,NA
+"SCREVEN","GA",NA,NA,NA,NA,NA
+"SCOTTS BLUFF","NE",16.5,17.7,"Worse Than National","Worse Than National","Worse Than National"
+"SCOTT","AR",NA,NA,NA,NA,NA
+"SCOTT","IA",13.75,16.15,NA,"Better Than National",NA
+"SCOTT","IN",NA,NA,NA,NA,NA
+"SCOTT","KS",NA,NA,NA,NA,NA
+"SCOTT","KY",NA,NA,NA,NA,NA
+"SCOTT","MN",NA,NA,NA,NA,NA
+"SCOTT","MS",NA,NA,NA,NA,NA
+"SCOTT","TN",NA,NA,NA,NA,NA
+"SCOTLAND","MO",NA,NA,NA,NA,NA
+"SCOTLAND","NC",12.1,18.1,"Better Than National","Worse Than National",NA
+"SCIOTO","OH",13.4,18.6,"Better Than National","Worse Than National",NA
+"SCHUYLKILL","PA",14.5333333333333,17.05,NA,NA,NA
+"SCHUYLER","IL",NA,NA,NA,NA,NA
+"SCHUYLER","NY",NA,NA,NA,NA,NA
+"SCHOOLCRAFT","MI",NA,NA,NA,NA,NA
+"SCHOHARIE","NY",NA,NA,NA,NA,NA
+"SCHLEICHER","TX",NA,NA,NA,NA,NA
+"SCHENECTADY","NY",15.1,14.4,"Worse Than National","Better Than National",NA
+"SAWYER","WI",NA,NA,NA,NA,NA
+"SAUNDERS","NE",NA,NA,NA,NA,NA
+"SAUK","WI",NA,NA,NA,NA,NA
+"SARPY","NE",14.35,16.85,NA,NA,NA
+"SARATOGA","NY",13.8,16.3,NA,"Better Than National",NA
+"SARASOTA","FL",13.225,15.625,"Better Than National","Better Than National","Better Than National"
+"SANTA ROSA","FL",12.95,NA,"Better Than National",NA,NA
+"SANTA FE","NM",14.1,16,NA,"Better Than National",NA
+"SANTA CRUZ","AZ",NA,NA,NA,NA,NA
+"SANTA CRUZ","CA",14,14.8,NA,"Better Than National",NA
+"SANTA CLARA","CA",14.4125,17.3222222222222,NA,"Worse Than National",NA
+"SANTA BARBARA","CA",12.85,16.9,"Better Than National",NA,NA
+"SANPETE","UT",NA,NA,NA,NA,NA
+"SANILAC","MI",NA,NA,NA,NA,NA
+"SANGAMON","IL",13.85,16.25,NA,"Better Than National",NA
+"SANDUSKY","OH",14.4,16.5,NA,NA,NA
+"SANDOVAL","NM",NA,NA,NA,NA,NA
+"SANDERS","MT",NA,NA,NA,NA,NA
+"SAN PATRICIO","TX",NA,NA,NA,NA,NA
+"SAN MIGUEL","NM",NA,NA,NA,NA,NA
+"SAN MATEO","CA",13.4666666666667,16.1333333333333,"Better Than National","Better Than National","Better Than National"
+"SAN LUIS OBISPO","CA",15.4,15.5,"Worse Than National","Better Than National",NA
+"SAN JUAN","NM",15,16.9,"Worse Than National",NA,NA
+"SAN JUAN","PR",14.62,17.275,NA,NA,NA
+"SAN JUAN","UT",NA,NA,NA,NA,NA
+"SAN JUAN","WA",NA,NA,NA,NA,NA
+"SAN JOAQUIN","CA",13.5333333333333,16.78,NA,NA,NA
+"SAN GERMAN","PR",15.8,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"SAN FRANCISCO","CA",13.7142857142857,17.45,NA,"Worse Than National",NA
+"SAN DIEGO","CA",13.7384615384615,16.2076923076923,NA,"Better Than National",NA
+"SAN BERNARDINO","CA",13.6222222222222,17.1,NA,NA,NA
+"SAN BENITO","CA",12.9,17.1,"Better Than National",NA,NA
+"SAN AUGUSTINE","TX",NA,NA,NA,NA,NA
+"SAMPSON","NC",14.4,NA,NA,NA,NA
+"SALT LAKE","UT",13.78,16.1,NA,"Better Than National",NA
+"SALINE","AR",14.3,17.1,NA,NA,NA
+"SALINE","IL",NA,NA,NA,NA,NA
+"SALINE","KS",13.9,17,NA,NA,NA
+"SALINE","MO",NA,NA,NA,NA,NA
+"SALINE","NE",NA,NA,NA,NA,NA
+"SALEM","NJ",13.25,16.95,"Better Than National",NA,NA
+"SALEM","VA",14.4,17.7,NA,"Worse Than National",NA
+"SAINTE GENEVIEVE","MO",NA,NA,NA,NA,NA
+"SAINT TAMMANY","LA",13.12,17,"Better Than National",NA,NA
+"SAINT MARYS","MD",NA,NA,NA,NA,NA
+"SAINT MARY","LA",15.4,16,"Worse Than National","Better Than National",NA
+"SAINT MARTIN","LA",NA,NA,NA,NA,NA
+"SAINT LUCIE","FL",13.25,19,"Better Than National","Worse Than National",NA
+"SAINT LOUIS CITY","MO",14,18.55,NA,"Worse Than National",NA
+"SAINT LOUIS","MN",13.05,17.4,"Better Than National","Worse Than National",NA
+"SAINT LOUIS","MO",14.0125,17.1875,NA,NA,NA
+"SAINT LAWRENCE","NY",14.5666666666667,16.5666666666667,NA,NA,NA
+"SAINT LANDRY","LA",14.7,16,NA,"Better Than National",NA
+"SAINT JOSEPH","MI",NA,NA,NA,NA,NA
+"SAINT JOHNS","FL",13.1,16.9,"Better Than National",NA,NA
+"SAINT JAMES","LA",NA,NA,NA,NA,NA
+"SAINT HELENA","LA",NA,NA,NA,NA,NA
+"SAINT FRANCOIS","MO",15.2,NA,"Worse Than National",NA,NA
+"SAINT FRANCIS","AR",NA,NA,NA,NA,NA
+"SAINT CROIX","WI",NA,NA,NA,NA,NA
+"SAINT CLAIR","AL",13.6,NA,NA,NA,NA
+"SAINT CLAIR","IL",12.6,17.55,"Better Than National","Worse Than National",NA
+"SAINT CLAIR","MI",14.3666666666667,16.6,NA,NA,NA
+"SAINT CLAIR","MO",NA,NA,NA,NA,NA
+"SAINT CHARLES","LA",NA,NA,NA,NA,NA
+"SAINT CHARLES","MO",13.7,17.325,NA,"Worse Than National",NA
+"SAINT BERNARD","LA",NA,NA,NA,NA,NA
+"SAGINAW","MI",14,18.15,NA,"Worse Than National",NA
+"SACRAMENTO","CA",13.8666666666667,17.1833333333333,NA,NA,NA
+"SAC","IA",NA,NA,NA,NA,NA
+"SABINE","LA",NA,NA,NA,NA,NA
+"SABINE","TX",NA,NA,NA,NA,NA
+"RUTLAND","VT",13.5,16.7,"Better Than National",NA,NA
+"RUTHERFORD","NC",15.4,15.6,"Worse Than National","Better Than National",NA
+"RUTHERFORD","TN",15,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"RUSSELL","AL",NA,NA,NA,NA,NA
+"RUSSELL","KS",NA,NA,NA,NA,NA
+"RUSSELL","KY",NA,NA,NA,NA,NA
+"RUSSELL","VA",14.6,NA,NA,NA,NA
+"RUSK","TX",NA,NA,NA,NA,NA
+"RUSK","WI",NA,NA,NA,NA,NA
+"RUSH","IN",NA,NA,NA,NA,NA
+"RUSH","KS",NA,NA,NA,NA,NA
+"RUNNELS","TX",NA,NA,NA,NA,NA
+"ROWAN","KY",13.8,17.6,NA,"Worse Than National",NA
+"ROWAN","NC",14,16.8,NA,NA,NA
+"ROUTT","CO",NA,NA,NA,NA,NA
+"ROSS","OH",15.2,17.2,"Worse Than National",NA,NA
+"ROSEBUD","MT",NA,NA,NA,NA,NA
+"ROSEAU","MN",NA,NA,NA,NA,NA
+"ROOSEVELT","MT",NA,NA,NA,NA,NA
+"ROOSEVELT","NM",13.9,NA,NA,NA,NA
+"ROOKS","KS",NA,NA,NA,NA,NA
+"ROLETTE","ND",NA,NA,NA,NA,NA
+"ROGERS","OK",14.7,NA,NA,NA,NA
+"ROGER MILLS","OK",NA,NA,NA,NA,NA
+"ROCKWALL","TX",NA,NA,NA,NA,NA
+"ROCKLAND","NY",13.1,17.55,"Better Than National","Worse Than National",NA
+"ROCKINGHAM","NC",13.8,16.9,NA,NA,NA
+"ROCKINGHAM","NH",15.0333333333333,16.9666666666667,"Worse Than National",NA,NA
+"ROCKDALE","GA",14.1,16.3,NA,"Better Than National",NA
+"ROCKCASTLE","KY",NA,NA,NA,NA,NA
+"ROCK ISLAND","IL",13.2,16.2,"Better Than National","Better Than National","Better Than National"
+"ROCK","MN",NA,NA,NA,NA,NA
+"ROCK","NE",NA,NA,NA,NA,NA
+"ROCK","WI",16,16.9,"Worse Than National",NA,NA
+"ROBESON","NC",13.3,18.3,"Better Than National","Worse Than National",NA
+"ROBERTSON","TN",13.8,15.7,NA,"Better Than National",NA
+"ROBERTS","SD",NA,NA,NA,NA,NA
+"ROANOKE CITY","VA",12.7,17.4,"Better Than National","Worse Than National",NA
+"ROANE","TN",NA,NA,NA,NA,NA
+"ROANE","WV",NA,NA,NA,NA,NA
+"RIVERSIDE","CA",14.525,17.04,NA,NA,NA
+"RIPLEY","IN",NA,NA,NA,NA,NA
+"RIPLEY","MO",NA,NA,NA,NA,NA
+"RIO GRANDE","CO",NA,NA,NA,NA,NA
+"RIO BLANCO","CO",NA,NA,NA,NA,NA
+"RIO ARRIBA","NM",NA,NA,NA,NA,NA
+"RINGGOLD","IA",NA,NA,NA,NA,NA
+"RILEY","KS",13.1,15.5,"Better Than National","Better Than National","Better Than National"
+"RICHMOND CITY","VA",15,15.6,"Worse Than National","Better Than National",NA
+"RICHMOND","GA",14.975,17.725,"Worse Than National","Worse Than National","Worse Than National"
+"RICHMOND","NC",13.9,NA,NA,NA,NA
+"RICHMOND","NY",13.85,17.35,NA,"Worse Than National",NA
+"RICHLAND","IL",14,NA,NA,NA,NA
+"RICHLAND","LA",NA,NA,NA,NA,NA
+"RICHLAND","MT",NA,NA,NA,NA,NA
+"RICHLAND","OH",14.2,17.4,NA,"Worse Than National",NA
+"RICHLAND","SC",13.6,16.4,NA,NA,NA
+"RICHLAND","WI",14.2,NA,NA,NA,NA
+"RICHARDSON","NE",NA,NA,NA,NA,NA
+"RICE","KS",NA,NA,NA,NA,NA
+"RICE","MN",NA,NA,NA,NA,NA
+"RHEA","TN",NA,NA,NA,NA,NA
+"REYNOLDS","MO",NA,NA,NA,NA,NA
+"REPUBLIC","KS",NA,NA,NA,NA,NA
+"RENVILLE","MN",NA,NA,NA,NA,NA
+"RENSSELAER","NY",15.75,16.5,"Worse Than National",NA,NA
+"RENO","KS",15.9,16.2,"Worse Than National","Better Than National",NA
+"REFUGIO","TX",NA,NA,NA,NA,NA
+"REEVES","TX",NA,NA,NA,NA,NA
+"REDWOOD","MN",NA,NA,NA,NA,NA
+"RED WILLOW","NE",NA,NA,NA,NA,NA
+"RED RIVER","LA",NA,NA,NA,NA,NA
+"REAGAN","TX",NA,NA,NA,NA,NA
+"RAY","MO",NA,NA,NA,NA,NA
+"RAWLINS","KS",NA,NA,NA,NA,NA
+"RAVALLI","MT",NA,NA,NA,NA,NA
+"RAPIDES","LA",14.9,17.05,"Worse Than National",NA,NA
+"RANSOM","ND",NA,NA,NA,NA,NA
+"RANKIN","MS",NA,NA,NA,NA,NA
+"RANDOLPH","AL",NA,NA,NA,NA,NA
+"RANDOLPH","AR",NA,NA,NA,NA,NA
+"RANDOLPH","GA",NA,NA,NA,NA,NA
+"RANDOLPH","IL",NA,NA,NA,NA,NA
+"RANDOLPH","IN",NA,NA,NA,NA,NA
+"RANDOLPH","MO",14.1,17,NA,NA,NA
+"RANDOLPH","NC",15,16.5,"Worse Than National",NA,NA
+"RANDOLPH","WV",14.5,16.6,NA,NA,NA
+"RAMSEY","MN",14.025,16.5666666666667,NA,NA,NA
+"RAMSEY","ND",NA,NA,NA,NA,NA
+"RALEIGH","WV",13.9,19,NA,"Worse Than National",NA
+"RACINE","WI",14.05,16.9,NA,NA,NA
+"RABUN","GA",NA,NA,NA,NA,NA
+"QUITMAN","MS",NA,NA,NA,NA,NA
+"QUEENS","NY",14.825,17.6,"Worse Than National","Worse Than National","Worse Than National"
+"QUAY","NM",NA,NA,NA,NA,NA
+"PUTNAM","FL",15.7,15.3,"Worse Than National","Better Than National",NA
+"PUTNAM","GA",NA,NA,NA,NA,NA
+"PUTNAM","IN",NA,NA,NA,NA,NA
+"PUTNAM","MO",NA,NA,NA,NA,NA
+"PUTNAM","NY",12.5,16.5,"Better Than National",NA,NA
+"PUTNAM","TN",12.2,17.7,"Better Than National","Worse Than National",NA
+"PUSHMATAHA","OK",NA,NA,NA,NA,NA
+"PULASKI","AR",14.08,16.96,NA,NA,NA
+"PULASKI","GA",NA,NA,NA,NA,NA
+"PULASKI","IN",NA,NA,NA,NA,NA
+"PULASKI","KY",16.5,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"PULASKI","VA",13.3,16.8,"Better Than National",NA,NA
+"PUEBLO","CO",14.2,15.65,NA,"Better Than National",NA
+"PROWERS","CO",NA,NA,NA,NA,NA
+"PROVIDENCE","RI",12.3333333333333,17.2333333333333,"Better Than National",NA,NA
+"PRINCE WILLIAM","VA",15,18,"Worse Than National","Worse Than National","Worse Than National"
+"PRINCE GEORGES","MD",NA,NA,NA,NA,NA
+"PRINCE EDWARD","VA",13.5,16.4,"Better Than National",NA,NA
+"PRICE","WI",NA,NA,NA,NA,NA
+"PRESTON","WV",NA,NA,NA,NA,NA
+"PRENTISS","MS",NA,NA,NA,NA,NA
+"PRATT","KS",NA,NA,NA,NA,NA
+"PRAIRIE","MT",NA,NA,NA,NA,NA
+"POWESHIEK","IA",NA,NA,NA,NA,NA
+"POWER","ID",NA,NA,NA,NA,NA
+"POWELL","MT",NA,NA,NA,NA,NA
+"POTTER","PA",13.7,16.6,NA,NA,NA
+"POTTER","SD",NA,NA,NA,NA,NA
+"POTTER","TX",13.3,15.75,"Better Than National","Better Than National","Better Than National"
+"POTTAWATTAMIE","IA",13.05,16.1,"Better Than National","Better Than National","Better Than National"
+"POTTAWATOMIE","KS",NA,NA,NA,NA,NA
+"POTTAWATOMIE","OK",14.8,17.2,NA,NA,NA
+"PORTSMOUTH CITY","VA",14.2,16.2,NA,"Better Than National",NA
+"PORTER","IN",13.6,15.5,NA,"Better Than National",NA
+"PORTAGE","OH",14,16.9,NA,NA,NA
+"PORTAGE","WI",14.6,16.3,NA,"Better Than National",NA
+"POPE","AR",15.5,17.6,"Worse Than National","Worse Than National","Worse Than National"
+"POPE","MN",NA,NA,NA,NA,NA
+"PONTOTOC","MS",NA,NA,NA,NA,NA
+"PONTOTOC","OK",13.5,16.8,"Better Than National",NA,NA
+"PONDERA","MT",NA,NA,NA,NA,NA
+"PONCE","PR",14.65,18.1,NA,"Worse Than National",NA
+"POLK","AR",15.7,NA,"Worse Than National",NA,NA
+"POLK","FL",14.65,18.5,NA,"Worse Than National",NA
+"POLK","GA",NA,NA,NA,NA,NA
+"POLK","IA",15.7666666666667,16.4,"Worse Than National",NA,NA
+"POLK","MN",NA,NA,NA,NA,NA
+"POLK","MO",14.5,17.4,NA,"Worse Than National",NA
+"POLK","NC",NA,NA,NA,NA,NA
+"POLK","NE",NA,NA,NA,NA,NA
+"POLK","OR",NA,NA,NA,NA,NA
+"POLK","TN",NA,NA,NA,NA,NA
+"POLK","TX",NA,NA,NA,NA,NA
+"POLK","WI",NA,NA,NA,NA,NA
+"POINTE COUPEE","LA",NA,NA,NA,NA,NA
+"POCAHONTAS","IA",NA,NA,NA,NA,NA
+"POCAHONTAS","WV",NA,NA,NA,NA,NA
+"PLYMOUTH","IA",NA,NA,NA,NA,NA
+"PLYMOUTH","MA",14.6666666666667,17.0333333333333,NA,NA,NA
+"PLUMAS","CA",NA,NA,NA,NA,NA
+"PLATTE","MO",13.5,17.5,"Better Than National","Worse Than National",NA
+"PLATTE","NE",16.1,NA,"Worse Than National",NA,NA
+"PLATTE","WY",NA,NA,NA,NA,NA
+"PLACER","CA",14.55,15.2,NA,"Better Than National",NA
+"PITTSBURG","OK",13.4,18,"Better Than National","Worse Than National",NA
+"PITT","NC",13,19.2,"Better Than National","Worse Than National",NA
+"PITKIN","CO",NA,NA,NA,NA,NA
+"PISCATAQUIS","ME",14.2,NA,NA,NA,NA
+"PIPESTONE","MN",NA,NA,NA,NA,NA
+"PINELLAS","FL",13.79,16.6444444444444,NA,NA,NA
+"PINE","MN",NA,NA,NA,NA,NA
+"PINAL","AZ",14.4,16.2,NA,"Better Than National",NA
+"PIMA","AZ",14.2285714285714,16.9,NA,NA,NA
+"PIKE","AL",NA,NA,NA,NA,NA
+"PIKE","IL",NA,NA,NA,NA,NA
+"PIKE","KY",13.8,18.1,NA,"Worse Than National",NA
+"PIKE","MO",NA,NA,NA,NA,NA
+"PIKE","MS",15.4,18,"Worse Than National","Worse Than National","Worse Than National"
+"PIKE","OH",NA,NA,NA,NA,NA
+"PIERCE","ND",NA,NA,NA,NA,NA
+"PIERCE","NE",NA,NA,NA,NA,NA
+"PIERCE","WA",14.2,17.525,NA,"Worse Than National",NA
+"PIERCE","WI",NA,NA,NA,NA,NA
+"PICKENS","AL",NA,NA,NA,NA,NA
+"PICKENS","GA",14.4,17.4,NA,"Worse Than National",NA
+"PICKENS","SC",14.7,16.7,NA,NA,NA
+"PICKAWAY","OH",12.9,16.2,"Better Than National","Better Than National","Better Than National"
+"PIATT","IL",NA,NA,NA,NA,NA
+"PHILLIPS","AR",13.6,NA,NA,NA,NA
+"PHILLIPS","CO",NA,NA,NA,NA,NA
+"PHILLIPS","KS",NA,NA,NA,NA,NA
+"PHILLIPS","MT",NA,NA,NA,NA,NA
+"PHILADELPHIA","PA",13.5333333333333,17.1416666666667,NA,NA,NA
+"PHELPS","MO",14.4,15.8,NA,"Better Than National",NA
+"PHELPS","NE",NA,NA,NA,NA,NA
+"PETTIS","MO",13.6,16.9,NA,NA,NA
+"PETERSBURG CITY","VA",15.9,18.9,"Worse Than National","Worse Than National","Worse Than National"
+"PERSON","NC",14.5,NA,NA,NA,NA
+"PERSHING","NV",NA,NA,NA,NA,NA
+"PERRY","IL",NA,NA,NA,NA,NA
+"PERRY","IN",NA,NA,NA,NA,NA
+"PERRY","KY",17.7,18.8,"Worse Than National","Worse Than National","Worse Than National"
+"PERRY","MO",NA,NA,NA,NA,NA
+"PERRY","MS",NA,NA,NA,NA,NA
+"PERRY","TN",NA,NA,NA,NA,NA
+"PERKINS","NE",NA,NA,NA,NA,NA
+"PEPIN","WI",NA,NA,NA,NA,NA
+"PEORIA","IL",14.5666666666667,16.4,NA,NA,NA
+"PENOBSCOT","ME",14.8,16.65,NA,NA,NA
+"PENNINGTON","MN",NA,NA,NA,NA,NA
+"PENNINGTON","SD",13.3,17.6,"Better Than National","Worse Than National",NA
+"PENDER","NC",NA,NA,NA,NA,NA
+"PEND OREILLE","WA",NA,NA,NA,NA,NA
+"PEMISCOT","MO",NA,NA,NA,NA,NA
+"PEMBINA","ND",NA,NA,NA,NA,NA
+"PECOS","TX",NA,NA,NA,NA,NA
+"PEARL RIVER","MS",NA,NA,NA,NA,NA
+"PEACH","GA",NA,NA,NA,NA,NA
+"PAYNE","OK",13.1,16.2,"Better Than National","Better Than National","Better Than National"
+"PAWNEE","KS",NA,NA,NA,NA,NA
+"PAWNEE","NE",NA,NA,NA,NA,NA
+"PAWNEE","OK",NA,NA,NA,NA,NA
+"PAULDING","GA",NA,NA,NA,NA,NA
+"PAULDING","OH",NA,NA,NA,NA,NA
+"PATRICK","VA",NA,NA,NA,NA,NA
+"PASSAIC","NJ",15.2,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"PASQUOTANK","NC",14.9,15.4,"Worse Than National","Better Than National",NA
+"PASCO","FL",14,17.6166666666667,NA,"Worse Than National",NA
+"PARMER","TX",NA,NA,NA,NA,NA
+"PARKER","TX",14.2,16.8,NA,NA,NA
+"PARK","MT",NA,NA,NA,NA,NA
+"PARK","WY",NA,NA,NA,NA,NA
+"PANOLA","MS",NA,NA,NA,NA,NA
+"PANOLA","TX",NA,NA,NA,NA,NA
+"PALO PINTO","TX",NA,NA,NA,NA,NA
+"PALO ALTO","IA",NA,NA,NA,NA,NA
+"PALM BEACH","FL",14.1916666666667,17.3909090909091,NA,"Worse Than National",NA
+"PAGE","IA",NA,NA,NA,NA,NA
+"PAGE","VA",NA,NA,NA,NA,NA
+"PACIFIC","WA",NA,NA,NA,NA,NA
+"OZAUKEE","WI",12.7,16.8,"Better Than National",NA,NA
+"OXFORD","ME",15,NA,"Worse Than National",NA,NA
+"OWEN","KY",NA,NA,NA,NA,NA
+"OVERTON","TN",NA,NA,NA,NA,NA
+"OUTAGAMIE","WI",15.25,15.25,"Worse Than National","Better Than National",NA
+"OUACHITA","AR",NA,NA,NA,NA,NA
+"OUACHITA","LA",13.8,17.75,NA,"Worse Than National",NA
+"OTTER TAIL","MN",14.2,16.3,NA,"Better Than National",NA
+"OTTAWA","KS",NA,NA,NA,NA,NA
+"OTTAWA","MI",13.3,15.8,"Better Than National","Better Than National","Better Than National"
+"OTTAWA","OH",NA,NA,NA,NA,NA
+"OTTAWA","OK",NA,NA,NA,NA,NA
+"OTSEGO","MI",14.2,NA,NA,NA,NA
+"OTSEGO","NY",12.85,17.2,"Better Than National",NA,NA
+"OTOE","NE",NA,NA,NA,NA,NA
+"OTERO","CO",14.6,NA,NA,NA,NA
+"OTERO","NM",16.5,NA,"Worse Than National",NA,NA
+"OSWEGO","NY",14.4,17.5,NA,"Worse Than National",NA
+"OSCEOLA","FL",13.35,17.65,"Better Than National","Worse Than National",NA
+"OSCEOLA","IA",NA,NA,NA,NA,NA
+"OSCEOLA","MI",NA,NA,NA,NA,NA
+"OSBORNE","KS",NA,NA,NA,NA,NA
+"OSAGE","OK",16.1,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"ORLEANS","LA",14.6666666666667,16.9,NA,NA,NA
+"ORLEANS","NY",13.8,17,NA,NA,NA
+"ORLEANS","VT",13.6,NA,NA,NA,NA
+"ORANGEBURG","SC",13.2,17.1,"Better Than National",NA,NA
+"ORANGE","CA",13.575,16.53125,NA,NA,NA
+"ORANGE","FL",14.9,16.8,"Worse Than National",NA,NA
+"ORANGE","IN",NA,NA,NA,NA,NA
+"ORANGE","NC",12.8,18.5,"Better Than National","Worse Than National",NA
+"ORANGE","NY",13.5,17,"Better Than National",NA,NA
+"ORANGE","VT",14.4,NA,NA,NA,NA
+"ONTONAGON","MI",NA,NA,NA,NA,NA
+"ONTARIO","NY",15.65,16.5,"Worse Than National",NA,NA
+"ONSLOW","NC",13.2,16.4,"Better Than National",NA,NA
+"ONONDAGA","NY",13.9,15.9,NA,"Better Than National",NA
+"ONEIDA","ID",NA,NA,NA,NA,NA
+"ONEIDA","NY",15.2,16.4666666666667,"Worse Than National",NA,NA
+"ONEIDA","WI",13,16.9,"Better Than National",NA,NA
+"OLMSTED","MN",11.6,15.1,"Better Than National","Better Than National","Better Than National"
+"OLDHAM","KY",NA,NA,NA,NA,NA
+"OKTIBBEHA","MS",NA,NA,NA,NA,NA
+"OKMULGEE","OK",NA,NA,NA,NA,NA
+"OKLAHOMA","OK",14.0777777777778,16.5111111111111,NA,NA,NA
+"OKFUSKEE","OK",NA,NA,NA,NA,NA
+"OKEECHOBEE","FL",11.8,18.4,"Better Than National","Worse Than National",NA
+"OKANOGAN","WA",NA,NA,NA,NA,NA
+"OKALOOSA","FL",13.7333333333333,18.15,NA,"Worse Than National",NA
+"OHIO","KY",NA,NA,NA,NA,NA
+"OHIO","WV",14.6,17.15,NA,NA,NA
+"OGLE","IL",NA,NA,NA,NA,NA
+"OGEMAW","MI",14.8,15.6,NA,"Better Than National",NA
+"OCONTO","WI",NA,NA,NA,NA,NA
+"OCONEE","SC",15.3,16.4,"Worse Than National",NA,NA
+"OCHILTREE","TX",NA,NA,NA,NA,NA
+"OCEANA","MI",NA,NA,NA,NA,NA
+"OCEAN","NJ",14.375,16.825,NA,NA,NA
+"OBRIEN","IA",NA,NA,NA,NA,NA
+"OBION","TN",13.5,NA,"Better Than National",NA,NA
+"OAKLAND","MI",12.4888888888889,17.3333333333333,"Better Than National","Worse Than National",NA
+"NYE","NV",14.3,NA,NA,NA,NA
+"NUECES","TX",14.5,17.15,NA,NA,NA
+"NUCKOLLS","NE",NA,NA,NA,NA,NA
+"NOXUBEE","MS",NA,NA,NA,NA,NA
+"NOWATA","OK",NA,NA,NA,NA,NA
+"NORTON CITY","VA",13.5,NA,"Better Than National",NA,NA
+"NORTON","KS",NA,NA,NA,NA,NA
+"NORTHWEST ARCTIC","AK",NA,NA,NA,NA,NA
+"NORTHUMBERLAND","PA",NA,NA,NA,NA,NA
+"NORTHAMPTON","PA",13.2666666666667,15.8333333333333,"Better Than National","Better Than National","Better Than National"
+"NORTHAMPTON","VA",13.4,17.2,"Better Than National",NA,NA
+"NORMAN","MN",NA,NA,NA,NA,NA
+"NORFOLK CITY","VA",14.4,16.4333333333333,NA,NA,NA
+"NORFOLK","MA",13.975,16.625,NA,NA,NA
+"NOME","AK",NA,NA,NA,NA,NA
+"NOLAN","TX",NA,NA,NA,NA,NA
+"NODAWAY","MO",NA,NA,NA,NA,NA
+"NOBLES","MN",NA,NA,NA,NA,NA
+"NOBLE","IN",NA,NA,NA,NA,NA
+"NOBLE","OK",NA,NA,NA,NA,NA
+"NIOBRARA","WY",NA,NA,NA,NA,NA
+"NICOLLET","MN",NA,NA,NA,NA,NA
+"NICHOLAS","WV",15,NA,"Worse Than National",NA,NA
+"NIAGARA","NY",14.0666666666667,16.35,NA,NA,NA
+"NEZ PERCE","ID",14.1,17.2,NA,NA,NA
+"NEWTON","GA",15.5,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"NEWTON","MO",NA,NA,NA,NA,NA
+"NEWTON","MS",NA,NA,NA,NA,NA
+"NEWPORT NEWS CITY","VA",14.4,17.1,NA,NA,NA
+"NEWPORT","RI",13.1,16.5,"Better Than National",NA,NA
+"NEWBERRY","SC",NA,NA,NA,NA,NA
+"NEWAYGO","MI",NA,NA,NA,NA,NA
+"NEW YORK","NY",12.3,17.6857142857143,"Better Than National","Worse Than National",NA
+"NEW MADRID","MO",14.4,16.7,NA,NA,NA
+"NEW LONDON","CT",13.3,17.05,"Better Than National",NA,NA
+"NEW KENT","VA",NA,NA,NA,NA,NA
+"NEW HAVEN","CT",13.3166666666667,17.35,"Better Than National","Worse Than National",NA
+"NEW HANOVER","NC",13.7,16.1,NA,"Better Than National",NA
+"NEW CASTLE","DE",13.1,17.15,"Better Than National",NA,NA
+"NEVADA","CA",14.4,16.9,NA,NA,NA
+"NESS","KS",NA,NA,NA,NA,NA
+"NESHOBA","MS",NA,NA,NA,NA,NA
+"NEOSHO","KS",NA,NA,NA,NA,NA
+"NEMAHA","KS",NA,NA,NA,NA,NA
+"NEMAHA","NE",NA,NA,NA,NA,NA
+"NELSON","KY",14,16.4,NA,NA,NA
+"NELSON","ND",NA,NA,NA,NA,NA
+"NAVARRO","TX",15,NA,"Worse Than National",NA,NA
+"NAVAJO","AZ",14.2,16,NA,"Better Than National",NA
+"NATRONA","WY",12.9,15.9,"Better Than National","Better Than National","Better Than National"
+"NATCHITOCHES","LA",13.7,NA,NA,NA,NA
+"NASSAU","FL",14.9,NA,"Worse Than National",NA,NA
+"NASSAU","NY",13.73,17.47,NA,"Worse Than National",NA
+"NASH","NC",16.4,18.8,"Worse Than National","Worse Than National","Worse Than National"
+"NAPA","CA",14.05,17.7,NA,"Worse Than National",NA
+"NANTUCKET","MA",NA,NA,NA,NA,NA
+"NANCE","NE",NA,NA,NA,NA,NA
+"NACOGDOCHES","TX",16.1,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"MUSSELSHELL","MT",NA,NA,NA,NA,NA
+"MUSKOGEE","OK",13.2,16.5,"Better Than National",NA,NA
+"MUSKINGUM","OH",12.7,16.1,"Better Than National","Better Than National","Better Than National"
+"MUSKEGON","MI",NA,NA,NA,NA,NA
+"MUSCOGEE","GA",15.75,16.55,"Worse Than National",NA,NA
+"MUSCATINE","IA",NA,NA,NA,NA,NA
+"MURRAY","GA",NA,NA,NA,NA,NA
+"MURRAY","MN",NA,NA,NA,NA,NA
+"MURRAY","OK",NA,NA,NA,NA,NA
+"MULTNOMAH","OR",13.7,16.6666666666667,NA,NA,NA
+"MUHLENBERG","KY",NA,NA,NA,NA,NA
+"MOUNTRAIL","ND",NA,NA,NA,NA,NA
+"MORTON","KS",NA,NA,NA,NA,NA
+"MORROW","OH",NA,NA,NA,NA,NA
+"MORROW","OR",NA,NA,NA,NA,NA
+"MORRISON","MN",NA,NA,NA,NA,NA
+"MORRIS","KS",NA,NA,NA,NA,NA
+"MORRIS","NJ",12.8666666666667,17.3666666666667,"Better Than National","Worse Than National",NA
+"MORRILL","NE",NA,NA,NA,NA,NA
+"MORGAN","AL",14.5,17.5,NA,"Worse Than National",NA
+"MORGAN","CO",NA,NA,NA,NA,NA
+"MORGAN","GA",NA,NA,NA,NA,NA
+"MORGAN","IL",NA,NA,NA,NA,NA
+"MORGAN","IN",NA,NA,NA,NA,NA
+"MORGAN","KY",NA,NA,NA,NA,NA
+"MORGAN","WV",NA,NA,NA,NA,NA
+"MOREHOUSE","LA",NA,NA,NA,NA,NA
+"MOORE","NC",12.5,16.5,"Better Than National",NA,NA
+"MOORE","TX",NA,NA,NA,NA,NA
+"MOODY","SD",NA,NA,NA,NA,NA
+"MONTROSE","CO",12.9,16.1,"Better Than National","Better Than National","Better Than National"
+"MONTOUR","PA",13.7,18.8,NA,"Worse Than National",NA
+"MONTGOMERY","AL",13.7666666666667,17.5666666666667,NA,"Worse Than National",NA
+"MONTGOMERY","IA",15.5,NA,"Worse Than National",NA,NA
+"MONTGOMERY","IL",NA,NA,NA,NA,NA
+"MONTGOMERY","IN",NA,NA,NA,NA,NA
+"MONTGOMERY","KS",NA,NA,NA,NA,NA
+"MONTGOMERY","KY",NA,NA,NA,NA,NA
+"MONTGOMERY","MD",NA,NA,NA,NA,NA
+"MONTGOMERY","MS",NA,NA,NA,NA,NA
+"MONTGOMERY","NC",NA,NA,NA,NA,NA
+"MONTGOMERY","NY",14.5,16.9,NA,NA,NA
+"MONTGOMERY","OH",13.88,16.9,NA,NA,NA
+"MONTGOMERY","PA",14.25,17.3166666666667,NA,"Worse Than National",NA
+"MONTGOMERY","TN",16.5,18,"Worse Than National","Worse Than National","Worse Than National"
+"MONTGOMERY","TX",13.8,17.15,NA,NA,NA
+"MONTGOMERY","VA",15.5,16.5,"Worse Than National",NA,NA
+"MONTEZUMA","CO",NA,NA,NA,NA,NA
+"MONTEREY","CA",13.4,16.2,"Better Than National","Better Than National","Better Than National"
+"MONTCALM","MI",NA,NA,NA,NA,NA
+"MONTAGUE","TX",NA,NA,NA,NA,NA
+"MONROE","AL",NA,NA,NA,NA,NA
+"MONROE","FL",15.2,16.6,"Worse Than National",NA,NA
+"MONROE","GA",NA,NA,NA,NA,NA
+"MONROE","IA",NA,NA,NA,NA,NA
+"MONROE","IN",11.2,14.8,"Better Than National","Better Than National","Better Than National"
+"MONROE","KY",NA,NA,NA,NA,NA
+"MONROE","MI",11.7,18.1,"Better Than National","Worse Than National",NA
+"MONROE","MS",NA,NA,NA,NA,NA
+"MONROE","NY",13.2,17.175,"Better Than National",NA,NA
+"MONROE","PA",12.5,16.8,"Better Than National",NA,NA
+"MONROE","TN",16,NA,"Worse Than National",NA,NA
+"MONROE","WI",13.3,NA,"Better Than National",NA,NA
+"MONONGALIA","WV",15.95,17.45,"Worse Than National","Worse Than National","Worse Than National"
+"MONONA","IA",NA,NA,NA,NA,NA
+"MONO","CA",NA,NA,NA,NA,NA
+"MONMOUTH","NJ",12.64,17.16,"Better Than National",NA,NA
+"MOHAVE","AZ",14.85,16.95,"Worse Than National",NA,NA
+"MOFFAT","CO",NA,NA,NA,NA,NA
+"MODOC","CA",NA,NA,NA,NA,NA
+"MOCA","PR",NA,NA,NA,NA,NA
+"MOBILE","AL",15.7,17.7,"Worse Than National","Worse Than National","Worse Than National"
+"MITCHELL","GA",NA,NA,NA,NA,NA
+"MITCHELL","IA",NA,NA,NA,NA,NA
+"MITCHELL","KS",NA,NA,NA,NA,NA
+"MITCHELL","NC",NA,NA,NA,NA,NA
+"MITCHELL","TX",NA,NA,NA,NA,NA
+"MISSOULA","MT",12.7,16.2,"Better Than National","Better Than National","Better Than National"
+"MISSISSIPPI","AR",NA,NA,NA,NA,NA
+"MINNEHAHA","SD",12.6333333333333,15.8,"Better Than National","Better Than National","Better Than National"
+"MINIDOKA","ID",NA,NA,NA,NA,NA
+"MINGO","WV",NA,NA,NA,NA,NA
+"MINERAL","MT",NA,NA,NA,NA,NA
+"MINERAL","NV",NA,NA,NA,NA,NA
+"MINERAL","WV",NA,NA,NA,NA,NA
+"MILWAUKEE","WI",13.5166666666667,16.7166666666667,NA,NA,NA
+"MILLER","GA",NA,NA,NA,NA,NA
+"MILLE LACS","MN",NA,NA,NA,NA,NA
+"MILLARD","UT",NA,NA,NA,NA,NA
+"MILAM","TX",NA,NA,NA,NA,NA
+"MIFFLIN","PA",13.9,16.1,NA,"Better Than National",NA
+"MIDLAND","MI",12.6,17.2,"Better Than National",NA,NA
+"MIDLAND","TX",13.6,15.6,NA,"Better Than National",NA
+"MIDDLESEX","CT",13.1,17,"Better Than National",NA,NA
+"MIDDLESEX","MA",13.0636363636364,17.1,"Better Than National",NA,NA
+"MIDDLESEX","NJ",14.2,18.08,NA,"Worse Than National",NA
+"MIAMI-DADE","FL",13.95,17.1875,NA,NA,NA
+"MIAMI","IN",15.5,16.5,"Worse Than National",NA,NA
+"MIAMI","KS",NA,NA,NA,NA,NA
+"MIAMI","OH",14,17.2,NA,NA,NA
+"MESA","CO",13.5,15.5,"Better Than National","Better Than National","Better Than National"
+"MERRIMACK","NH",14.9,14.7,"Worse Than National","Better Than National",NA
+"MERRICK","NE",NA,NA,NA,NA,NA
+"MERIWETHER","GA",NA,NA,NA,NA,NA
+"MERCER","IL",NA,NA,NA,NA,NA
+"MERCER","KY",NA,NA,NA,NA,NA
+"MERCER","ND",NA,NA,NA,NA,NA
+"MERCER","NJ",14.9,17.075,"Worse Than National",NA,NA
+"MERCER","OH",14,16.5,NA,NA,NA
+"MERCER","PA",13.35,18.35,"Better Than National","Worse Than National",NA
+"MERCER","WV",14.9,16.95,"Worse Than National",NA,NA
+"MERCED","CA",16.4,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"MENDOCINO","CA",15.1,NA,"Worse Than National",NA,NA
+"MEEKER","MN",NA,NA,NA,NA,NA
+"MEDINA","OH",14.7,NA,NA,NA,NA
+"MEDINA","TX",NA,NA,NA,NA,NA
+"MECOSTA","MI",NA,NA,NA,NA,NA
+"MECKLENBURG","NC",13.95,16.56,NA,NA,NA
+"MECKLENBURG","VA",NA,NA,NA,NA,NA
+"MEAGHER","MT",NA,NA,NA,NA,NA
+"MEADE","KS",NA,NA,NA,NA,NA
+"MEADE","SD",NA,NA,NA,NA,NA
+"MCPHERSON","KS",NA,NA,NA,NA,NA
+"MCPHERSON","SD",NA,NA,NA,NA,NA
+"MCNAIRY","TN",NA,NA,NA,NA,NA
+"MCMINN","TN",14.6,16.9,NA,NA,NA
+"MCLEOD","MN",NA,NA,NA,NA,NA
+"MCLENNAN","TX",14.05,16.8,NA,NA,NA
+"MCLEAN","IL",13.9,15.9,NA,"Better Than National",NA
+"MCLEAN","ND",NA,NA,NA,NA,NA
+"MCKINLEY","NM",NA,NA,NA,NA,NA
+"MCKENZIE","ND",NA,NA,NA,NA,NA
+"MCKEAN","PA",15,16.2,"Worse Than National","Better Than National",NA
+"MCINTOSH","ND",NA,NA,NA,NA,NA
+"MCINTOSH","OK",NA,NA,NA,NA,NA
+"MCHENRY","IL",13.5,14.85,"Better Than National","Better Than National","Better Than National"
+"MCDUFFIE","GA",NA,NA,NA,NA,NA
+"MCDOWELL","NC",NA,NA,NA,NA,NA
+"MCDOWELL","WV",NA,NA,NA,NA,NA
+"MCDONOUGH","IL",14.4,NA,NA,NA,NA
+"MCCURTAIN","OK",NA,NA,NA,NA,NA
+"MCCULLOCH","TX",NA,NA,NA,NA,NA
+"MCCRACKEN","KY",15.4,16.05,"Worse Than National","Better Than National",NA
+"MCCONE","MT",NA,NA,NA,NA,NA
+"MCCLAIN","OK",NA,NA,NA,NA,NA
+"MAYES","OK",NA,NA,NA,NA,NA
+"MAYAGUEZ","PR",15.9,17.7,"Worse Than National","Worse Than National","Worse Than National"
+"MAVERICK","TX",15.5,NA,"Worse Than National",NA,NA
+"MAURY","TN",14,18.1,NA,"Worse Than National",NA
+"MAUI","HI",13.1,17.3,"Better Than National","Worse Than National",NA
+"MATANUSKA SUSITNA","AK",14.9,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"MATAGORDA","TX",14.9,16,"Worse Than National","Better Than National",NA
+"MASSAC","IL",NA,NA,NA,NA,NA
+"MASON","IL",NA,NA,NA,NA,NA
+"MASON","KY",13.4,17.6,"Better Than National","Worse Than National",NA
+"MASON","MI",NA,NA,NA,NA,NA
+"MASON","WA",14.6,NA,NA,NA,NA
+"MASON","WV",15.8,NA,"Worse Than National",NA,NA
+"MARTIN","FL",12.7,19.2,"Better Than National","Worse Than National",NA
+"MARTIN","MN",13.5,NA,"Better Than National",NA,NA
+"MARTIN","NC",NA,NA,NA,NA,NA
+"MARTIN","TX",NA,NA,NA,NA,NA
+"MARSHALL","AL",16,16.7,"Worse Than National",NA,NA
+"MARSHALL","IA",15.5,16.6,"Worse Than National",NA,NA
+"MARSHALL","IN",13.8,16.8,NA,NA,NA
+"MARSHALL","KS",NA,NA,NA,NA,NA
+"MARSHALL","KY",NA,NA,NA,NA,NA
+"MARSHALL","MN",NA,NA,NA,NA,NA
+"MARSHALL","MS",NA,NA,NA,NA,NA
+"MARSHALL","OK",NA,NA,NA,NA,NA
+"MARSHALL","SD",NA,NA,NA,NA,NA
+"MARSHALL","TN",NA,NA,NA,NA,NA
+"MARSHALL","WV",15.6,16.7,"Worse Than National",NA,NA
+"MARQUETTE","MI",14.1,13.4,NA,"Better Than National",NA
+"MARIPOSA","CA",NA,NA,NA,NA,NA
+"MARION","AL",NA,NA,NA,NA,NA
+"MARION","FL",14.55,17.45,NA,"Worse Than National",NA
+"MARION","IA",NA,NA,NA,NA,NA
+"MARION","IL",13.8,18.3,NA,"Worse Than National",NA
+"MARION","IN",14.3714285714286,16.4142857142857,NA,NA,NA
+"MARION","KS",NA,NA,NA,NA,NA
+"MARION","KY",NA,NA,NA,NA,NA
+"MARION","MO",12.6,16.2,"Better Than National","Better Than National","Better Than National"
+"MARION","MS",NA,NA,NA,NA,NA
+"MARION","OH",12.9,16.1,"Better Than National","Better Than National","Better Than National"
+"MARION","OR",13.7,14.8,NA,"Better Than National",NA
+"MARION","SC",13.4,17.9,"Better Than National","Worse Than National",NA
+"MARION","WV",13.4,16.2,"Better Than National","Better Than National","Better Than National"
+"MARINETTE","WI",13.9,16.7,NA,NA,NA
+"MARIN","CA",11.1,16.1,"Better Than National","Better Than National","Better Than National"
+"MARICOPA","AZ",13.8041666666667,16.4739130434783,NA,NA,NA
+"MARENGO","AL",NA,NA,NA,NA,NA
+"MARATHON","WI",14.15,16.7,NA,NA,NA
+"MANITOWOC","WI",15.2,16.65,"Worse Than National",NA,NA
+"MANISTEE","MI",NA,NA,NA,NA,NA
+"MANATI","PR",13.2,NA,"Better Than National",NA,NA
+"MANATEE","FL",15.4,16.8333333333333,"Worse Than National",NA,NA
+"MANASSAS CITY","VA",15.8,17,"Worse Than National",NA,NA
+"MALHEUR","OR",NA,NA,NA,NA,NA
+"MAJOR","OK",NA,NA,NA,NA,NA
+"MAHONING","OH",15.3,17.3666666666667,"Worse Than National","Worse Than National","Worse Than National"
+"MAHNOMEN","MN",NA,NA,NA,NA,NA
+"MAHASKA","IA",NA,NA,NA,NA,NA
+"MADISON","AL",13.5,16.95,"Better Than National",NA,NA
+"MADISON","FL",NA,NA,NA,NA,NA
+"MADISON","IA",NA,NA,NA,NA,NA
+"MADISON","ID",NA,NA,NA,NA,NA
+"MADISON","IL",15.425,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"MADISON","IN",13.95,17.15,NA,NA,NA
+"MADISON","KY",14.2,17.2,NA,NA,NA
+"MADISON","LA",NA,NA,NA,NA,NA
+"MADISON","MO",NA,NA,NA,NA,NA
+"MADISON","MS",NA,NA,NA,NA,NA
+"MADISON","MT",NA,NA,NA,NA,NA
+"MADISON","NE",17.1,15.9,"Worse Than National","Better Than National",NA
+"MADISON","NY",NA,NA,NA,NA,NA
+"MADISON","OH",NA,NA,NA,NA,NA
+"MADISON","TN",11.95,17.1,"Better Than National",NA,NA
+"MADISON","TX",NA,NA,NA,NA,NA
+"MADERA","CA",13.9,17.7,NA,"Worse Than National",NA
+"MACOUPIN","IL",NA,NA,NA,NA,NA
+"MACON","GA",NA,NA,NA,NA,NA
+"MACON","IL",14.8,17.75,NA,"Worse Than National",NA
+"MACON","MO",NA,NA,NA,NA,NA
+"MACON","NC",13.5,16.9,"Better Than National",NA,NA
+"MACON","TN",NA,NA,NA,NA,NA
+"MACOMB","MI",13.4333333333333,17.2333333333333,"Better Than National",NA,NA
+"MACKINAC","MI",NA,NA,NA,NA,NA
+"LYON","IA",NA,NA,NA,NA,NA
+"LYON","KS",14.2,16.4,NA,NA,NA
+"LYON","MN",NA,NA,NA,NA,NA
+"LYON","NV",NA,NA,NA,NA,NA
+"LYNN","TX",NA,NA,NA,NA,NA
+"LYNCHBURG CITY","VA",14.2,17.7,NA,"Worse Than National",NA
+"LYCOMING","PA",13.9,17.1,NA,NA,NA
+"LUZERNE","PA",14.5333333333333,16.6,NA,NA,NA
+"LUNA","NM",NA,NA,NA,NA,NA
+"LUMPKIN","GA",NA,NA,NA,NA,NA
+"LUCE","MI",NA,NA,NA,NA,NA
+"LUCAS","IA",NA,NA,NA,NA,NA
+"LUCAS","OH",14.05,16.4285714285714,NA,NA,NA
+"LUBBOCK","TX",15.2,16.7333333333333,"Worse Than National",NA,NA
+"LOWNDES","GA",14.2,18.1,NA,"Worse Than National",NA
+"LOWNDES","MS",15.5,16.1,"Worse Than National","Better Than National",NA
+"LOVE","OK",NA,NA,NA,NA,NA
+"LOUDOUN","VA",15.5,17.1,"Worse Than National",NA,NA
+"LOUDON","TN",NA,NA,NA,NA,NA
+"LOS ANGELES","CA",13.0127272727273,17.1923076923077,"Better Than National",NA,NA
+"LOS ALAMOS","NM",NA,NA,NA,NA,NA
+"LORAIN","OH",13.4,16.25,"Better Than National","Better Than National","Better Than National"
+"LOGAN","AR",NA,NA,NA,NA,NA
+"LOGAN","CO",NA,NA,NA,NA,NA
+"LOGAN","IL",NA,NA,NA,NA,NA
+"LOGAN","KS",NA,NA,NA,NA,NA
+"LOGAN","KY",13.3,NA,"Better Than National",NA,NA
+"LOGAN","OH",13.1,16.9,"Better Than National",NA,NA
+"LOGAN","OK",NA,NA,NA,NA,NA
+"LOGAN","WV",14.4,NA,NA,NA,NA
+"LLANO","TX",NA,NA,NA,NA,NA
+"LIVINGSTON","IL",NA,NA,NA,NA,NA
+"LIVINGSTON","KY",NA,NA,NA,NA,NA
+"LIVINGSTON","MI",13.5,NA,"Better Than National",NA,NA
+"LIVINGSTON","MO",NA,NA,NA,NA,NA
+"LIVINGSTON","NY",NA,NA,NA,NA,NA
+"LITTLE RIVER","AR",NA,NA,NA,NA,NA
+"LITCHFIELD","CT",13,17.45,"Better Than National","Worse Than National",NA
+"LINN","IA",13.15,15.45,"Better Than National","Better Than National","Better Than National"
+"LINN","MO",NA,NA,NA,NA,NA
+"LINN","OR",NA,NA,NA,NA,NA
+"LINCOLN","CO",NA,NA,NA,NA,NA
+"LINCOLN","KS",NA,NA,NA,NA,NA
+"LINCOLN","KY",NA,NA,NA,NA,NA
+"LINCOLN","LA",15.4,16.3,"Worse Than National","Better Than National",NA
+"LINCOLN","ME",NA,NA,NA,NA,NA
+"LINCOLN","MN",NA,NA,NA,NA,NA
+"LINCOLN","MO",NA,NA,NA,NA,NA
+"LINCOLN","MS",NA,NA,NA,NA,NA
+"LINCOLN","MT",NA,NA,NA,NA,NA
+"LINCOLN","NC",14.3,16.9,NA,NA,NA
+"LINCOLN","NE",12.8,16.3,"Better Than National","Better Than National","Better Than National"
+"LINCOLN","NM",NA,NA,NA,NA,NA
+"LINCOLN","NV",NA,NA,NA,NA,NA
+"LINCOLN","OK",NA,NA,NA,NA,NA
+"LINCOLN","OR",NA,NA,NA,NA,NA
+"LINCOLN","SD",NA,NA,NA,NA,NA
+"LINCOLN","TN",NA,NA,NA,NA,NA
+"LINCOLN","WA",NA,NA,NA,NA,NA
+"LINCOLN","WI",NA,NA,NA,NA,NA
+"LINCOLN","WY",NA,NA,NA,NA,NA
+"LIMESTONE","AL",NA,NA,NA,NA,NA
+"LIMESTONE","TX",NA,NA,NA,NA,NA
+"LICKING","OH",14.7,16.5,NA,NA,NA
+"LIBERTY","GA",NA,NA,NA,NA,NA
+"LIBERTY","MT",NA,NA,NA,NA,NA
+"LIBERTY","TX",NA,NA,NA,NA,NA
+"LEXINGTON CITY","VA",14.6,NA,NA,NA,NA
+"LEXINGTON","SC",14.3,15,NA,"Better Than National",NA
+"LEWIS AND CLARK","MT",14.1,15.5,NA,"Better Than National",NA
+"LEWIS","NY",13.8,NA,NA,NA,NA
+"LEWIS","WA",14.1,16.6,NA,NA,NA
+"LEWIS","WV",15.6,NA,"Worse Than National",NA,NA
+"LEVY","FL",NA,NA,NA,NA,NA
+"LETCHER","KY",14.3,NA,NA,NA,NA
+"LESLIE","KY",NA,NA,NA,NA,NA
+"LEON","FL",15.9,18,"Worse Than National","Worse Than National","Worse Than National"
+"LENOIR","NC",13.4,18.1,"Better Than National","Worse Than National",NA
+"LENAWEE","MI",14.9,15.9,"Worse Than National","Better Than National",NA
+"LEMHI","ID",NA,NA,NA,NA,NA
+"LEHIGH","PA",13.1,17.3,"Better Than National","Worse Than National",NA
+"LEFLORE","MS",15,16.5,"Worse Than National",NA,NA
+"LEE","AL",15.5,16.8,"Worse Than National",NA,NA
+"LEE","FL",13.575,17.475,NA,"Worse Than National",NA
+"LEE","IA",14.5,17.4,NA,"Worse Than National",NA
+"LEE","IL",13.4,16,"Better Than National","Better Than National","Better Than National"
+"LEE","MS",12.9,16.7,"Better Than National",NA,NA
+"LEE","NC",15.2,17.1,"Worse Than National",NA,NA
+"LEBANON","PA",14.5,16.2,NA,"Better Than National",NA
+"LEAVENWORTH","KS",NA,NA,NA,NA,NA
+"LEAKE","MS",NA,NA,NA,NA,NA
+"LEA","NM",14.1,NA,NA,NA,NA
+"LE SUEUR","MN",NA,NA,NA,NA,NA
+"LE FLORE","OK",NA,NA,NA,NA,NA
+"LAWRENCE","AL",14.5,NA,NA,NA,NA
+"LAWRENCE","AR",NA,NA,NA,NA,NA
+"LAWRENCE","IL",NA,NA,NA,NA,NA
+"LAWRENCE","IN",14.55,17.2,NA,NA,NA
+"LAWRENCE","KY",NA,NA,NA,NA,NA
+"LAWRENCE","MO",NA,NA,NA,NA,NA
+"LAWRENCE","MS",NA,NA,NA,NA,NA
+"LAWRENCE","OH",NA,NA,NA,NA,NA
+"LAWRENCE","PA",12.4,17.3,"Better Than National","Worse Than National",NA
+"LAWRENCE","SD",NA,NA,NA,NA,NA
+"LAWRENCE","TN",NA,NA,NA,NA,NA
+"LAVACA","TX",NA,NA,NA,NA,NA
+"LAURENS","GA",13.1,16.9,"Better Than National",NA,NA
+"LAURENS","SC",NA,NA,NA,NA,NA
+"LAUREL","KY",13.3,16.1,"Better Than National","Better Than National","Better Than National"
+"LAUDERDALE","AL",16.7,16.1,"Worse Than National","Better Than National",NA
+"LAUDERDALE","MS",14.1,17.05,NA,NA,NA
+"LAUDERDALE","TN",NA,NA,NA,NA,NA
+"LATIMER","OK",NA,NA,NA,NA,NA
+"LATAH","ID",NA,NA,NA,NA,NA
+"LASSEN","CA",NA,NA,NA,NA,NA
+"LAS ANIMAS","CO",NA,NA,NA,NA,NA
+"LARIMER","CO",14.5666666666667,16.1333333333333,NA,"Better Than National",NA
+"LARES","PR",NA,NA,NA,NA,NA
+"LARAMIE","WY",14.2,17.3,NA,"Worse Than National",NA
+"LAPEER","MI",11.8,17.1,"Better Than National",NA,NA
+"LANIER","GA",NA,NA,NA,NA,NA
+"LANGLADE","WI",NA,NA,NA,NA,NA
+"LANE","KS",NA,NA,NA,NA,NA
+"LANE","OR",14.5,17.35,NA,"Worse Than National",NA
+"LANDER","NV",NA,NA,NA,NA,NA
+"LANCASTER","NE",14.3666666666667,15.1,NA,"Better Than National",NA
+"LANCASTER","PA",13.1333333333333,16.3666666666667,"Better Than National",NA,NA
+"LANCASTER","SC",14.6,18.2,NA,"Worse Than National",NA
+"LANCASTER","VA",NA,NA,NA,NA,NA
+"LAMPASAS","TX",NA,NA,NA,NA,NA
+"LAMOILLE","VT",14.5,NA,NA,NA,NA
+"LAMB","TX",NA,NA,NA,NA,NA
+"LAMAR","TX",14.3,16.2,NA,"Better Than National",NA
+"LAKE OF THE WOODS","MN",NA,NA,NA,NA,NA
+"LAKE","CA",NA,NA,NA,NA,NA
+"LAKE","CO",NA,NA,NA,NA,NA
+"LAKE","FL",14.6,18,NA,"Worse Than National",NA
+"LAKE","IL",13.575,16.2,NA,"Better Than National",NA
+"LAKE","IN",14.4571428571429,17.1,NA,NA,NA
+"LAKE","MN",NA,NA,NA,NA,NA
+"LAKE","MT",NA,NA,NA,NA,NA
+"LAKE","OH",12,17.9,"Better Than National","Worse Than National",NA
+"LAKE","OR",NA,NA,NA,NA,NA
+"LAKE","SD",NA,NA,NA,NA,NA
+"LAGRANGE","IN",NA,NA,NA,NA,NA
+"LAFOURCHE","LA",14.5,16.6,NA,NA,NA
+"LAFAYETTE","LA",15.95,16.9,"Worse Than National",NA,NA
+"LAFAYETTE","MO",NA,NA,NA,NA,NA
+"LAFAYETTE","MS",12.6,16.6,"Better Than National",NA,NA
+"LAFAYETTE","WI",NA,NA,NA,NA,NA
+"LACLEDE","MO",NA,NA,NA,NA,NA
+"LACKAWANNA","PA",15.0666666666667,17.3333333333333,"Worse Than National","Worse Than National","Worse Than National"
+"LAC QUI PARLE","MN",NA,NA,NA,NA,NA
+"LABETTE","KS",NA,NA,NA,NA,NA
+"LA SALLE","IL",14.75,NA,NA,NA,NA
+"LA SALLE","LA",NA,NA,NA,NA,NA
+"LA PORTE","IN",14.95,16,"Worse Than National","Better Than National",NA
+"LA PLATA","CO",12.7,15.4,"Better Than National","Better Than National","Better Than National"
+"LA PAZ","AZ",13.2,16.4,"Better Than National",NA,NA
+"LA CROSSE","WI",14.9,16.15,"Worse Than National","Better Than National",NA
+"KOSSUTH","IA",NA,NA,NA,NA,NA
+"KOSCIUSKO","IN",15.2,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"KOOTENAI","ID",13.1,15.4,"Better Than National","Better Than National","Better Than National"
+"KOOCHICHING","MN",NA,NA,NA,NA,NA
+"KODIAK ISLAND","AK",NA,NA,NA,NA,NA
+"KNOX","IL",15.75,17.2,"Worse Than National",NA,NA
+"KNOX","IN",13.1,17,"Better Than National",NA,NA
+"KNOX","KY",14.4,16.5,NA,NA,NA
+"KNOX","ME",12.8,16.6,"Better Than National",NA,NA
+"KNOX","NE",NA,NA,NA,NA,NA
+"KNOX","OH",14.9,15.1,"Worse Than National","Better Than National",NA
+"KNOX","TN",14.625,16.525,NA,NA,NA
+"KNOX","TX",NA,NA,NA,NA,NA
+"KLICKITAT","WA",NA,NA,NA,NA,NA
+"KLEBERG","TX",NA,NA,NA,NA,NA
+"KLAMATH","OR",14.7,16,NA,"Better Than National",NA
+"KITTSON","MN",NA,NA,NA,NA,NA
+"KITTITAS","WA",NA,NA,NA,NA,NA
+"KITSAP","WA",17,16.6,"Worse Than National",NA,NA
+"KIT CARSON","CO",NA,NA,NA,NA,NA
+"KIOWA","CO",NA,NA,NA,NA,NA
+"KIOWA","KS",NA,NA,NA,NA,NA
+"KIOWA","OK",NA,NA,NA,NA,NA
+"KINGSBURY","SD",NA,NA,NA,NA,NA
+"KINGS","CA",15.8,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"KINGS","NY",13.8076923076923,17.45,NA,"Worse Than National",NA
+"KINGMAN","KS",NA,NA,NA,NA,NA
+"KINGFISHER","OK",NA,NA,NA,NA,NA
+"KING","WA",14.5461538461538,16.8153846153846,NA,NA,NA
+"KIMBLE","TX",NA,NA,NA,NA,NA
+"KIMBALL","NE",NA,NA,NA,NA,NA
+"KETCHIKAN GATEWAY","AK",NA,NA,NA,NA,NA
+"KERSHAW","SC",12.8,17.2,"Better Than National",NA,NA
+"KERR","TX",14.6,16.5,NA,NA,NA
+"KERN","CA",14.775,17.05,NA,NA,NA
+"KEOKUK","IA",NA,NA,NA,NA,NA
+"KENTON","KY",10.9,16.9,"Better Than National",NA,NA
+"KENT","DE",13.4,17.9,"Better Than National","Worse Than National",NA
+"KENT","MD",NA,NA,NA,NA,NA
+"KENT","MI",14.2,16.1333333333333,NA,"Better Than National",NA
+"KENT","RI",12.2,16.4,"Better Than National",NA,NA
+"KENOSHA","WI",14.85,18.7,"Worse Than National","Worse Than National","Worse Than National"
+"KENNEBEC","ME",16.2,16.8,"Worse Than National",NA,NA
+"KEMPER","MS",NA,NA,NA,NA,NA
+"KEITH","NE",NA,NA,NA,NA,NA
+"KEARNY","KS",NA,NA,NA,NA,NA
+"KEARNEY","NE",NA,NA,NA,NA,NA
+"KAY","OK",13.9,16.5,NA,NA,NA
+"KAUFMAN","TX",NA,NA,NA,NA,NA
+"KAUAI","HI",14.8,16.5,NA,NA,NA
+"KARNES","TX",NA,NA,NA,NA,NA
+"KANKAKEE","IL",13.8,16.75,NA,NA,NA
+"KANE","IL",14.2,16.42,NA,NA,NA
+"KANE","UT",NA,NA,NA,NA,NA
+"KANDIYOHI","MN",NA,NA,NA,NA,NA
+"KANAWHA","WV",13.7666666666667,17.3333333333333,NA,"Worse Than National",NA
+"KANABEC","MN",NA,NA,NA,NA,NA
+"KALKASKA","MI",NA,NA,NA,NA,NA
+"KALAMAZOO","MI",16.15,16.75,"Worse Than National",NA,NA
+"JUNEAU","AK",NA,NA,NA,NA,NA
+"JUNEAU","WI",NA,NA,NA,NA,NA
+"JUAB","UT",NA,NA,NA,NA,NA
+"JOSEPHINE","OR",14.1,16.5,NA,NA,NA
+"JONES","IA",NA,NA,NA,NA,NA
+"JONES","MS",14,18,NA,"Worse Than National",NA
+"JONES","TX",NA,NA,NA,NA,NA
+"JOHNSTON","NC",12.7,15.6,"Better Than National","Better Than National","Better Than National"
+"JOHNSTON","OK",NA,NA,NA,NA,NA
+"JOHNSON","AR",15,NA,"Worse Than National",NA,NA
+"JOHNSON","IA",13.15,15.85,"Better Than National","Better Than National","Better Than National"
+"JOHNSON","IN",14.8,NA,NA,NA,NA
+"JOHNSON","KS",14.5,17.16,NA,NA,NA
+"JOHNSON","KY",14.1,16.6,NA,NA,NA
+"JOHNSON","MO",14.3,NA,NA,NA,NA
+"JOHNSON","NE",NA,NA,NA,NA,NA
+"JOHNSON","TN",NA,NA,NA,NA,NA
+"JOHNSON","TX",12.5,16.3,"Better Than National","Better Than National","Better Than National"
+"JOHNSON","WY",NA,NA,NA,NA,NA
+"JO DAVIESS","IL",NA,NA,NA,NA,NA
+"JIM WELLS","TX",12.3,16.5,"Better Than National",NA,NA
+"JEWELL","KS",NA,NA,NA,NA,NA
+"JERSEY","IL",14.5,16.6,NA,NA,NA
+"JEROME","ID",NA,NA,NA,NA,NA
+"JERAULD","SD",NA,NA,NA,NA,NA
+"JENNINGS","IN",NA,NA,NA,NA,NA
+"JENKINS","GA",NA,NA,NA,NA,NA
+"JEFFERSON DAVIS","LA",14.9,17.6,"Worse Than National","Worse Than National","Worse Than National"
+"JEFFERSON DAVIS","MS",NA,NA,NA,NA,NA
+"JEFFERSON","AL",14.4571428571429,17.1857142857143,NA,NA,NA
+"JEFFERSON","AR",15.8,16.4,"Worse Than National",NA,NA
+"JEFFERSON","CO",12.4,15.9,"Better Than National","Better Than National","Better Than National"
+"JEFFERSON","GA",NA,NA,NA,NA,NA
+"JEFFERSON","IA",NA,NA,NA,NA,NA
+"JEFFERSON","IL",17.5,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"JEFFERSON","IN",13.3,16.7,"Better Than National",NA,NA
+"JEFFERSON","KS",NA,NA,NA,NA,NA
+"JEFFERSON","KY",13.375,16.9,"Better Than National",NA,NA
+"JEFFERSON","LA",14.05,17.4,NA,"Worse Than National",NA
+"JEFFERSON","MO",14.15,16.7,NA,NA,NA
+"JEFFERSON","MS",NA,NA,NA,NA,NA
+"JEFFERSON","NE",NA,NA,NA,NA,NA
+"JEFFERSON","NY",15.8,16.2,"Worse Than National","Better Than National",NA
+"JEFFERSON","OH",14.6,17.2,NA,NA,NA
+"JEFFERSON","OK",NA,NA,NA,NA,NA
+"JEFFERSON","OR",NA,NA,NA,NA,NA
+"JEFFERSON","PA",14.45,16.9,NA,NA,NA
+"JEFFERSON","TN",NA,NA,NA,NA,NA
+"JEFFERSON","TX",15.0666666666667,17.6333333333333,"Worse Than National","Worse Than National","Worse Than National"
+"JEFFERSON","WA",NA,NA,NA,NA,NA
+"JEFFERSON","WI",NA,NA,NA,NA,NA
+"JEFFERSON","WV",NA,NA,NA,NA,NA
+"JEFF DAVIS","GA",NA,NA,NA,NA,NA
+"JAY","IN",NA,NA,NA,NA,NA
+"JASPER","GA",NA,NA,NA,NA,NA
+"JASPER","IA",NA,NA,NA,NA,NA
+"JASPER","IN",NA,NA,NA,NA,NA
+"JASPER","MO",15,17.05,"Worse Than National",NA,NA
+"JASPER","MS",NA,NA,NA,NA,NA
+"JASPER","SC",NA,NA,NA,NA,NA
+"JASPER","TX",NA,NA,NA,NA,NA
+"JAMES CITY","VA",13.3,16.5,"Better Than National",NA,NA
+"JACKSON","AL",NA,NA,NA,NA,NA
+"JACKSON","AR",NA,NA,NA,NA,NA
+"JACKSON","FL",15.3,16.9,"Worse Than National",NA,NA
+"JACKSON","GA",13.9,16.8,NA,NA,NA
+"JACKSON","IA",NA,NA,NA,NA,NA
+"JACKSON","IL",13.5,17.6,"Better Than National","Worse Than National",NA
+"JACKSON","IN",15.4,NA,"Worse Than National",NA,NA
+"JACKSON","KS",NA,NA,NA,NA,NA
+"JACKSON","LA",NA,NA,NA,NA,NA
+"JACKSON","MI",14.1,15.7,NA,"Better Than National",NA
+"JACKSON","MN",NA,NA,NA,NA,NA
+"JACKSON","MO",13.9,17.1,NA,NA,NA
+"JACKSON","MS",14.2,18.3,NA,"Worse Than National",NA
+"JACKSON","NC",14.3,NA,NA,NA,NA
+"JACKSON","OH",NA,NA,NA,NA,NA
+"JACKSON","OK",14.3,16.7,NA,NA,NA
+"JACKSON","OR",12.9,14.9,"Better Than National","Better Than National","Better Than National"
+"JACKSON","TX",NA,NA,NA,NA,NA
+"JACKSON","WI",NA,NA,NA,NA,NA
+"JACKSON","WV",NA,NA,NA,NA,NA
+"JACK","TX",NA,NA,NA,NA,NA
+"IZARD","AR",NA,NA,NA,NA,NA
+"ITASCA","MN",NA,NA,NA,NA,NA
+"ISLAND","WA",14.7,NA,NA,NA,NA
+"ISANTI","MN",NA,NA,NA,NA,NA
+"ISABELLA","MI",14.5,17.6,NA,"Worse Than National",NA
+"IRWIN","GA",NA,NA,NA,NA,NA
+"IROQUOIS","IL",13.9,16.6,NA,NA,NA
+"IRON","MI",15.7,NA,"Worse Than National",NA,NA
+"IRON","MO",NA,NA,NA,NA,NA
+"IRON","UT",NA,NA,NA,NA,NA
+"IREDELL","NC",14.4666666666667,17.1666666666667,NA,NA,NA
+"IOWA","IA",NA,NA,NA,NA,NA
+"IOWA","WI",NA,NA,NA,NA,NA
+"IOSCO","MI",NA,NA,NA,NA,NA
+"IONIA","MI",NA,NA,NA,NA,NA
+"INYO","CA",NA,NA,NA,NA,NA
+"INGHAM","MI",15.25,17.9,"Worse Than National","Worse Than National","Worse Than National"
+"INDIANA","PA",13.4,18.6,"Better Than National","Worse Than National",NA
+"INDIAN RIVER","FL",14.8,16.3,NA,"Better Than National",NA
+"INDEPENDENCE","AR",15.8,19.3,"Worse Than National","Worse Than National","Worse Than National"
+"IMPERIAL","CA",15.05,17,"Worse Than National",NA,NA
+"IDAHO","ID",NA,NA,NA,NA,NA
+"IDA","IA",NA,NA,NA,NA,NA
+"IBERIA","LA",13.85,16.55,NA,NA,NA
+"HUTCHINSON","SD",NA,NA,NA,NA,NA
+"HUTCHINSON","TX",NA,NA,NA,NA,NA
+"HURON","MI",13.9,15.8,NA,"Better Than National",NA
+"HURON","OH",14.7,16.6,NA,NA,NA
+"HUNTINGTON","IN",NA,NA,NA,NA,NA
+"HUNTINGDON","PA",14.1,NA,NA,NA,NA
+"HUNTERDON","NJ",14.6,15.4,NA,"Better Than National",NA
+"HUNT","TX",14.7,NA,NA,NA,NA
+"HUMPHREYS","TN",NA,NA,NA,NA,NA
+"HUMBOLDT","CA",13.7,15.8,NA,"Better Than National",NA
+"HUMBOLDT","IA",NA,NA,NA,NA,NA
+"HUMBOLDT","NV",NA,NA,NA,NA,NA
+"HUMACAO","PR",13.9,17.1,NA,NA,NA
+"HUGHES","OK",NA,NA,NA,NA,NA
+"HUGHES","SD",14.6,NA,NA,NA,NA
+"HUERFANO","CO",NA,NA,NA,NA,NA
+"HUDSON","NJ",13.5833333333333,17.96,NA,"Worse Than National",NA
+"HUBBARD","MN",NA,NA,NA,NA,NA
+"HOWELL","MO",15,16,"Worse Than National","Better Than National",NA
+"HOWARD","AR",NA,NA,NA,NA,NA
+"HOWARD","IA",NA,NA,NA,NA,NA
+"HOWARD","IN",14.1,16.3,NA,"Better Than National",NA
+"HOWARD","MD",NA,NA,NA,NA,NA
+"HOWARD","NE",NA,NA,NA,NA,NA
+"HOWARD","TX",15,17.9,"Worse Than National","Worse Than National","Worse Than National"
+"HOUSTON","AL",14.75,16.25,NA,"Better Than National",NA
+"HOUSTON","GA",13.2,16.4,"Better Than National",NA,NA
+"HOUSTON","TN",NA,NA,NA,NA,NA
+"HOUSTON","TX",NA,NA,NA,NA,NA
+"HOUGHTON","MI",14.65,16.2,NA,"Better Than National",NA
+"HOT SPRINGS","WY",NA,NA,NA,NA,NA
+"HOT SPRING","AR",NA,NA,NA,NA,NA
+"HORRY","SC",13.9333333333333,17.0666666666667,NA,NA,NA
+"HOPKINS","KY",13.4,16.1,"Better Than National","Better Than National","Better Than National"
+"HOPKINS","TX",16,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"HOPEWELL CITY","VA",15,18,"Worse Than National","Worse Than National","Worse Than National"
+"HOOD RIVER","OR",NA,NA,NA,NA,NA
+"HOOD","TX",15.3,16.9,"Worse Than National",NA,NA
+"HONOLULU","HI",14.6571428571429,16.2857142857143,NA,"Better Than National",NA
+"HOLT","NE",NA,NA,NA,NA,NA
+"HOLMES","FL",NA,NA,NA,NA,NA
+"HOLMES","MS",NA,NA,NA,NA,NA
+"HOLMES","OH",NA,NA,NA,NA,NA
+"HOKE","NC",NA,NA,NA,NA,NA
+"HODGEMAN","KS",NA,NA,NA,NA,NA
+"HOCKLEY","TX",NA,NA,NA,NA,NA
+"HOCKING","OH",NA,NA,NA,NA,NA
+"HINDS","MS",15.45,17.575,"Worse Than National","Worse Than National","Worse Than National"
+"HILLSDALE","MI",14.4,15.5,NA,"Better Than National",NA
+"HILLSBOROUGH","FL",13.6666666666667,17.8166666666667,NA,"Worse Than National",NA
+"HILLSBOROUGH","NH",12.82,16.9,"Better Than National",NA,NA
+"HILL","MT",NA,NA,NA,NA,NA
+"HILL","TX",NA,NA,NA,NA,NA
+"HIGHLANDS","FL",13.5,17.4,"Better Than National","Worse Than National",NA
+"HIGHLAND","OH",NA,NA,NA,NA,NA
+"HIDALGO","TX",13.68,16.78,NA,NA,NA
+"HICKMAN","TN",NA,NA,NA,NA,NA
+"HERTFORD","NC",14.5,NA,NA,NA,NA
+"HERNANDO","FL",14.4,17.25,NA,NA,NA
+"HERKIMER","NY",NA,NA,NA,NA,NA
+"HENRY","GA",15.4,16.5,"Worse Than National",NA,NA
+"HENRY","IA",NA,NA,NA,NA,NA
+"HENRY","IL",NA,NA,NA,NA,NA
+"HENRY","IN",14.8,NA,NA,NA,NA
+"HENRY","MO",12.9,NA,"Better Than National",NA,NA
+"HENRY","OH",NA,NA,NA,NA,NA
+"HENRY","TN",15,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"HENRY","VA",13.9,16.3,NA,"Better Than National",NA
+"HENRICO","VA",12.6,15.9,"Better Than National","Better Than National","Better Than National"
+"HENNEPIN","MN",13.1833333333333,16.6666666666667,"Better Than National",NA,NA
+"HENDRY","FL",NA,NA,NA,NA,NA
+"HENDRICKS","IN",13.55,16.6,NA,NA,NA
+"HENDERSON","KY",16.3,16.7,"Worse Than National",NA,NA
+"HENDERSON","NC",13.8,16.85,NA,NA,NA
+"HENDERSON","TN",NA,NA,NA,NA,NA
+"HENDERSON","TX",13.3,16.9,"Better Than National",NA,NA
+"HEMPSTEAD","AR",14.1,NA,NA,NA,NA
+"HEMPHILL","TX",NA,NA,NA,NA,NA
+"HAYWOOD","NC",13.4,15.4,"Better Than National","Better Than National","Better Than National"
+"HAYS","TX",14,17.15,NA,NA,NA
+"HAWKINS","TN",NA,NA,NA,NA,NA
+"HAWAII","HI",14.7,16.7,NA,NA,NA
+"HASKELL","KS",NA,NA,NA,NA,NA
+"HASKELL","OK",NA,NA,NA,NA,NA
+"HASKELL","TX",NA,NA,NA,NA,NA
+"HARVEY","KS",14.1,16.6,NA,NA,NA
+"HARTFORD","CT",13.75,16.45,NA,NA,NA
+"HART","KY",NA,NA,NA,NA,NA
+"HARRISONBURG CITY","VA",14.4,16.8,NA,NA,NA
+"HARRISON","IA",NA,NA,NA,NA,NA
+"HARRISON","IN",14.5,NA,NA,NA,NA
+"HARRISON","KY",14.3,NA,NA,NA,NA
+"HARRISON","MO",NA,NA,NA,NA,NA
+"HARRISON","MS",15,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"HARRISON","OH",NA,NA,NA,NA,NA
+"HARRISON","TX",13.5,NA,"Better Than National",NA,NA
+"HARRISON","WV",14.7,18.5,NA,"Worse Than National",NA
+"HARRIS","TX",14.188,16.856,NA,NA,NA
+"HARPER","KS",NA,NA,NA,NA,NA
+"HARPER","OK",NA,NA,NA,NA,NA
+"HARNEY","OR",NA,NA,NA,NA,NA
+"HARNETT","NC",14.6,NA,NA,NA,NA
+"HARMON","OK",NA,NA,NA,NA,NA
+"HARLAN","KY",16.3,NA,"Worse Than National",NA,NA
+"HARLAN","NE",NA,NA,NA,NA,NA
+"HARFORD","MD",NA,NA,NA,NA,NA
+"HARDIN","IA",NA,NA,NA,NA,NA
+"HARDIN","IL",NA,NA,NA,NA,NA
+"HARDIN","KY",14.7,15.7,NA,"Better Than National",NA
+"HARDIN","OH",NA,NA,NA,NA,NA
+"HARDIN","TN",13.9,NA,NA,NA,NA
+"HARDEMAN","TN",NA,NA,NA,NA,NA
+"HARDEMAN","TX",NA,NA,NA,NA,NA
+"HARDEE","FL",NA,NA,NA,NA,NA
+"HARALSON","GA",NA,NA,NA,NA,NA
+"HANSFORD","TX",NA,NA,NA,NA,NA
+"HANOVER","VA",13.4,16.2,"Better Than National","Better Than National","Better Than National"
+"HAND","SD",NA,NA,NA,NA,NA
+"HANCOCK","IA",NA,NA,NA,NA,NA
+"HANCOCK","IL",NA,NA,NA,NA,NA
+"HANCOCK","IN",13.4,16.4,"Better Than National",NA,NA
+"HANCOCK","ME",13.2,15.7,"Better Than National","Better Than National","Better Than National"
+"HANCOCK","MS",14.6,NA,NA,NA,NA
+"HANCOCK","OH",13.5,16.5,"Better Than National",NA,NA
+"HANCOCK","TN",NA,NA,NA,NA,NA
+"HANCOCK","WV",14.6,16.4,NA,NA,NA
+"HAMPTON CITY","VA",16.5,18.5,"Worse Than National","Worse Than National","Worse Than National"
+"HAMPTON","SC",NA,NA,NA,NA,NA
+"HAMPSHIRE","MA",13.8,16.6,NA,NA,NA
+"HAMPSHIRE","WV",NA,NA,NA,NA,NA
+"HAMPDEN","MA",13.4,16.25,"Better Than National","Better Than National","Better Than National"
+"HAMILTON","IA",NA,NA,NA,NA,NA
+"HAMILTON","IL",NA,NA,NA,NA,NA
+"HAMILTON","IN",13.7666666666667,16.2333333333333,NA,"Better Than National",NA
+"HAMILTON","KS",NA,NA,NA,NA,NA
+"HAMILTON","NE",NA,NA,NA,NA,NA
+"HAMILTON","OH",13.7142857142857,16.7857142857143,NA,NA,NA
+"HAMILTON","TN",15.4333333333333,16.3333333333333,"Worse Than National",NA,NA
+"HAMILTON","TX",NA,NA,NA,NA,NA
+"HAMBLEN","TN",14.65,16.55,NA,NA,NA
+"HALL","GA",12.3,15.3,"Better Than National","Better Than National","Better Than National"
+"HALL","NE",13.3,16.4,"Better Than National",NA,NA
+"HALIFAX","NC",13.3,NA,"Better Than National",NA,NA
+"HALIFAX","VA",14.8,15.2,NA,"Better Than National",NA
+"HALE","AL",NA,NA,NA,NA,NA
+"HALE","TX",NA,NA,NA,NA,NA
+"HABERSHAM","GA",NA,NA,NA,NA,NA
+"HAAKON","SD",NA,NA,NA,NA,NA
+"GWINNETT","GA",14.35,16.2,NA,"Better Than National",NA
+"GUTHRIE","IA",NA,NA,NA,NA,NA
+"GUNNISON","CO",NA,NA,NA,NA,NA
+"GULF","FL",NA,NA,NA,NA,NA
+"GUILFORD","NC",13.2,15.75,"Better Than National","Better Than National","Better Than National"
+"GUERNSEY","OH",14.3,16.7,NA,NA,NA
+"GUAYNABO","PR",NA,NA,NA,NA,NA
+"GUAYANILLA","PR",NA,NA,NA,NA,NA
+"GUADALUPE","NM",NA,NA,NA,NA,NA
+"GUADALUPE","TX",15.4,17,"Worse Than National",NA,NA
+"GRUNDY","IA",NA,NA,NA,NA,NA
+"GRUNDY","IL",14.7,18,NA,"Worse Than National",NA
+"GRUNDY","MO",NA,NA,NA,NA,NA
+"GRIMES","TX",NA,NA,NA,NA,NA
+"GRIGGS","ND",NA,NA,NA,NA,NA
+"GRENADA","MS",14,NA,NA,NA,NA
+"GREGORY","SD",NA,NA,NA,NA,NA
+"GREGG","TX",13.2,16.15,"Better Than National","Better Than National","Better Than National"
+"GREER","OK",NA,NA,NA,NA,NA
+"GREENWOOD","KS",NA,NA,NA,NA,NA
+"GREENWOOD","SC",15.5,17.1,"Worse Than National",NA,NA
+"GREENVILLE","SC",12.5,15.1,"Better Than National","Better Than National","Better Than National"
+"GREENE","AL",NA,NA,NA,NA,NA
+"GREENE","AR",16.7,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"GREENE","GA",NA,NA,NA,NA,NA
+"GREENE","IA",NA,NA,NA,NA,NA
+"GREENE","IL",NA,NA,NA,NA,NA
+"GREENE","IN",NA,NA,NA,NA,NA
+"GREENE","MO",13.7,16.25,NA,"Better Than National",NA
+"GREENE","MS",NA,NA,NA,NA,NA
+"GREENE","OH",13.3,NA,"Better Than National",NA,NA
+"GREENE","PA",NA,NA,NA,NA,NA
+"GREENE","TN",13.5,16.9,"Better Than National",NA,NA
+"GREENBRIER","WV",16.3,16.8,"Worse Than National",NA,NA
+"GREEN LAKE","WI",NA,NA,NA,NA,NA
+"GREEN","KY",NA,NA,NA,NA,NA
+"GREEN","WI",13.1,16.3,"Better Than National","Better Than National","Better Than National"
+"GREELEY","KS",NA,NA,NA,NA,NA
+"GRAYSON","KY",NA,NA,NA,NA,NA
+"GRAYSON","TX",13.35,17.55,"Better Than National","Worse Than National",NA
+"GRAYS HARBOR","WA",14,17,NA,NA,NA
+"GRAY","TX",13.4,NA,"Better Than National",NA,NA
+"GRAVES","KY",14.8,18,NA,"Worse Than National",NA
+"GRATIOT","MI",14.8,17.1,NA,NA,NA
+"GRANVILLE","NC",15,15.9,"Worse Than National","Better Than National",NA
+"GRANT","IN",12.9,16.6,"Better Than National",NA,NA
+"GRANT","KS",NA,NA,NA,NA,NA
+"GRANT","KY",NA,NA,NA,NA,NA
+"GRANT","MN",NA,NA,NA,NA,NA
+"GRANT","ND",NA,NA,NA,NA,NA
+"GRANT","NM",NA,NA,NA,NA,NA
+"GRANT","OR",NA,NA,NA,NA,NA
+"GRANT","SD",NA,NA,NA,NA,NA
+"GRANT","WA",15.1,NA,"Worse Than National",NA,NA
+"GRANT","WI",NA,NA,NA,NA,NA
+"GRANT","WV",NA,NA,NA,NA,NA
+"GRANITE","MT",NA,NA,NA,NA,NA
+"GRAND TRAVERSE","MI",11.8,15,"Better Than National","Better Than National","Better Than National"
+"GRAND FORKS","ND",16.4,15.5,"Worse Than National","Better Than National",NA
+"GRAND","CO",NA,NA,NA,NA,NA
+"GRAND","UT",NA,NA,NA,NA,NA
+"GRAHAM","AZ",NA,NA,NA,NA,NA
+"GRAHAM","KS",NA,NA,NA,NA,NA
+"GRAFTON","NH",11.6,14.2,"Better Than National","Better Than National","Better Than National"
+"GRADY","GA",NA,NA,NA,NA,NA
+"GRADY","OK",NA,NA,NA,NA,NA
+"GOVE","KS",NA,NA,NA,NA,NA
+"GOSHEN","WY",NA,NA,NA,NA,NA
+"GORDON","GA",13.4,17.8,"Better Than National","Worse Than National",NA
+"GOODING","ID",NA,NA,NA,NA,NA
+"GOODHUE","MN",NA,NA,NA,NA,NA
+"GONZALES","TX",NA,NA,NA,NA,NA
+"GOGEBIC","MI",NA,NA,NA,NA,NA
+"GLYNN","GA",14.9,16.9,"Worse Than National",NA,NA
+"GLOUCESTER","NJ",14.4,16.9,NA,NA,NA
+"GLOUCESTER","VA",14.2,17.4,NA,"Worse Than National",NA
+"GLENN","CA",NA,NA,NA,NA,NA
+"GLADWIN","MI",NA,NA,NA,NA,NA
+"GLACIER","MT",NA,NA,NA,NA,NA
+"GILMER","GA",NA,NA,NA,NA,NA
+"GILLESPIE","TX",NA,NA,NA,NA,NA
+"GILES","TN",13.7,NA,NA,NA,NA
+"GILES","VA",NA,NA,NA,NA,NA
+"GILA","AZ",12.7,16.6,"Better Than National",NA,NA
+"GIBSON","IN",NA,NA,NA,NA,NA
+"GIBSON","TN",NA,NA,NA,NA,NA
+"GEORGETOWN","SC",13.55,18.6,NA,"Worse Than National",NA
+"GEORGE","MS",NA,NA,NA,NA,NA
+"GENTRY","MO",NA,NA,NA,NA,NA
+"GENEVA","AL",NA,NA,NA,NA,NA
+"GENESEE","MI",15.1666666666667,17.8333333333333,"Worse Than National","Worse Than National","Worse Than National"
+"GENESEE","NY",14.5,NA,NA,NA,NA
+"GEM","ID",NA,NA,NA,NA,NA
+"GEAUGA","OH",12.4,16.4,"Better Than National",NA,NA
+"GEARY","KS",NA,NA,NA,NA,NA
+"GASTON","NC",13.3,16,"Better Than National","Better Than National","Better Than National"
+"GASCONADE","MO",NA,NA,NA,NA,NA
+"GARVIN","OK",NA,NA,NA,NA,NA
+"GARRETT","MD",NA,NA,NA,NA,NA
+"GARLAND","AR",14.85,17.15,"Worse Than National",NA,NA
+"GARFIELD","CO",12.9,16.4,"Better Than National",NA,NA
+"GARFIELD","MT",NA,NA,NA,NA,NA
+"GARFIELD","OK",14.05,16.05,NA,"Better Than National",NA
+"GARFIELD","UT",NA,NA,NA,NA,NA
+"GARFIELD","WA",NA,NA,NA,NA,NA
+"GARDEN","NE",NA,NA,NA,NA,NA
+"GALVESTON","TX",14,16.8,NA,NA,NA
+"GALLIA","OH",16,15.8,"Worse Than National","Better Than National",NA
+"GALLATIN","MT",13.5,16.1,"Better Than National","Better Than National","Better Than National"
+"GALAX CITY","VA",15.6,16.4,"Worse Than National",NA,NA
+"GAINES","TX",NA,NA,NA,NA,NA
+"GAGE","NE",NA,NA,NA,NA,NA
+"GADSDEN","FL",NA,NA,NA,NA,NA
+"FURNAS","NE",NA,NA,NA,NA,NA
+"FULTON","AR",NA,NA,NA,NA,NA
+"FULTON","GA",14,16.7285714285714,NA,NA,NA
+"FULTON","IL",NA,NA,NA,NA,NA
+"FULTON","IN",NA,NA,NA,NA,NA
+"FULTON","NY",14.5,16.8,NA,NA,NA
+"FULTON","OH",NA,NA,NA,NA,NA
+"FULTON","PA",NA,NA,NA,NA,NA
+"FRIO","TX",NA,NA,NA,NA,NA
+"FRESNO","CA",13.9666666666667,17.025,NA,NA,NA
+"FREMONT","CO",NA,NA,NA,NA,NA
+"FREMONT","IA",NA,NA,NA,NA,NA
+"FREMONT","WY",14.1,NA,NA,NA,NA
+"FREESTONE","TX",NA,NA,NA,NA,NA
+"FREEBORN","MN",15.9,16.3,"Worse Than National","Better Than National",NA
+"FREDERICKSBURG CITY","VA",14,16.8,NA,NA,NA
+"FREDERICK","MD",NA,NA,NA,NA,NA
+"FRANKLIN CITY","VA",14.6,NA,NA,NA,NA
+"FRANKLIN","AL",15.3,NA,"Worse Than National",NA,NA
+"FRANKLIN","AR",NA,NA,NA,NA,NA
+"FRANKLIN","FL",NA,NA,NA,NA,NA
+"FRANKLIN","GA",NA,NA,NA,NA,NA
+"FRANKLIN","IA",NA,NA,NA,NA,NA
+"FRANKLIN","ID",NA,NA,NA,NA,NA
+"FRANKLIN","IL",NA,NA,NA,NA,NA
+"FRANKLIN","KS",NA,NA,NA,NA,NA
+"FRANKLIN","KY",14.4,17.3,NA,"Worse Than National",NA
+"FRANKLIN","LA",15.6,NA,"Worse Than National",NA,NA
+"FRANKLIN","MA",14.4,17.2,NA,NA,NA
+"FRANKLIN","ME",14.9,16.5,"Worse Than National",NA,NA
+"FRANKLIN","MO",14.4,16,NA,"Better Than National",NA
+"FRANKLIN","MS",NA,NA,NA,NA,NA
+"FRANKLIN","NE",NA,NA,NA,NA,NA
+"FRANKLIN","NY",14.25,17.1,NA,NA,NA
+"FRANKLIN","OH",14.9333333333333,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"FRANKLIN","PA",13.4,17.5,"Better Than National","Worse Than National",NA
+"FRANKLIN","TN",14.9,17.2,"Worse Than National",NA,NA
+"FRANKLIN","VA",NA,NA,NA,NA,NA
+"FRANKLIN","VT",15.3,16.3,"Worse Than National","Better Than National",NA
+"FRANKLIN","WA",NA,NA,NA,NA,NA
+"FOSTER","ND",NA,NA,NA,NA,NA
+"FORT BEND","TX",13.675,16.675,NA,NA,NA
+"FORSYTH","GA",14.8,14.8,NA,"Better Than National",NA
+"FORSYTH","NC",13.9,17.1,NA,NA,NA
+"FORREST","MS",13.9,18.8,NA,"Worse Than National",NA
+"FORD","IL",NA,NA,NA,NA,NA
+"FORD","KS",14.4,16.1,NA,"Better Than National",NA
+"FOND DU LAC","WI",13.7,16.3,NA,"Better Than National",NA
+"FLOYD","GA",15.55,16,"Worse Than National","Better Than National",NA
+"FLOYD","IA",NA,NA,NA,NA,NA
+"FLOYD","IN",12.4,16.2,"Better Than National","Better Than National","Better Than National"
+"FLOYD","KY",14.1,17.4,NA,"Worse Than National",NA
+"FLOYD","TX",NA,NA,NA,NA,NA
+"FLORENCE","SC",13.1,17.1,"Better Than National",NA,NA
+"FLEMING","KY",NA,NA,NA,NA,NA
+"FLATHEAD","MT",13.6,15,NA,"Better Than National",NA
+"FLAGLER","FL",14.4,17.8,NA,"Worse Than National",NA
+"FISHER","TX",NA,NA,NA,NA,NA
+"FINNEY","KS",12.4,16.6,"Better Than National",NA,NA
+"FILLMORE","NE",NA,NA,NA,NA,NA
+"FERRY","WA",NA,NA,NA,NA,NA
+"FERGUS","MT",NA,NA,NA,NA,NA
+"FENTRESS","TN",NA,NA,NA,NA,NA
+"FAYETTE","AL",NA,NA,NA,NA,NA
+"FAYETTE","GA",12.9,16.9,"Better Than National",NA,NA
+"FAYETTE","IA",NA,NA,NA,NA,NA
+"FAYETTE","IL",NA,NA,NA,NA,NA
+"FAYETTE","IN",14.6,NA,NA,NA,NA
+"FAYETTE","KY",15.125,18.025,"Worse Than National","Worse Than National","Worse Than National"
+"FAYETTE","OH",NA,NA,NA,NA,NA
+"FAYETTE","PA",17.4,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"FAYETTE","TX",14.5,NA,NA,NA,NA
+"FAYETTE","WV",NA,NA,NA,NA,NA
+"FAUQUIER","VA",15,18.2,"Worse Than National","Worse Than National","Worse Than National"
+"FAULKNER","AR",12.8,15.6,"Better Than National","Better Than National","Better Than National"
+"FAULK","SD",NA,NA,NA,NA,NA
+"FARIBAULT","MN",NA,NA,NA,NA,NA
+"FANNIN","GA",NA,NA,NA,NA,NA
+"FANNIN","TX",NA,NA,NA,NA,NA
+"FALLS","TX",NA,NA,NA,NA,NA
+"FALLON","MT",NA,NA,NA,NA,NA
+"FALL RIVER","SD",NA,NA,NA,NA,NA
+"FAJARDO","PR",NA,NA,NA,NA,NA
+"FAIRFIELD","CT",13.6666666666667,17.2166666666667,NA,NA,NA
+"FAIRFIELD","OH",14.4,17.3,NA,"Worse Than National",NA
+"FAIRFIELD","SC",NA,NA,NA,NA,NA
+"FAIRFAX","VA",13.875,17,NA,NA,NA
+"FAIRBANKS NORTH STAR","AK",13.2,15.7,"Better Than National","Better Than National","Better Than National"
+"EVANS","GA",NA,NA,NA,NA,NA
+"EVANGELINE","LA",13.4,16.7,"Better Than National",NA,NA
+"ETOWAH","AL",15.45,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"ESTILL","KY",NA,NA,NA,NA,NA
+"ESSEX","MA",13.6,17.08,NA,NA,NA
+"ESSEX","NJ",12.9714285714286,17.1285714285714,"Better Than National",NA,NA
+"ESSEX","NY",NA,NA,NA,NA,NA
+"ESSEX","VA",12.9,16.4,"Better Than National",NA,NA
+"ESCAMBIA","AL",15.7,NA,"Worse Than National",NA,NA
+"ESCAMBIA","FL",15.8,17.0666666666667,"Worse Than National",NA,NA
+"ERIE","NY",14.88,16.76,"Worse Than National",NA,NA
+"ERIE","OH",14,16.8,NA,NA,NA
+"ERIE","PA",14.85,16.4,"Worse Than National",NA,NA
+"ERATH","TX",13.3,NA,"Better Than National",NA,NA
+"EMPORIA CITY","VA",13.3,17.5,"Better Than National","Worse Than National",NA
+"EMMONS","ND",NA,NA,NA,NA,NA
+"EMMET","IA",14.4,16.8,NA,NA,NA
+"EMMET","MI",13.5,15.5,"Better Than National","Better Than National","Better Than National"
+"EMANUEL","GA",NA,NA,NA,NA,NA
+"ELMORE","AL",NA,NA,NA,NA,NA
+"ELMORE","ID",NA,NA,NA,NA,NA
+"ELLSWORTH","KS",NA,NA,NA,NA,NA
+"ELLIS","KS",12.7,15.3,"Better Than National","Better Than National","Better Than National"
+"ELLIS","OK",NA,NA,NA,NA,NA
+"ELLIS","TX",13.1,17,"Better Than National",NA,NA
+"ELKO","NV",14.5,17.3,NA,"Worse Than National",NA
+"ELKHART","IN",14.95,16.8,"Worse Than National",NA,NA
+"ELK","PA",13.9,16.9,NA,NA,NA
+"ELBERT","GA",NA,NA,NA,NA,NA
+"EL PASO","CO",12.45,16.7,"Better Than National",NA,NA
+"EL PASO","TX",15.24,17.12,"Worse Than National",NA,NA
+"EL DORADO","CA",13.2,16.6,"Better Than National",NA,NA
+"EFFINGHAM","GA",NA,NA,NA,NA,NA
+"EFFINGHAM","IL",15.5,17,"Worse Than National",NA,NA
+"EDWARDS","KS",NA,NA,NA,NA,NA
+"EDMUNDS","SD",NA,NA,NA,NA,NA
+"EDGEFIELD","SC",NA,NA,NA,NA,NA
+"EDGECOMBE","NC",13.8,16.5,NA,NA,NA
+"EDGAR","IL",NA,NA,NA,NA,NA
+"EDDY","NM",13.5,NA,"Better Than National",NA,NA
+"ECTOR","TX",13.8,17.45,NA,"Worse Than National",NA
+"EAU CLAIRE","WI",12.4,15.45,"Better Than National","Better Than National","Better Than National"
+"EATON","MI",NA,NA,NA,NA,NA
+"EASTLAND","TX",NA,NA,NA,NA,NA
+"EAST FELICIANA","LA",NA,NA,NA,NA,NA
+"EAST CARROLL","LA",NA,NA,NA,NA,NA
+"EAST BATON ROUGE","LA",15.45,17.15,"Worse Than National",NA,NA
+"EARLY","GA",NA,NA,NA,NA,NA
+"EAGLE","CO",NA,NA,NA,NA,NA
+"DYER","TN",14.7,16.9,NA,NA,NA
+"DUVAL","FL",14.3714285714286,17.2428571428571,NA,NA,NA
+"DUTCHESS","NY",13.2,16.4,"Better Than National",NA,NA
+"DURHAM","NC",14.45,16.8,NA,NA,NA
+"DUPLIN","NC",16,NA,"Worse Than National",NA,NA
+"DUPAGE","IL",13.35,17.2,"Better Than National",NA,NA
+"DUNN","WI",NA,NA,NA,NA,NA
+"DUNKLIN","MO",14.9,NA,"Worse Than National",NA,NA
+"DUNDY","NE",NA,NA,NA,NA,NA
+"DUKES","MA",NA,NA,NA,NA,NA
+"DUCHESNE","UT",NA,NA,NA,NA,NA
+"DUBUQUE","IA",13.55,16.55,NA,NA,NA
+"DUBOIS","IN",12.5,14.9,"Better Than National","Better Than National","Better Than National"
+"DREW","AR",NA,NA,NA,NA,NA
+"DOUGLAS","CO",13.85,16.45,NA,NA,NA
+"DOUGLAS","GA",13.6,17,NA,NA,NA
+"DOUGLAS","KS",13.5,17.3,"Better Than National","Worse Than National",NA
+"DOUGLAS","MN",NA,NA,NA,NA,NA
+"DOUGLAS","NE",13.4833333333333,16.65,"Better Than National",NA,NA
+"DOUGLAS","NV",NA,NA,NA,NA,NA
+"DOUGLAS","OR",13.7,15.9,NA,"Better Than National",NA
+"DOUGLAS","SD",NA,NA,NA,NA,NA
+"DOUGLAS","WI",NA,NA,NA,NA,NA
+"DOUGHERTY","GA",15.1,16.6,"Worse Than National",NA,NA
+"DOOR","WI",16.4,15.8,"Worse Than National","Better Than National",NA
+"DONA ANA","NM",14.25,16.3,NA,"Better Than National",NA
+"DODGE","GA",NA,NA,NA,NA,NA
+"DODGE","NE",15.6,16,"Worse Than National","Better Than National",NA
+"DODGE","WI",NA,NA,NA,NA,NA
+"DIVIDE","ND",NA,NA,NA,NA,NA
+"DISTRICT OF COLUMBIA","DC",13.9,16.9714285714286,NA,NA,NA
+"DIMMIT","TX",NA,NA,NA,NA,NA
+"DILLON","SC",15.3,17.1,"Worse Than National",NA,NA
+"DILLINGHAM","AK",NA,NA,NA,NA,NA
+"DICKSON","TN",13.6,16.9,NA,NA,NA
+"DICKINSON","IA",NA,NA,NA,NA,NA
+"DICKINSON","KS",NA,NA,NA,NA,NA
+"DICKINSON","MI",13.8,16,NA,"Better Than National",NA
+"DICKEY","ND",NA,NA,NA,NA,NA
+"DICKENSON","VA",NA,NA,NA,NA,NA
+"DEWITT","IL",NA,NA,NA,NA,NA
+"DEWEY","OK",NA,NA,NA,NA,NA
+"DEWEY","SD",NA,NA,NA,NA,NA
+"DEUEL","SD",NA,NA,NA,NA,NA
+"DESOTO","MS",14.3,18.3,NA,"Worse Than National",NA
+"DESHA","AR",NA,NA,NA,NA,NA
+"DESCHUTES","OR",15.1,14.9,"Worse Than National","Better Than National",NA
+"DES MOINES","IA",14.4,17.3,NA,"Worse Than National",NA
+"DENVER","CO",13.7,16.58,NA,NA,NA
+"DENTON","TX",13.68,17.775,NA,"Worse Than National",NA
+"DENT","MO",NA,NA,NA,NA,NA
+"DELTA","CO",15.2,NA,"Worse Than National",NA,NA
+"DELTA","MI",14.5,16.6,NA,NA,NA
+"DELAWARE","IA",NA,NA,NA,NA,NA
+"DELAWARE","IN",14.2,18.8,NA,"Worse Than National",NA
+"DELAWARE","NY",NA,NA,NA,NA,NA
+"DELAWARE","OH",NA,NA,NA,NA,NA
+"DELAWARE","OK",13.8,17.4,NA,"Worse Than National",NA
+"DELAWARE","PA",13.18,16.82,"Better Than National",NA,NA
+"DEL NORTE","CA",12.6,17.1,"Better Than National",NA,NA
+"DEKALB","GA",14.3333333333333,17.35,NA,"Worse Than National",NA
+"DEKALB","IL",13.6,16.8,NA,NA,NA
+"DEKALB","TN",NA,NA,NA,NA,NA
+"DEFIANCE","OH",NA,NA,NA,NA,NA
+"DEER LODGE","MT",NA,NA,NA,NA,NA
+"DECATUR","GA",NA,NA,NA,NA,NA
+"DECATUR","IA",NA,NA,NA,NA,NA
+"DECATUR","IN",NA,NA,NA,NA,NA
+"DECATUR","KS",NA,NA,NA,NA,NA
+"DECATUR","TN",15.4,NA,"Worse Than National",NA,NA
+"DEARBORN","IN",16.3,18,"Worse Than National","Worse Than National","Worse Than National"
+"DEAF SMITH","TX",NA,NA,NA,NA,NA
+"DE WITT","TX",NA,NA,NA,NA,NA
+"DE SOTO","FL",13.4,NA,"Better Than National",NA,NA
+"DE SOTO","LA",NA,NA,NA,NA,NA
+"DE KALB","AL",16.8,16.1,"Worse Than National","Better Than National",NA
+"DE KALB","IN",NA,NA,NA,NA,NA
+"DAY","SD",NA,NA,NA,NA,NA
+"DAWSON","MT",NA,NA,NA,NA,NA
+"DAWSON","NE",NA,NA,NA,NA,NA
+"DAWSON","TX",NA,NA,NA,NA,NA
+"DAWES","NE",NA,NA,NA,NA,NA
+"DAVISON","SD",15.4,NA,"Worse Than National",NA,NA
+"DAVIS","IA",NA,NA,NA,NA,NA
+"DAVIS","UT",13.7,16.6,NA,NA,NA
+"DAVIESS","IN",15.7,16.9,"Worse Than National",NA,NA
+"DAVIESS","KY",14.2,17.8,NA,"Worse Than National",NA
+"DAVIE","NC",NA,NA,NA,NA,NA
+"DAVIDSON","NC",14.6,NA,NA,NA,NA
+"DAVIDSON","TN",14.9285714285714,16.2714285714286,"Worse Than National","Better Than National",NA
+"DAUPHIN","PA",13.55,16.75,NA,NA,NA
+"DARLINGTON","SC",13.8,16.7,NA,NA,NA
+"DARKE","OH",13.6,NA,NA,NA,NA
+"DARE","NC",NA,NA,NA,NA,NA
+"DANVILLE CITY","VA",15,17.2,"Worse Than National",NA,NA
+"DANIELS","MT",NA,NA,NA,NA,NA
+"DANE","WI",12.2666666666667,15.8,"Better Than National","Better Than National","Better Than National"
+"DALLAS","AL",15.3,18.6,"Worse Than National","Worse Than National","Worse Than National"
+"DALLAS","AR",NA,NA,NA,NA,NA
+"DALLAS","IA",NA,NA,NA,NA,NA
+"DALLAS","TX",14.6235294117647,16.6117647058824,NA,NA,NA
+"DALLAM","TX",NA,NA,NA,NA,NA
+"DALE","AL",NA,NA,NA,NA,NA
+"DAKOTA","MN",15,16.8,"Worse Than National",NA,NA
+"CUYAHOGA","OH",13.1071428571429,17.3615384615385,"Better Than National","Worse Than National",NA
+"CUSTER","MT",NA,NA,NA,NA,NA
+"CUSTER","NE",NA,NA,NA,NA,NA
+"CUSTER","OK",NA,NA,NA,NA,NA
+"CUSTER","SD",NA,NA,NA,NA,NA
+"CURRY","NM",13.8,NA,NA,NA,NA
+"CURRY","OR",NA,NA,NA,NA,NA
+"CUMING","NE",NA,NA,NA,NA,NA
+"CUMBERLAND","KY",NA,NA,NA,NA,NA
+"CUMBERLAND","ME",14.3666666666667,16.1333333333333,NA,"Better Than National",NA
+"CUMBERLAND","NC",12.6,17.3,"Better Than National","Worse Than National",NA
+"CUMBERLAND","NJ",14.5,17.8,NA,"Worse Than National",NA
+"CUMBERLAND","PA",15.7,17.25,"Worse Than National",NA,NA
+"CUMBERLAND","TN",14.75,15.35,NA,"Better Than National",NA
+"CULPEPER","VA",15,17.7,"Worse Than National","Worse Than National","Worse Than National"
+"CULLMAN","AL",15.7,16.2,"Worse Than National","Better Than National",NA
+"CULBERSON","TX",NA,NA,NA,NA,NA
+"CROW WING","MN",11.7,17.1,"Better Than National",NA,NA
+"CROSS","AR",NA,NA,NA,NA,NA
+"CROSBY","TX",NA,NA,NA,NA,NA
+"CROOK","OR",NA,NA,NA,NA,NA
+"CROOK","WY",NA,NA,NA,NA,NA
+"CRITTENDEN","KY",NA,NA,NA,NA,NA
+"CRISP","GA",14.2,16.6,NA,NA,NA
+"CRENSHAW","AL",NA,NA,NA,NA,NA
+"CREEK","OK",NA,NA,NA,NA,NA
+"CRAWFORD","AR",NA,NA,NA,NA,NA
+"CRAWFORD","IA",NA,NA,NA,NA,NA
+"CRAWFORD","IL",NA,NA,NA,NA,NA
+"CRAWFORD","KS",14.4,16.4,NA,NA,NA
+"CRAWFORD","MI",13,16.2,"Better Than National","Better Than National","Better Than National"
+"CRAWFORD","OH",NA,NA,NA,NA,NA
+"CRAWFORD","PA",14.9,16.6,"Worse Than National",NA,NA
+"CRAWFORD","WI",NA,NA,NA,NA,NA
+"CRAVEN","NC",14.1,16.5,NA,NA,NA
+"CRANE","TX",NA,NA,NA,NA,NA
+"CRAIGHEAD","AR",13.8,17.65,NA,"Worse Than National",NA
+"CRAIG","OK",NA,NA,NA,NA,NA
+"COWLITZ","WA",13,15.7,"Better Than National","Better Than National","Better Than National"
+"COWLEY","KS",NA,NA,NA,NA,NA
+"COWETA","GA",14.2,17.8,NA,"Worse Than National",NA
+"COVINGTON","AL",NA,NA,NA,NA,NA
+"COVINGTON","MS",NA,NA,NA,NA,NA
+"COTTONWOOD","MN",NA,NA,NA,NA,NA
+"COSHOCTON","OH",NA,NA,NA,NA,NA
+"CORYELL","TX",NA,NA,NA,NA,NA
+"CORTLAND","NY",13.5,16.2,"Better Than National","Better Than National","Better Than National"
+"COPIAH","MS",NA,NA,NA,NA,NA
+"COOS","NH",14.3,15.8,NA,"Better Than National",NA
+"COOS","OR",14.8,16.1,NA,"Better Than National",NA
+"COOPER","MO",NA,NA,NA,NA,NA
+"COOKE","TX",NA,NA,NA,NA,NA
+"COOK","GA",NA,NA,NA,NA,NA
+"COOK","IL",13.519512195122,17.2538461538462,NA,NA,NA
+"COOK","MN",NA,NA,NA,NA,NA
+"CONWAY","AR",NA,NA,NA,NA,NA
+"CONVERSE","WY",NA,NA,NA,NA,NA
+"CONTRA COSTA","CA",14.75,16.625,NA,NA,NA
+"CONEJOS","CO",NA,NA,NA,NA,NA
+"CONECUH","AL",NA,NA,NA,NA,NA
+"CONCORDIA","LA",NA,NA,NA,NA,NA
+"CONCHO","TX",NA,NA,NA,NA,NA
+"COMANCHE","KS",NA,NA,NA,NA,NA
+"COMANCHE","OK",13.1,15.7,"Better Than National","Better Than National","Better Than National"
+"COMANCHE","TX",NA,NA,NA,NA,NA
+"COMAL","TX",NA,NA,NA,NA,NA
+"COLUSA","CA",NA,NA,NA,NA,NA
+"COLUMBUS","NC",16.5,NA,"Worse Than National",NA,NA
+"COLUMBIANA","OH",13.95,17.1,NA,NA,NA
+"COLUMBIA","AR",NA,NA,NA,NA,NA
+"COLUMBIA","FL",13.05,17.45,"Better Than National","Worse Than National",NA
+"COLUMBIA","NY",15.7,17.1,"Worse Than National",NA,NA
+"COLUMBIA","PA",15.1,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"COLUMBIA","WA",NA,NA,NA,NA,NA
+"COLUMBIA","WI",NA,NA,NA,NA,NA
+"COLQUITT","GA",NA,NA,NA,NA,NA
+"COLORADO","TX",NA,NA,NA,NA,NA
+"COLLINGSWORTH","TX",NA,NA,NA,NA,NA
+"COLLIN","TX",13.7,17,NA,NA,NA
+"COLLIER","FL",13.85,15.85,NA,"Better Than National",NA
+"COLLETON","SC",NA,NA,NA,NA,NA
+"COLFAX","NE",NA,NA,NA,NA,NA
+"COLFAX","NM",NA,NA,NA,NA,NA
+"COLES","IL",14.8,17.7,NA,"Worse Than National",NA
+"COLEMAN","TX",NA,NA,NA,NA,NA
+"COLE","MO",15.25,16.1,"Worse Than National","Better Than National",NA
+"COLBERT","AL",15.6,NA,"Worse Than National",NA,NA
+"COFFEY","KS",NA,NA,NA,NA,NA
+"COFFEE","AL",NA,NA,NA,NA,NA
+"COFFEE","GA",14.2,NA,NA,NA,NA
+"COFFEE","TN",13.5,16.7,"Better Than National",NA,NA
+"CODINGTON","SD",14.8,17.2,NA,NA,NA
+"COCONINO","AZ",13.9,16.6,NA,NA,NA
+"COCKE","TN",NA,NA,NA,NA,NA
+"COCHRAN","TX",NA,NA,NA,NA,NA
+"COCHISE","AZ",14.9,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"COBB","GA",13.45,16.75,"Better Than National",NA,NA
+"COAL","OK",NA,NA,NA,NA,NA
+"COAHOMA","MS",14.1,18.6,NA,"Worse Than National",NA
+"CLOUD","KS",NA,NA,NA,NA,NA
+"CLINTON","IA",14.1,16.3,NA,"Better Than National",NA
+"CLINTON","IL",NA,NA,NA,NA,NA
+"CLINTON","IN",NA,NA,NA,NA,NA
+"CLINTON","KY",NA,NA,NA,NA,NA
+"CLINTON","MI",NA,NA,NA,NA,NA
+"CLINTON","MO",14.4,16.2,NA,"Better Than National",NA
+"CLINTON","NY",13.6,18.4,NA,"Worse Than National",NA
+"CLINTON","OH",NA,NA,NA,NA,NA
+"CLINTON","PA",13.4,NA,"Better Than National",NA,NA
+"CLINCH","GA",NA,NA,NA,NA,NA
+"CLEVELAND","NC",15.6,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"CLEVELAND","OK",14.3,16.3,NA,"Better Than National",NA
+"CLERMONT","OH",14.9,17.1,"Worse Than National",NA,NA
+"CLEBURNE","AR",NA,NA,NA,NA,NA
+"CLEARWATER","ID",NA,NA,NA,NA,NA
+"CLEARWATER","MN",NA,NA,NA,NA,NA
+"CLEARFIELD","PA",12.85,16.2,"Better Than National","Better Than National","Better Than National"
+"CLAYTON","GA",15.4,16.4,"Worse Than National",NA,NA
+"CLAYTON","IA",NA,NA,NA,NA,NA
+"CLAY","AL",NA,NA,NA,NA,NA
+"CLAY","AR",NA,NA,NA,NA,NA
+"CLAY","FL",15.4,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"CLAY","IA",NA,NA,NA,NA,NA
+"CLAY","IL",NA,NA,NA,NA,NA
+"CLAY","IN",NA,NA,NA,NA,NA
+"CLAY","KS",NA,NA,NA,NA,NA
+"CLAY","KY",13.9,16.7,NA,NA,NA
+"CLAY","MO",13.8,17.2,NA,NA,NA
+"CLAY","MS",NA,NA,NA,NA,NA
+"CLAY","SD",NA,NA,NA,NA,NA
+"CLAY","TN",NA,NA,NA,NA,NA
+"CLAY","TX",NA,NA,NA,NA,NA
+"CLATSOP","OR",NA,NA,NA,NA,NA
+"CLARKE","AL",NA,NA,NA,NA,NA
+"CLARKE","GA",13.2,15.1,"Better Than National","Better Than National","Better Than National"
+"CLARKE","IA",NA,NA,NA,NA,NA
+"CLARKE","MS",NA,NA,NA,NA,NA
+"CLARK","AR",NA,NA,NA,NA,NA
+"CLARK","IN",14.2,17.45,NA,"Worse Than National",NA
+"CLARK","KS",NA,NA,NA,NA,NA
+"CLARK","KY",12.8,17,"Better Than National",NA,NA
+"CLARK","NV",15.3307692307692,17.4538461538462,"Worse Than National","Worse Than National","Worse Than National"
+"CLARK","OH",13.4,18.7,"Better Than National","Worse Than National",NA
+"CLARK","WA",16.2,17.35,"Worse Than National","Worse Than National","Worse Than National"
+"CLARK","WI",NA,NA,NA,NA,NA
+"CLARION","PA",14.5,NA,NA,NA,NA
+"CLARENDON","SC",NA,NA,NA,NA,NA
+"CLARE","MI",NA,NA,NA,NA,NA
+"CLALLAM","WA",15.1,16.7,"Worse Than National",NA,NA
+"CLAIBORNE","LA",NA,NA,NA,NA,NA
+"CLAIBORNE","MS",NA,NA,NA,NA,NA
+"CLAIBORNE","TN",NA,NA,NA,NA,NA
+"CLACKAMAS","OR",13.55,NA,NA,NA,NA
+"CITRUS","FL",14.5,16.3,NA,"Better Than National",NA
+"CIMARRON","OK",NA,NA,NA,NA,NA
+"CIBOLA","NM",NA,NA,NA,NA,NA
+"CHURCHILL","NV",NA,NA,NA,NA,NA
+"CHRISTIAN","IL",NA,NA,NA,NA,NA
+"CHRISTIAN","KY",14.3,17.1,NA,NA,NA
+"CHOWAN","NC",NA,NA,NA,NA,NA
+"CHOUTEAU","MT",NA,NA,NA,NA,NA
+"CHOCTAW","AL",NA,NA,NA,NA,NA
+"CHOCTAW","MS",NA,NA,NA,NA,NA
+"CHOCTAW","OK",NA,NA,NA,NA,NA
+"CHITTENDEN","VT",13.4,15.7,"Better Than National","Better Than National","Better Than National"
+"CHISAGO","MN",NA,NA,NA,NA,NA
+"CHIPPEWA","MI",14.1,16,NA,"Better Than National",NA
+"CHIPPEWA","MN",NA,NA,NA,NA,NA
+"CHIPPEWA","WI",NA,NA,NA,NA,NA
+"CHILDRESS","TX",NA,NA,NA,NA,NA
+"CHICOT","AR",15.7,NA,"Worse Than National",NA,NA
+"CHICKASAW","IA",NA,NA,NA,NA,NA
+"CHICKASAW","MS",NA,NA,NA,NA,NA
+"CHEYENNE","CO",NA,NA,NA,NA,NA
+"CHEYENNE","KS",NA,NA,NA,NA,NA
+"CHEYENNE","NE",NA,NA,NA,NA,NA
+"CHESTERFIELD","SC",NA,NA,NA,NA,NA
+"CHESTERFIELD","VA",15.55,17.95,"Worse Than National","Worse Than National","Worse Than National"
+"CHESTER","PA",13.64,15.95,NA,"Better Than National",NA
+"CHESTER","SC",NA,NA,NA,NA,NA
+"CHESHIRE","NH",15,16.7,"Worse Than National",NA,NA
+"CHESAPEAKE CITY","VA",15.2,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"CHERRY","NE",NA,NA,NA,NA,NA
+"CHEROKEE","AL",NA,NA,NA,NA,NA
+"CHEROKEE","GA",15.2,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"CHEROKEE","IA",NA,NA,NA,NA,NA
+"CHEROKEE","KS",NA,NA,NA,NA,NA
+"CHEROKEE","NC",14,16.6,NA,NA,NA
+"CHEROKEE","OK",13.9,17.5,NA,"Worse Than National",NA
+"CHEROKEE","SC",14.6,NA,NA,NA,NA
+"CHEROKEE","TX",NA,NA,NA,NA,NA
+"CHENANGO","NY",13.6,16.6,NA,NA,NA
+"CHEMUNG","NY",14.6,17.7,NA,"Worse Than National",NA
+"CHELAN","WA",13.8,14.7,NA,"Better Than National",NA
+"CHEATHAM","TN",NA,NA,NA,NA,NA
+"CHAVES","NM",13.5,16.85,"Better Than National",NA,NA
+"CHAUTAUQUA","KS",NA,NA,NA,NA,NA
+"CHAUTAUQUA","NY",13.5,16.9,"Better Than National",NA,NA
+"CHATTOOGA","GA",13.3,15.6,"Better Than National","Better Than National","Better Than National"
+"CHATHAM","GA",15.65,16.65,"Worse Than National",NA,NA
+"CHATHAM","NC",NA,NA,NA,NA,NA
+"CHASE","NE",NA,NA,NA,NA,NA
+"CHARLOTTESVILLE CITY","VA",13.1,18.3,"Better Than National","Worse Than National",NA
+"CHARLOTTE","FL",13.1666666666667,17.8,"Better Than National","Worse Than National",NA
+"CHARLEVOIX","MI",NA,NA,NA,NA,NA
+"CHARLESTON","SC",13.9333333333333,17.0333333333333,NA,NA,NA
+"CHARLES MIX","SD",NA,NA,NA,NA,NA
+"CHARLES","MD",NA,NA,NA,NA,NA
+"CHAMPAIGN","IL",13.4,17.45,"Better Than National","Worse Than National",NA
+"CHAMPAIGN","OH",NA,NA,NA,NA,NA
+"CHAMBERS","TX",NA,NA,NA,NA,NA
+"CHAFFEE","CO",NA,NA,NA,NA,NA
+"CERRO GORDO","IA",15.7,15.4,"Worse Than National","Better Than National",NA
+"CENTRE","PA",13.9,17.9,NA,"Worse Than National",NA
+"CEDAR","MO",NA,NA,NA,NA,NA
+"CECIL","MD",NA,NA,NA,NA,NA
+"CAYUGA","NY",13.1,17.1,"Better Than National",NA,NA
+"CAYEY","PR",14,17.6,NA,"Worse Than National",NA
+"CAVALIER","ND",NA,NA,NA,NA,NA
+"CATTARAUGUS","NY",14.2,15.5,NA,"Better Than National",NA
+"CATOOSA","GA",15,NA,"Worse Than National",NA,NA
+"CATAWBA","NC",16.55,15.8,"Worse Than National","Better Than National",NA
+"CASTRO","TX",NA,NA,NA,NA,NA
+"CASSIA","ID",NA,NA,NA,NA,NA
+"CASS","IA",NA,NA,NA,NA,NA
+"CASS","IN",NA,NA,NA,NA,NA
+"CASS","MI",NA,NA,NA,NA,NA
+"CASS","MN",NA,NA,NA,NA,NA
+"CASS","MO",NA,NA,NA,NA,NA
+"CASS","ND",14.05,16.9,NA,NA,NA
+"CASEY","KY",NA,NA,NA,NA,NA
+"CASCADE","MT",16.6,15.8,"Worse Than National","Better Than National",NA
+"CARVER","MN",13.5,16.4,"Better Than National",NA,NA
+"CARTERET","NC",15.1,17.9,"Worse Than National","Worse Than National","Worse Than National"
+"CARTER","MT",NA,NA,NA,NA,NA
+"CARTER","OK",15.7,17.9,"Worse Than National","Worse Than National","Worse Than National"
+"CARTER","TN",14.6,16.3,NA,"Better Than National",NA
+"CARSON CITY","NV",13.4,15.1,"Better Than National","Better Than National","Better Than National"
+"CARROLL","AR",NA,NA,NA,NA,NA
+"CARROLL","GA",15.15,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"CARROLL","IA",NA,NA,NA,NA,NA
+"CARROLL","KY",NA,NA,NA,NA,NA
+"CARROLL","MD",NA,NA,NA,NA,NA
+"CARROLL","MO",NA,NA,NA,NA,NA
+"CARROLL","NH",14.45,NA,NA,NA,NA
+"CARROLL","TN",NA,NA,NA,NA,NA
+"CAROLINA","PR",NA,NA,NA,NA,NA
+"CARLTON","MN",NA,NA,NA,NA,NA
+"CARIBOU","ID",NA,NA,NA,NA,NA
+"CARBON","MT",NA,NA,NA,NA,NA
+"CARBON","PA",13.85,16.95,NA,NA,NA
+"CARBON","UT",NA,NA,NA,NA,NA
+"CARBON","WY",NA,NA,NA,NA,NA
+"CAPE MAY","NJ",13.3,18,"Better Than National","Worse Than National",NA
+"CAPE GIRARDEAU","MO",15.25,17.05,"Worse Than National",NA,NA
+"CANYON","ID",13.7,16.8,NA,NA,NA
+"CANNON","TN",NA,NA,NA,NA,NA
+"CANDLER","GA",NA,NA,NA,NA,NA
+"CANADIAN","OK",NA,NA,NA,NA,NA
+"CAMPBELL","KY",15.1,17.5,"Worse Than National","Worse Than National","Worse Than National"
+"CAMPBELL","TN",NA,NA,NA,NA,NA
+"CAMPBELL","WY",NA,NA,NA,NA,NA
+"CAMP","TX",NA,NA,NA,NA,NA
+"CAMERON","LA",NA,NA,NA,NA,NA
+"CAMERON","TX",13.625,16.8,NA,NA,NA
+"CAMDEN","GA",NA,NA,NA,NA,NA
+"CAMDEN","MO",17.5,16.5,"Worse Than National",NA,NA
+"CAMDEN","NJ",14.35,17.7,NA,"Worse Than National",NA
+"CAMBRIA","PA",13.8,18.7,NA,"Worse Than National",NA
+"CALVERT","MD",NA,NA,NA,NA,NA
+"CALUMET","WI",NA,NA,NA,NA,NA
+"CALLOWAY","KY",14.9,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"CALLAWAY","MO",NA,NA,NA,NA,NA
+"CALHOUN","AL",14.35,17.75,NA,"Worse Than National",NA
+"CALHOUN","FL",NA,NA,NA,NA,NA
+"CALHOUN","IA",NA,NA,NA,NA,NA
+"CALHOUN","MI",14.65,16,NA,"Better Than National",NA
+"CALHOUN","MS",NA,NA,NA,NA,NA
+"CALHOUN","TX",NA,NA,NA,NA,NA
+"CALHOUN","WV",NA,NA,NA,NA,NA
+"CALEDONIA","VT",16,NA,"Worse Than National",NA,NA
+"CALDWELL","KY",NA,NA,NA,NA,NA
+"CALDWELL","LA",NA,NA,NA,NA,NA
+"CALDWELL","NC",15.1,15.8,"Worse Than National","Better Than National",NA
+"CALDWELL","TX",NA,NA,NA,NA,NA
+"CALCASIEU","LA",13.9333333333333,16.4333333333333,NA,NA,NA
+"CALAVERAS","CA",NA,NA,NA,NA,NA
+"CAGUAS","PR",15.2,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"CADDO","LA",14.5,17.2,NA,NA,NA
+"CADDO","OK",NA,NA,NA,NA,NA
+"CACHE","UT",13,15.9,"Better Than National","Better Than National","Better Than National"
+"CABELL","WV",13.85,17.35,NA,"Worse Than National",NA
+"CABARRUS","NC",15.1,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"BUTTS","GA",NA,NA,NA,NA,NA
+"BUTTE","CA",13.3333333333333,16.8333333333333,"Better Than National",NA,NA
+"BUTTE","ID",NA,NA,NA,NA,NA
+"BUTLER","AL",NA,NA,NA,NA,NA
+"BUTLER","KS",12.5,16.1,"Better Than National","Better Than National","Better Than National"
+"BUTLER","MO",15,18.4,"Worse Than National","Worse Than National","Worse Than National"
+"BUTLER","NE",NA,NA,NA,NA,NA
+"BUTLER","OH",12.9,17.3666666666667,"Better Than National","Worse Than National",NA
+"BUTLER","PA",13.9,17.3,NA,"Worse Than National",NA
+"BURT","NE",NA,NA,NA,NA,NA
+"BURNETT","WI",NA,NA,NA,NA,NA
+"BURNET","TX",NA,NA,NA,NA,NA
+"BURLINGTON","NJ",14.5,17.2,NA,NA,NA
+"BURLESON","TX",NA,NA,NA,NA,NA
+"BURLEIGH","ND",14.55,16.6,NA,NA,NA
+"BURKE","GA",NA,NA,NA,NA,NA
+"BURKE","NC",13.8,16.7,NA,NA,NA
+"BUREAU","IL",14.4,NA,NA,NA,NA
+"BUNCOMBE","NC",11.6,14.4,"Better Than National","Better Than National","Better Than National"
+"BULLOCK","AL",NA,NA,NA,NA,NA
+"BULLOCH","GA",15.8,17.7,"Worse Than National","Worse Than National","Worse Than National"
+"BUFFALO","NE",14.4,17.65,NA,"Worse Than National",NA
+"BUENA VISTA","IA",NA,NA,NA,NA,NA
+"BUCKS","PA",12.94,16.6,"Better Than National",NA,NA
+"BUCHANAN","IA",NA,NA,NA,NA,NA
+"BUCHANAN","MO",11.2,15.3,"Better Than National","Better Than National","Better Than National"
+"BUCHANAN","VA",NA,NA,NA,NA,NA
+"BRYAN","OK",13.9,19.3,NA,"Worse Than National",NA
+"BRUNSWICK","NC",13.8,16.7,NA,NA,NA
+"BRULE","SD",NA,NA,NA,NA,NA
+"BROWN","KS",NA,NA,NA,NA,NA
+"BROWN","MN",14.1,16.4,NA,NA,NA
+"BROWN","NE",NA,NA,NA,NA,NA
+"BROWN","SD",13.55,16.65,NA,NA,NA
+"BROWN","TX",NA,NA,NA,NA,NA
+"BROWN","WI",13.75,16.525,NA,NA,NA
+"BROWARD","FL",13.6214285714286,17,NA,NA,NA
+"BROOMFIELD","CO",14.1,16.7,NA,NA,NA
+"BROOME","NY",15.1,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"BROOKS","GA",NA,NA,NA,NA,NA
+"BROOKINGS","SD",13.9,NA,NA,NA,NA
+"BRONX","NY",13.68,17.42,NA,"Worse Than National",NA
+"BROADWATER","MT",NA,NA,NA,NA,NA
+"BRISTOL","MA",13.225,17.225,"Better Than National",NA,NA
+"BREWSTER","TX",NA,NA,NA,NA,NA
+"BREVARD","FL",15.1428571428571,17.4428571428571,"Worse Than National","Worse Than National","Worse Than National"
+"BREMER","IA",NA,NA,NA,NA,NA
+"BRECKINRIDGE","KY",NA,NA,NA,NA,NA
+"BREATHITT","KY",NA,NA,NA,NA,NA
+"BRAZOS","TX",14.6666666666667,17.2,NA,NA,NA
+"BRAZORIA","TX",12.8,16,"Better Than National","Better Than National","Better Than National"
+"BRAXTON","WV",NA,NA,NA,NA,NA
+"BRANCH","MI",15.9,17,"Worse Than National",NA,NA
+"BRADLEY","AR",NA,NA,NA,NA,NA
+"BRADLEY","TN",14.3,16.5,NA,NA,NA
+"BRADFORD","FL",NA,NA,NA,NA,NA
+"BRADFORD","PA",11.6,19.3,"Better Than National","Worse Than National",NA
+"BOYLE","KY",13.4,18.2,"Better Than National","Worse Than National",NA
+"BOYD","KY",14.2,18.35,NA,"Worse Than National",NA
+"BOYD","NE",NA,NA,NA,NA,NA
+"BOX ELDER","UT",NA,NA,NA,NA,NA
+"BOX BUTTE","NE",NA,NA,NA,NA,NA
+"BOWMAN","ND",NA,NA,NA,NA,NA
+"BOWIE","TX",13.85,16.8,NA,NA,NA
+"BOURBON","KS",NA,NA,NA,NA,NA
+"BOURBON","KY",NA,NA,NA,NA,NA
+"BOUNDARY","ID",NA,NA,NA,NA,NA
+"BOULDER","CO",14.4666666666667,16.25,NA,"Better Than National",NA
+"BOTTINEAU","ND",NA,NA,NA,NA,NA
+"BOSSIER","LA",15.5,16.7,"Worse Than National",NA,NA
+"BOSQUE","TX",NA,NA,NA,NA,NA
+"BOONE","AR",15.3,16.3,"Worse Than National","Better Than National",NA
+"BOONE","IA",NA,NA,NA,NA,NA
+"BOONE","IN",13.4,16.2,"Better Than National","Better Than National","Better Than National"
+"BOONE","KY",12.4,18,"Better Than National","Worse Than National",NA
+"BOONE","MO",14.75,16.6,NA,NA,NA
+"BOONE","NE",NA,NA,NA,NA,NA
+"BOONE","WV",NA,NA,NA,NA,NA
+"BONNEVILLE","ID",14.4,14.5,NA,"Better Than National",NA
+"BONNER","ID",NA,NA,NA,NA,NA
+"BOND","IL",NA,NA,NA,NA,NA
+"BON HOMME","SD",NA,NA,NA,NA,NA
+"BOLIVAR","MS",NA,NA,NA,NA,NA
+"BLUE EARTH","MN",12.7,17,"Better Than National",NA,NA
+"BLOUNT","AL",NA,NA,NA,NA,NA
+"BLOUNT","TN",13.9,16.4,NA,NA,NA
+"BLEDSOE","TN",NA,NA,NA,NA,NA
+"BLECKLEY","GA",NA,NA,NA,NA,NA
+"BLAIR","PA",13.9,17.2,NA,NA,NA
+"BLAINE","ID",NA,NA,NA,NA,NA
+"BLAINE","MT",NA,NA,NA,NA,NA
+"BLAINE","OK",NA,NA,NA,NA,NA
+"BLADEN","NC",NA,NA,NA,NA,NA
+"BLACKFORD","IN",NA,NA,NA,NA,NA
+"BLACK HAWK","IA",14.15,16.05,NA,"Better Than National",NA
+"BINGHAM","ID",NA,NA,NA,NA,NA
+"BIG STONE","MN",NA,NA,NA,NA,NA
+"BIG HORN","MT",NA,NA,NA,NA,NA
+"BIG HORN","WY",NA,NA,NA,NA,NA
+"BIENVILLE","LA",NA,NA,NA,NA,NA
+"BIBB","AL",NA,NA,NA,NA,NA
+"BIBB","GA",15.85,17.3,"Worse Than National","Worse Than National","Worse Than National"
+"BEXAR","TX",14.3714285714286,16.5857142857143,NA,NA,NA
+"BETHEL","AK",NA,NA,NA,NA,NA
+"BERTIE","NC",NA,NA,NA,NA,NA
+"BERRIEN","GA",NA,NA,NA,NA,NA
+"BERRIEN","MI",15.6,17,"Worse Than National",NA,NA
+"BERNALILLO","NM",13.3,16.1666666666667,"Better Than National","Better Than National","Better Than National"
+"BERKSHIRE","MA",14.9,17,"Worse Than National",NA,NA
+"BERKS","PA",14.3,16.75,NA,NA,NA
+"BERKELEY","WV",16.4,17.2,"Worse Than National",NA,NA
+"BERGEN","NJ",13.04,16.1,"Better Than National","Better Than National","Better Than National"
+"BENZIE","MI",NA,NA,NA,NA,NA
+"BENTON","AR",13.4,16.8,"Better Than National",NA,NA
+"BENTON","IA",NA,NA,NA,NA,NA
+"BENTON","OR",14.2,14.9,NA,"Better Than National",NA
+"BENTON","TN",NA,NA,NA,NA,NA
+"BENTON","WA",15.55,16.85,"Worse Than National",NA,NA
+"BENNINGTON","VT",15.2,17.2,"Worse Than National",NA,NA
+"BENNETT","SD",NA,NA,NA,NA,NA
+"BENEWAH","ID",NA,NA,NA,NA,NA
+"BEN HILL","GA",NA,NA,NA,NA,NA
+"BELTRAMI","MN",14.2,15.7,NA,"Better Than National",NA
+"BELMONT","OH",13.4,17.2,"Better Than National",NA,NA
+"BELL","KY",16.9,NA,"Worse Than National",NA,NA
+"BELL","TX",13.0666666666667,17.0333333333333,"Better Than National",NA,NA
+"BELKNAP","NH",14.3,16.3,NA,"Better Than National",NA
+"BEE","TX",NA,NA,NA,NA,NA
+"BEDFORD","PA",NA,NA,NA,NA,NA
+"BEDFORD","TN",NA,NA,NA,NA,NA
+"BEDFORD","VA",13.9,NA,NA,NA,NA
+"BECKHAM","OK",NA,NA,NA,NA,NA
+"BECKER","MN",NA,NA,NA,NA,NA
+"BEAVERHEAD","MT",NA,NA,NA,NA,NA
+"BEAVER","OK",NA,NA,NA,NA,NA
+"BEAVER","PA",14.1,17.2,NA,NA,NA
+"BEAVER","UT",NA,NA,NA,NA,NA
+"BEAUREGARD","LA",13.6,16.9,NA,NA,NA
+"BEAUFORT","NC",13.7,NA,NA,NA,NA
+"BEAUFORT","SC",14.7,17.5,NA,"Worse Than National",NA
+"BEAR LAKE","ID",NA,NA,NA,NA,NA
+"BEADLE","SD",14,NA,NA,NA,NA
+"BAYLOR","TX",NA,NA,NA,NA,NA
+"BAYAMON","PR",16.4,17.1,"Worse Than National",NA,NA
+"BAY","FL",13.8,17.9,NA,"Worse Than National",NA
+"BAY","MI",15.4,16.3,"Worse Than National","Better Than National",NA
+"BAXTER","AR",16,17.4,"Worse Than National","Worse Than National","Worse Than National"
+"BATH","VA",NA,NA,NA,NA,NA
+"BATES","MO",NA,NA,NA,NA,NA
+"BASTROP","TX",NA,NA,NA,NA,NA
+"BARTOW","GA",13.3,16.9,"Better Than National",NA,NA
+"BARTON","KS",NA,NA,NA,NA,NA
+"BARTON","MO",NA,NA,NA,NA,NA
+"BARTHOLOMEW","IN",14.3,16.8,NA,NA,NA
+"BARRY","MI",NA,NA,NA,NA,NA
+"BARRY","MO",NA,NA,NA,NA,NA
+"BARROW","GA",NA,NA,NA,NA,NA
+"BARRON","WI",NA,NA,NA,NA,NA
+"BARREN","KY",13.1,16.1,"Better Than National","Better Than National","Better Than National"
+"BARNSTABLE","MA",12.4,16.8,"Better Than National",NA,NA
+"BARNES","ND",NA,NA,NA,NA,NA
+"BARBOUR","AL",NA,NA,NA,NA,NA
+"BARBOUR","WV",NA,NA,NA,NA,NA
+"BARBER","KS",NA,NA,NA,NA,NA
+"BARAGA","MI",NA,NA,NA,NA,NA
+"BANNOCK","ID",13,16.3,"Better Than National","Better Than National","Better Than National"
+"BALTIMORE CITY","MD",NA,NA,NA,NA,NA
+"BALTIMORE","MD",NA,NA,NA,NA,NA
+"BALDWIN","AL",14.35,16,NA,"Better Than National",NA
+"BALDWIN","GA",NA,NA,NA,NA,NA
+"BAKER","FL",NA,NA,NA,NA,NA
+"BAKER","OR",NA,NA,NA,NA,NA
+"BAILEY","TX",NA,NA,NA,NA,NA
+"BACON","GA",NA,NA,NA,NA,NA
+"BACA","CO",NA,NA,NA,NA,NA
+"AVOYELLES","LA",NA,NA,NA,NA,NA
+"AVERY","NC",NA,NA,NA,NA,NA
+"AUTAUGA","AL",13.9,NA,NA,NA,NA
+"AUSTIN","TX",NA,NA,NA,NA,NA
+"AUGUSTA","VA",14.7,16.4,NA,NA,NA
+"AUGLAIZE","OH",14.5,17.1,NA,NA,NA
+"AUDUBON","IA",NA,NA,NA,NA,NA
+"AUDRAIN","MO",13.1,17.3,"Better Than National","Worse Than National",NA
+"ATTALA","MS",NA,NA,NA,NA,NA
+"ATOKA","OK",NA,NA,NA,NA,NA
+"ATLANTIC","NJ",13.8,16.7,NA,NA,NA
+"ATHENS","OH",NA,NA,NA,NA,NA
+"ATCHISON","KS",NA,NA,NA,NA,NA
+"ATCHISON","MO",NA,NA,NA,NA,NA
+"ATASCOSA","TX",NA,NA,NA,NA,NA
+"ASSUMPTION","LA",NA,NA,NA,NA,NA
+"ASOTIN","WA",NA,NA,NA,NA,NA
+"ASHTABULA","OH",12.3,18,"Better Than National","Worse Than National",NA
+"ASHLEY","AR",NA,NA,NA,NA,NA
+"ASHLAND","OH",14.7,NA,NA,NA,NA
+"ASHLAND","WI",16,16.8,"Worse Than National",NA,NA
+"ASHE","NC",NA,NA,NA,NA,NA
+"ASCENSION","LA",14,NA,NA,NA,NA
+"ARROYO","PR",NA,NA,NA,NA,NA
+"AROOSTOOK","ME",13.475,17,"Better Than National",NA,NA
+"ARMSTRONG","PA",14.1,16.8,NA,NA,NA
+"ARLINGTON","VA",14.4,15.9,NA,"Better Than National",NA
+"ARKANSAS","AR",NA,NA,NA,NA,NA
+"ARENAC","MI",14,NA,NA,NA,NA
+"ARECIBO","PR",NA,NA,NA,NA,NA
+"ARCHULETA","CO",NA,NA,NA,NA,NA
+"ARAPAHOE","CO",14.0666666666667,16.2,NA,"Better Than National",NA
+"APPLING","GA",NA,NA,NA,NA,NA
+"APPANOOSE","IA",NA,NA,NA,NA,NA
+"APACHE","AZ",NA,NA,NA,NA,NA
+"ANTELOPE","NE",NA,NA,NA,NA,NA
+"ANSON","NC",NA,NA,NA,NA,NA
+"ANOKA","MN",13.25,15.7,"Better Than National","Better Than National","Better Than National"
+"ANNE ARUNDEL","MD",NA,NA,NA,NA,NA
+"ANGELINA","TX",13.15,16.75,"Better Than National",NA,NA
+"ANDROSCOGGIN","ME",14.35,15.95,NA,"Better Than National",NA
+"ANDREWS","TX",NA,NA,NA,NA,NA
+"ANDERSON","KS",NA,NA,NA,NA,NA
+"ANDERSON","SC",13.5,17.5,"Better Than National","Worse Than National",NA
+"ANDERSON","TN",15,17.1,"Worse Than National",NA,NA
+"ANDERSON","TX",14.1,16.8,NA,NA,NA
+"ANCHORAGE","AK",12.7333333333333,16.1,"Better Than National","Better Than National","Better Than National"
+"AMADOR","CA",15.9,16,"Worse Than National","Better Than National",NA
+"ALPENA","MI",14.3,16.3,NA,"Better Than National",NA
+"ALLENDALE","SC",NA,NA,NA,NA,NA
+"ALLEN","IN",14.5333333333333,16.6333333333333,NA,NA,NA
+"ALLEN","KS",NA,NA,NA,NA,NA
+"ALLEN","KY",NA,NA,NA,NA,NA
+"ALLEN","LA",NA,NA,NA,NA,NA
+"ALLEN","OH",13.15,17.45,"Better Than National","Worse Than National",NA
+"ALLEGHENY","PA",13.9615384615385,16.8083333333333,NA,NA,NA
+"ALLEGHANY","NC",NA,NA,NA,NA,NA
+"ALLEGHANY","VA",15.1,16.1,"Worse Than National","Better Than National",NA
+"ALLEGANY","MD",NA,NA,NA,NA,NA
+"ALLEGANY","NY",16,NA,"Worse Than National",NA,NA
+"ALLEGAN","MI",NA,NA,NA,NA,NA
+"ALLAMAKEE","IA",NA,NA,NA,NA,NA
+"ALGER","MI",NA,NA,NA,NA,NA
+"ALEXANDRIA CITY","VA",13.3,16.7,"Better Than National",NA,NA
+"ALCORN","MS",17.6,17.6,"Worse Than National","Worse Than National","Worse Than National"
+"ALBEMARLE","VA",16.7,17,"Worse Than National",NA,NA
+"ALBANY","NY",13.8333333333333,16.8333333333333,NA,NA,NA
+"ALBANY","WY",NA,NA,NA,NA,NA
+"ALAMOSA","CO",NA,NA,NA,NA,NA
+"ALAMEDA","CA",13.2777777777778,17.45,"Better Than National","Worse Than National",NA
+"ALAMANCE","NC",16.4,16.8,"Worse Than National",NA,NA
+"ALACHUA","FL",14.7,19,NA,"Worse Than National",NA
+"AITKIN","MN",NA,NA,NA,NA,NA
+"AIKEN","SC",15.4,15.2,"Worse Than National","Better Than National",NA
+"AIBONITO","PR",13.8,NA,NA,NA,NA
+"AGUADILLA","PR",NA,NA,NA,NA,NA
+"ADDISON","VT",NA,NA,NA,NA,NA
+"ADAMS","CO",13.3333333333333,16.7666666666667,"Better Than National",NA,NA
+"ADAMS","IA",NA,NA,NA,NA,NA
+"ADAMS","IL",14.2,16.1,NA,"Better Than National",NA
+"ADAMS","IN",NA,NA,NA,NA,NA
+"ADAMS","MS",15.9,17.8,"Worse Than National","Worse Than National","Worse Than National"
+"ADAMS","ND",NA,NA,NA,NA,NA
+"ADAMS","NE",14.1,NA,NA,NA,NA
+"ADAMS","OH",NA,NA,NA,NA,NA
+"ADAMS","PA",14,16.8,NA,NA,NA
+"ADAMS","WA",NA,NA,NA,NA,NA
+"ADAMS","WI",NA,NA,NA,NA,NA
+"ADAIR","IA",NA,NA,NA,NA,NA
+"ADAIR","KY",NA,NA,NA,NA,NA
+"ADAIR","MO",12.7,17.2,"Better Than National",NA,NA
+"ADAIR","OK",NA,NA,NA,NA,NA
+"ADA","ID",13.3,14.9,"Better Than National","Better Than National","Better Than National"
+"ACADIA","LA",NA,NA,NA,NA,NA
+"ABBEVILLE","SC",NA,NA,NA,NA,NA
+"","AK",NA,NA,NA,NA,NA
+"","AS",NA,NA,NA,NA,NA
+"","GU",15.2,17.6,"Worse Than National","Worse Than National","Worse Than National"
+"","MP",15.1,18,"Worse Than National","Worse Than National","Worse Than National"
+"","SD",NA,NA,NA,NA,NA
+"","VI",16.65,16.4,"Worse Than National",NA,NA
