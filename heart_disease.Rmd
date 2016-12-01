@@ -1,0 +1,136 @@
+---
+title: "Best Places for Heart Disease?"
+author: "Aaron Niskin, Chris Leonard, Lance Price, Nicole Navarro"
+date: "November 30, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results='asis')
+```
+
+##Abstract
+
+```{r, message=FALSE,warning=FALSE}
+library(tidyverse)
+library(xtable)
+#setwd("~/Documents/courses/newCollege/current/eda/projects/project2/")
+printNamedDf <- function(df, title="") {
+  tmp <- xtable(df, caption=title)
+  return(print.xtable(tmp, comment=FALSE))
+}
+printDf <- function(df, title="") {
+  tmp <- xtable(df, caption=title)
+  return(print.xtable(tmp, comment=FALSE, include.rownames = FALSE))
+}
+complete_cases <- function(df) {
+  tmp <- as.data.frame(names(df))
+  tmp <- cbind(tmp, as.data.frame(sapply(df, function(col) {
+    sum(complete.cases(col))
+  })))
+  tmp <- cbind(tmp, as.data.frame(sapply(df, function(col){
+    100 * sum(complete.cases(col)) / length(col)
+  })))
+  names(tmp) <- c("FieldName", "CompleteCases", "PercentComplete")
+  return(tmp)
+}
+```
+
+##Introduction slide?
+
+Question to answer:
+
+>- Where are the best and worst places in the US to have a heart attack?
+
+
+##There is Another Side to The Problem
+
+It is estimated that each year in the United States:
+
+>- 326,200 people experience EMS-assessed out-of-hospital cardiac arrests
+
+>- 209,000 people are treated for in-hospital cardiac arrest.
+
+>- Approximately 10.6% of people who experience nontraumatic EMS-treated cardiac arrest survive to discharge
+
+##Time is of The Essence
+
+Brain death and permanent death begin to occur in 4-6 minutes after someone experiences cardiac arrest.
+
+EMS response time is a decisive factor in out-of-hospital cardiac arrests.
+
+>- response time data is not recorded on a state or national level
+
+>- it is left up to individual EMS agencies or counties to make decide what to keep track of
+
+
+
+##EMS Response Times in Los Angeles
+
+```{r, warning=FALSE,message=FALSE}
+LATimes <- read.csv("csv_files/LA_response_times.csv")
+ggplot(LATimes, aes(Minutes)) + geom_histogram(bins=50) +
+  scale_x_continuous(breaks = round(seq(min(LATimes$Minutes), max(LATimes$Minutes), by = 5),1))
+```
+
+##EMS Response Times in New York
+
+```{r, warning=FALSE,message=FALSE}
+NYTimes <- read.csv("csv_files/NY_response_times.csv")
+ggplot(NYTimes, aes(Minutes)) + geom_histogram(bins=50) +
+  scale_x_continuous(breaks = round(seq(min(LATimes$Minutes), max(LATimes$Minutes), by = 5),1))
+```
+
+
+##Prevention
+
+>-  Factors
+    1.  Nutrition
+    2.  Smoking
+    
+##Nutrition
+
+```{r, results='hold'}
+smoking <- read.csv("csv_files/smoking.csv", stringsAsFactors = FALSE)
+aggriData <- read.csv("csv_files/aggriculture_aggregated.csv", stringsAsFactors = FALSE)
+names(aggriData) <- gsub("\\.", ",", gsub("_", "\\ ", names(aggriData)))
+```
+
+```{r}
+dats <- inner_join(smoking, aggriData, by=c("County", "State"))
+dats_10 <- dats[,c(1, 2, 3, 9)]
+names(dats_10) <- c("State", "County", "Percent_Smoking", "Low_Access_10_Miles_Share")
+dats_combine <- dats_10 %>% mutate(Score = Percent_Smoking + 2*Low_Access_10_Miles_Share) %>% select(State, County, Score) %>% arrange(Score)
+```
+
+```{r, results='show'}
+ggplot(data=dats_10, aes(Low_Access_10_Miles_Share)) + geom_density(fill='tomato2') + labs(title="Density Plot for Smoking Percentage of Population", x="Percentage of Population that Smokes")
+```
+
+##Smoking
+
+```{r, results='show'}
+ggplot(data=dats_10, aes(Percent_Smoking)) + geom_density(fill='turquoise3') + labs(x="Percentage of Smokers in Population")
+```
+
+##Relationship Between Nutrition And Smoking
+
+
+```{r, results='show'}
+ggplot(data=dats_10, aes(x=Low_Access_10_Miles_Share, y=Percent_Smoking)) + geom_point(alpha=0.8, size=0.2) + geom_smooth() + labs(x="Poor Access to Supermarkets", y="Percentage of Smokers in Population", title="Smoking Percentage vs Access to Nutrition")
+```
+
+##Obesity
+
+```{r}
+countyHealth <- read.csv("csv_files/countyHealthRankings.csv")
+ggplot(data=countyHealth, aes(x=Obesity)) + geom_density(fill='darkolivegreen2') + labs(title="Percentage of Obesity in Population")
+```
+
+##More Relations
+```{r, results='show'}
+tmpDf <- dats_10 %>% gather("Field", "Percentage", 3:4)
+tmpDf$Field = as.character(gsub("Percent_Smoking", "Smokers", tmpDf$Field))
+tmpDf$Field = as.character(gsub("Low_Access_10_Miles_Share", "Low Nutritional Access", tmpDf$Field))
+ggplot(data=tmpDf) + geom_density(aes(x=Percentage, fill=Field))
+```
