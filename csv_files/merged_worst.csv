@@ -1,2 +1,2 @@
-"County","State","Count_Hospitals","Count_Total_Hospitals","percent_bad"
-"RAPIDES","LA",1,3,33.3333333333333
+"County","State","Score.Clot","Score.Sepsis","Score.Cath.Infection","Score.Serious.Complication","Score.Death.Complications","percent_smoking","Count_Hospitals","Count_Total_Hospitals","percent_bad"
+"RAPIDES","LA",8.35,12.49,0.34,0.98,146.57,19.9,1,3,33.3333333333333
