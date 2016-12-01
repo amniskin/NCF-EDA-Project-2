@@ -1,7 +1,7 @@
 ---
 title: "Risky Counties"
 author: "Aaron Niskin, Chris Leonard, Lance Price, Nicole Navarro"
-date: "November 30, 2016"
+date: "December 1, 2016"
 output: ioslides_presentation
 # bibliography: references.bib
 ---
