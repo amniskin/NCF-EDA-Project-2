@@ -19,7 +19,52 @@ merged_best <- read.csv("csv_files/merged_best.csv")
 merged_worst <- read.csv("csv_files/merged_worst.csv")
 ```
 
-##Abstract
+##Introduction slide?
+
+Question to answer:
+
+>- Where are the best and worst places in the US to have a heart attack?
+
+
+##There is Another Side to The Problem
+
+It is estimated that each year in the United States:
+
+>- 326,200 people experience EMS-assessed out-of-hospital cardiac arrests
+
+>- 209,000 people are treated for in-hospital cardiac arrest.
+
+>- Approximately 10.6% of people who experience nontraumatic EMS-treated cardiac arrest survive to discharge
+
+##Time is of The Essence
+
+Brain death and permanent death begin to occur in 4-6 minutes after someone experiences cardiac arrest.
+
+EMS response time is a decisive factor in out-of-hospital cardiac arrests.
+
+>- response time data is not recorded on a state or national level
+
+>- it is left up to individual EMS agencies or counties to make decide what to keep track of
+
+
+
+##EMS Response Times in Los Angeles
+
+```{r, warning=FALSE,message=FALSE}
+LATimes <- read.csv("csv_files/LA_response_times.csv")
+ggplot(LATimes, aes(Minutes)) + geom_histogram(bins=50) +
+  scale_x_continuous(breaks = round(seq(min(LATimes$Minutes), max(LATimes$Minutes), by = 5),1))
+```
+
+##EMS Response Times in New York
+
+```{r, warning=FALSE,message=FALSE}
+NYTimes <- read.csv("csv_files/NY_response_times.csv")
+ggplot(NYTimes, aes(Minutes)) + geom_histogram(bins=50) +
+  scale_x_continuous(breaks = round(seq(min(LATimes$Minutes), max(LATimes$Minutes), by = 5),1))
+```
+
+
 
 <!-- Chris's part -->
 
