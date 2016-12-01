@@ -28,10 +28,80 @@ names(best_clots) <- c("County", "State")
 worst_clots <- complications[!is.na(complications$Score.Clot) & complications$Score.Clot >= clot_quants[[4]], c("County.Name", "State")]
 names(worst_clots) <- c("County", "State")
 rm(clot_quants)
+
+sepsis_quants <- quantile(complications$Score.Sepsis, na.rm = TRUE)
+best_seps <- complications[!is.na(complications$Score.Sepsis) & complications$Score.Sepsis <= sepsis_quants[[2]], c("County.Name", "State")]
+names(best_seps) <- c("County", "State")
+worst_seps <- complications[!is.na(complications$Score.Sepsis) & complications$Score.Sepsis >= sepsis_quants[[4]], c("County.Name", "State")]
+names(worst_seps) <- c("County", "State")
 ```
 
 <!-- Lance's part -->
 
+##Slide 1
+
+```{r}
+H_data1_ami_mort <- read.csv("csv_files/H_data1_ami_mort.csv")
+
+H_data1_ami_readm <- read.csv("csv_files/H_data1_ami_readm.csv")
+
+ggplot(H_data1_ami_mort, aes(Death_Score)) + geom_density(na.rm=TRUE)
+```
+
+##Slide 1
+
+```{r}
+ggplot(H_data1_ami_readm, aes(Readmission_Score)) + geom_density(na.rm=TRUE)
+
+```
+
+##Slide 1
+
+```{r}
+boxplot(H_data1_ami_mort$Death_Score, main = "Mortality Rate")
+```
+
+##Slide 1
+
+```{r}
+boxplot(H_data1_ami_readm$Readmission_Score, main = "Readmission Rate")
+```
+
+##Slide 1
+
+```{r}
+counties_avg_scores <- read.csv("csv_files/counties_avg_scores.csv")
+
+hospitals_scores <- read.csv("csv_files/hospitals_scores.csv")
+
+ggplot(counties_avg_scores, aes(Average_Mort_Score, Average_Readm_Score)) + geom_point(aes(color=as.factor(Death_Readm_Cat)), na.rm=TRUE) + geom_smooth(method = lm, na.rm = TRUE) 
+```
+
+##Slide 1
+
+```{r}
+ggplot(hospitals_scores, aes(Death_Score, Readmission_Score)) + geom_point(aes(color=as.factor(Death_Readm_Cat)), na.rm=TRUE) + geom_smooth(method = lm, na.rm = TRUE)
+```
+
+##Slide 1
+
+```{r}
+counties_best_mort_avg_filt <- read.csv("csv_files/counties_best_mort_avg_filt.csv")
+
+ggplot(counties_best_mort_avg_filt, aes(percent_good, Count_Total_Hospitals)) + geom_point(aes(color=as.factor(County)))
+```
+
+##Slide 1
+
+```{r}
+counties_worst_mort_avg_filt <- read.csv("csv_files/counties_worst_mort_avg_filt.csv")
+
+ggplot(counties_worst_mort_avg_filt, aes(percent_bad, Count_Total_Hospitals)) + geom_point(aes(color=as.factor(County)))
+
+best_mort <- read.csv("csv_files/counties_best_mort_avg.csv")
+
+worst_mort <- read.csv("csv_files/counties_worst_mort_avg.csv")
+```
 
 <!-- Aaron's part -->
 ##Prevention
@@ -58,7 +128,13 @@ rm(smoking_quants)
 
 ```{r}
 merged_best <- inner_join(best_clots, best_smoking, by=c("County", "State"))
+merged_best <- inner_join(merged_best, best_mort, by=c("County", "State"))
+merged_best <- inner_join(merged_best, best_seps, by=c("County", "State"))
 merged_worst <- inner_join(worst_clots, worst_smoking, by=c("County", "State"))
+merged_worst <- inner_join(merged_worst, worst_mort, by=c("County", "State"))
+merged_worst <- inner_join(merged_worst, worst_seps, by=c("County", "State"))
+write.csv(merged_best, "csv_files/merged_best.csv", row.names = FALSE)
+write.csv(merged_worst, "csv_files/merged_worst.csv", row.names = FALSE)
 ```
 
 ```{r}
